@@ -8,11 +8,8 @@ valid PC along with each system call in a program. Therefore, we compiled strace
 so as to print call stacks (libunwind-based backtraces) on every system call. 
 
 For example:
-
 we use strace-4.13 to trace system calls
-
 strace -k  -i  -tt -T -o ./strace.log ./test
-
 we get the system call traces with call stacks like the following:
 
 
