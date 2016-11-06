@@ -1,0 +1,13 @@
+To learn about how this ROP code can be generated, look below:
+*use ROPgadget and rp-lin-x64 to help find useful gadgets.
+
+*useful links: 
+http://blog.rchapman.org/post/36801038863/linux-system-call-table-for-x86-64
+https://github.com/0vercl0k/rp
+
+To start the code (include: shellcode generation, exploitation):
+-sh clean.sh
+-sh prepare.sh
+-strace -o strace_i ./allfile config.h
+
+we produce 7 syscall sequences as in 'find-rop-sequence-result', named strace_i here.

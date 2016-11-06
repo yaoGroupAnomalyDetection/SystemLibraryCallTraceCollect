@@ -1,0 +1,1304 @@
+[    7f4630c60c37] execve("./allfile", ["./allfile", "config.h"], [/* 38 vars */]) = 0
+[          4712b7] uname({sys="Linux", node="xmenxk-VirtualBox", ...}) = 0
+[          4725ca] brk(0)               = 0xd3c000
+[          4725ca] brk(0xd3d1c0)        = 0xd3d1c0
+[          40c475] arch_prctl(ARCH_SET_FS, 0xd3c880) = 0
+[          4725ca] brk(0xd5e1c0)        = 0xd5e1c0
+[          4725ca] brk(0xd5f000)        = 0xd5f000
+[          40cb72] rt_sigaction(SIGINT, {SIG_IGN, [INT], SA_RESTORER|SA_RESTART, 0x40ca70}, {SIG_DFL, [], 0}, 8) = 0
+[          40cb72] rt_sigaction(SIGINT, {0x40bd55, [INT], SA_RESTORER|SA_RESTART, 0x40ca70}, {SIG_IGN, [INT], SA_RESTORER|SA_RESTART, 0x40ca70}, 8) = 0
+[          40cb72] rt_sigaction(SIGTERM, {SIG_IGN, [TERM], SA_RESTORER|SA_RESTART, 0x40ca70}, {SIG_DFL, [], 0}, 8) = 0
+[          40cb72] rt_sigaction(SIGTERM, {0x40bd55, [TERM], SA_RESTORER|SA_RESTART, 0x40ca70}, {SIG_IGN, [TERM], SA_RESTORER|SA_RESTART, 0x40ca70}, 8) = 0
+[          40cb72] rt_sigaction(SIGHUP, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x40ca70}, {SIG_DFL, [], 0}, 8) = 0
+[          40cb72] rt_sigaction(SIGHUP, {0x40bd55, [HUP], SA_RESTORER|SA_RESTART, 0x40ca70}, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x40ca70}, 8) = 0
+[          436c45] stat("config.h", {st_mode=S_IFREG|0644, st_size=2538, ...}) = 0
+[          436d00] open("config.h", O_RDONLY) = 3
+[          436c45] stat("config.h.gz", 0x7fff0efdf6e0) = -1 ENOENT (No such file or directory)
+[          436d00] open("config.h.gz", O_WRONLY|O_CREAT|O_EXCL, 0600) = 4
+[          436c94] fstat(4, {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+[          436c45] stat("config.h.g", 0x7fff0efdf6d0) = -1 ENOENT (No such file or directory)
+[          436ef0] read(3, "/* config.h.  Generated automati"..., 65536) = 2538
+[          436ef0] read(3, "", 62998)   = 0
+[          436f50] write(4, "\37\213\10\10\0\0\0\0\0\3config.h\0\225\226QO\3330\20\307\337\371\24'x"..., 864) = 864
+[          436e90] close(3)             = 0
+[          436e90] close(4)             = 0
+[          436bf7] utime("config.h.gz", [2014/08/08-11:39:34, 2006/06/16-17:12:57]) = 0
+[          436cd7] chmod("config.h.gz", 0644) = 0
+[          437227] chown("config.h.gz", 1000, 1000) = 0
+[          437267] unlink("config.h")   = 0
+[          436d00] open("badfile", O_RDONLY) = 3
+[          436c94] fstat(3, {st_mode=S_IFREG|0664, st_size=1009, ...}) = 0
+[          43814a] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb66f54000
+[          436ef0] read(3, "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"..., 4096) = 1009
+[          40bf9c] execve("/bin/ps", [], [/* 0 vars */]) = 0
+[    7f93a242ae7a] brk(0)               = 0x188d000
+[    7f93a242c317] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[    7f93a242c42a] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f93a2634000
+[    7f93a242c317] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[    7f93a242c257] open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4
+[    7f93a242c1e4] fstat(4, {st_mode=S_IFREG|0644, st_size=110579, ...}) = 0
+[    7f93a242c42a] mmap(NULL, 110579, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f93a2619000
+[    7f93a242c287] close(4)             = 0
+[    7f93a242c317] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[    7f93a242c257] open("/lib/libproc-3.2.8.so", O_RDONLY|O_CLOEXEC) = 4
+[    7f93a242c2b7] read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340=\0\0\0\0\0\0"..., 832) = 832
+[    7f93a242c1e4] fstat(4, {st_mode=S_IFREG|0644, st_size=76712, ...}) = 0
+[    7f93a242c42a] mmap(NULL, 2249496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f93a21ee000
+[    7f93a242c487] mprotect(0x7f93a21ff000, 2097152, PROT_NONE) = 0
+[    7f93a242c42a] mmap(0x7f93a23ff000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x11000) = 0x7f93a23ff000
+[    7f93a242c42a] mmap(0x7f93a2401000, 74520, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f93a2401000
+[    7f93a242c287] close(4)             = 0
+[    7f93a242c317] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[    7f93a242c257] open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 4
+[    7f93a242c2b7] read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\30\2\0\0\0\0\0"..., 832) = 832
+[    7f93a242c1e4] fstat(4, {st_mode=S_IFREG|0755, st_size=1811128, ...}) = 0
+[    7f93a242c42a] mmap(NULL, 3925208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f93a1e2f000
+[    7f93a242c487] mprotect(0x7f93a1fe4000, 2093056, PROT_NONE) = 0
+[    7f93a242c42a] mmap(0x7f93a21e3000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x1b4000) = 0x7f93a21e3000
+[    7f93a242c42a] mmap(0x7f93a21e9000, 17624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f93a21e9000
+[    7f93a242c287] close(4)             = 0
+[    7f93a242c42a] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f93a2618000
+[    7f93a242c42a] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f93a2617000
+[    7f93a242c42a] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f93a2616000
+[    7f93a2415005] arch_prctl(ARCH_SET_FS, 0x7f93a2617700) = 0
+[    7f93a242c487] mprotect(0x7f93a21e3000, 16384, PROT_READ) = 0
+[    7f93a242c487] mprotect(0x7f93a23ff000, 4096, PROT_READ) = 0
+[    7f93a242c487] mprotect(0x617000, 4096, PROT_READ) = 0
+[    7f93a242c487] mprotect(0x7f93a2636000, 4096, PROT_READ) = 0
+[    7f93a242c457] munmap(0x7f93a2619000, 110579) = 0
+[    7f93a1f1b3ea] brk(0)               = 0x188d000
+[    7f93a1f1b3ea] brk(0x18ae000)       = 0x18ae000
+[    7f93a1f156c0] open("/proc/version", O_RDONLY) = 4
+[    7f93a1f15264] fstat(4, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+[    7f93a1f1f07a] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f93a2633000
+[    7f93a1f158b0] read(4, "Linux version 3.2.0-52-generic ("..., 1024) = 146
+[    7f93a1f15850] close(4)             = 0
+[    7f93a1f1f0a7] munmap(0x7f93a2633000, 4096) = 0
+[    7f93a1f156c0] open("/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 4
+[    7f93a1f158b0] read(4, "0\n", 8192) = 2
+[    7f93a1f2152b] close(4)             = 0
+[    7f93a1e655a5] rt_sigaction(SIGSYS, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGPWR, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGIO, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGVTALRM, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGXFSZ, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGXCPU, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGURG, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGTTIN, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGCONT, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGCHLD, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGSTKFLT, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGTERM, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGALRM, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGPIPE, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGUSR2, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGSEGV, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGUSR1, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGFPE, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGBUS, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGABRT, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGTRAP, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGILL, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1e655a5] rt_sigaction(SIGHUP, {0x401a84, ~[RTMIN RT_1], SA_RESTORER, 0x7f93a1e654a0}, NULL, 8) = 0
+[    7f93a1f156c0] open("/proc/self/stat", O_RDONLY) = 4
+[    7f93a1f158b0] read(4, "2446 (ps) R 2445 2445 2281 34817"..., 1023) = 214
+[    7f93a1f15850] close(4)             = 0
+[    7f93a1f1b537] ioctl(1, TIOCGWINSZ, {ws_row=22, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+[    7f93a1f1ac37] ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+[    7f93a1eef737] geteuid()            = 1000
+[    7f93a1f156c0] open("/proc/uptime", O_RDONLY) = 4
+[    7f93a1f22d00] lseek(4, 0, SEEK_SET) = 0
+[    7f93a1f158b0] read(4, "652.00 188.23\n", 2047) = 14
+[    7f93a1f156c0] open("/proc/sys/kernel/pid_max", O_RDONLY) = 5
+[    7f93a1f158b0] read(5, "32768\n", 24) = 6
+[    7f93a1f15850] close(5)             = 0
+[    7f93a1f1f07a] mmap(NULL, 139264, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f93a25f4000
+[    7f93a1f1f0d7] mprotect(0x7f93a2615000, 4096, PROT_NONE) = 0
+[    7f93a1f156c0] open("/proc/meminfo", O_RDONLY) = 5
+[    7f93a1f22d00] lseek(5, 0, SEEK_SET) = 0
+[    7f93a1f158b0] read(5, "MemTotal:        1535556 kB\nMemF"..., 2047) = 1170
+[    7f93a1f15215] stat("/proc/self/task", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f15720] openat(AT_FDCWD, "/proc", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 6
+[    7f93a1eeaac5] getdents(6, /* 227 entries */, 32768) = 5824
+[    7f93a1f15215] stat("/proc/1", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1 (init) S 0 1 1 0 -1 4202752 15"..., 1023) = 181
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tinit\nState:\tS (sleeping)\nT"..., 1023) = 747
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2 (kthreadd) S 0 0 0 0 -1 214961"..., 1023) = 155
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tkthreadd\nState:\tS (sleepin"..., 1023) = 515
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/3", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/3/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "3 (ksoftirqd/0) S 2 0 0 0 -1 221"..., 1023) = 160
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/3/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tksoftirqd/0\nState:\tS (slee"..., 1023) = 520
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/5", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/5/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "5 (kworker/u:0) S 2 0 0 0 -1 221"..., 1023) = 160
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/5/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tkworker/u:0\nState:\tS (slee"..., 1023) = 519
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/6", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/6/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "6 (migration/0) S 2 0 0 0 -1 221"..., 1023) = 162
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/6/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tmigration/0\nState:\tS (slee"..., 1023) = 517
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/7", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/7/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "7 (watchdog/0) S 2 0 0 0 -1 2216"..., 1023) = 161
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/7/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\twatchdog/0\nState:\tS (sleep"..., 1023) = 518
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/8", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/8/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "8 (cpuset) S 2 0 0 0 -1 22167224"..., 1023) = 155
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/8/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tcpuset\nState:\tS (sleeping)"..., 1023) = 512
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/9", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/9/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "9 (khelper) S 2 0 0 0 -1 2216722"..., 1023) = 156
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/9/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tkhelper\nState:\tS (sleeping"..., 1023) = 513
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/10", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/10/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "10 (kdevtmpfs) S 2 0 0 0 -1 2149"..., 1023) = 158
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/10/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tkdevtmpfs\nState:\tS (sleepi"..., 1023) = 519
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/11", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/11/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "11 (netns) S 2 0 0 0 -1 22167224"..., 1023) = 155
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/11/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tnetns\nState:\tS (sleeping)\n"..., 1023) = 513
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/12", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/12/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "12 (sync_supers) S 2 0 0 0 -1 21"..., 1023) = 160
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/12/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tsync_supers\nState:\tS (slee"..., 1023) = 521
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/13", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/13/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "13 (bdi-default) S 2 0 0 0 -1 21"..., 1023) = 160
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/13/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tbdi-default\nState:\tS (slee"..., 1023) = 519
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/14", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/14/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "14 (kintegrityd) S 2 0 0 0 -1 22"..., 1023) = 161
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/14/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tkintegrityd\nState:\tS (slee"..., 1023) = 519
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/15", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/15/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "15 (kblockd) S 2 0 0 0 -1 221672"..., 1023) = 157
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/15/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tkblockd\nState:\tS (sleeping"..., 1023) = 515
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/16", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/16/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "16 (ata_sff) S 2 0 0 0 -1 221672"..., 1023) = 158
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/16/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tata_sff\nState:\tS (sleeping"..., 1023) = 515
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/17", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/17/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "17 (khubd) S 2 0 0 0 -1 21495808"..., 1023) = 155
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/17/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tkhubd\nState:\tS (sleeping)\n"..., 1023) = 514
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/18", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/18/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "18 (md) S 2 0 0 0 -1 2216722496 "..., 1023) = 153
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/18/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tmd\nState:\tS (sleeping)\nTgi"..., 1023) = 510
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/20", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/20/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "20 (kworker/0:1) S 2 0 0 0 -1 22"..., 1023) = 162
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/20/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tkworker/0:1\nState:\tS (slee"..., 1023) = 524
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/21", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/21/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "21 (khungtaskd) S 2 0 0 0 -1 214"..., 1023) = 160
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/21/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tkhungtaskd\nState:\tS (sleep"..., 1023) = 518
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/22", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/22/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "22 (kswapd0) S 2 0 0 0 -1 215823"..., 1023) = 158
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/22/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tkswapd0\nState:\tS (sleeping"..., 1023) = 517
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/23", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/23/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "23 (ksmd) S 2 0 0 0 -1 214958086"..., 1023) = 154
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/23/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tksmd\nState:\tS (sleeping)\nT"..., 1023) = 512
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/24", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/24/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "24 (khugepaged) S 2 0 0 0 -1 214"..., 1023) = 161
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/24/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tkhugepaged\nState:\tS (sleep"..., 1023) = 518
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/25", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/25/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "25 (fsnotify_mark) S 2 0 0 0 -1 "..., 1023) = 163
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/25/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tfsnotify_mark\nState:\tS (sl"..., 1023) = 523
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/26", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/26/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "26 (ecryptfs-kthrea) S 2 0 0 0 -"..., 1023) = 165
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/26/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tecryptfs-kthrea\nState:\tS ("..., 1023) = 523
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/27", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/27/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "27 (crypto) S 2 0 0 0 -1 2216722"..., 1023) = 157
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/27/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tcrypto\nState:\tS (sleeping)"..., 1023) = 514
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/35", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/35/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "35 (kthrotld) S 2 0 0 0 -1 22167"..., 1023) = 159
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/35/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tkthrotld\nState:\tS (sleepin"..., 1023) = 516
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/37", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/37/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "37 (scsi_eh_0) S 2 0 0 0 -1 2149"..., 1023) = 159
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/37/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tscsi_eh_0\nState:\tS (sleepi"..., 1023) = 518
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/38", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/38/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "38 (scsi_eh_1) S 2 0 0 0 -1 2149"..., 1023) = 159
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/38/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tscsi_eh_1\nState:\tS (sleepi"..., 1023) = 517
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/39", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/39/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "39 (scsi_eh_2) S 2 0 0 0 -1 2149"..., 1023) = 159
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/39/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tscsi_eh_2\nState:\tS (sleepi"..., 1023) = 518
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/40", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/40/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "40 (kworker/u:3) S 2 0 0 0 -1 22"..., 1023) = 161
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/40/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tkworker/u:3\nState:\tS (slee"..., 1023) = 520
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/60", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/60/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "60 (devfreq_wq) S 2 0 0 0 -1 221"..., 1023) = 161
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/60/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tdevfreq_wq\nState:\tS (sleep"..., 1023) = 518
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/194", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/194/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "194 (jbd2/sda1-8) S 2 0 0 0 -1 2"..., 1023) = 167
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/194/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tjbd2/sda1-8\nState:\tS (slee"..., 1023) = 524
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/195", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/195/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "195 (ext4-dio-unwrit) S 2 0 0 0 "..., 1023) = 168
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/195/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\text4-dio-unwrit\nState:\tS ("..., 1023) = 525
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/361", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/361/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "361 (upstart-udev-br) S 1 360 36"..., 1023) = 175
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/361/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tupstart-udev-br\nState:\tS ("..., 1023) = 760
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/370", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/370/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "370 (udevd) S 1 370 370 0 -1 420"..., 1023) = 176
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/370/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tudevd\nState:\tS (sleeping)\n"..., 1023) = 750
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/508", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/508/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "508 (dbus-daemon) S 1 508 508 0 "..., 1023) = 176
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/508/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tdbus-daemon\nState:\tS (slee"..., 1023) = 775
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/527", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/527/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "527 (bluetoothd) S 1 527 527 0 -"..., 1023) = 170
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/527/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tbluetoothd\nState:\tS (sleep"..., 1023) = 753
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/539", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/539/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "539 (rsyslogd) S 1 538 538 0 -1 "..., 1023) = 178
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/539/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\trsyslogd\nState:\tS (sleepin"..., 1023) = 767
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/555", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/555/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "555 (iprt) S 2 0 0 0 -1 22167224"..., 1023) = 158
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/555/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tiprt\nState:\tS (sleeping)\nT"..., 1023) = 514
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/560", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/560/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "560 (avahi-daemon) S 1 559 559 0"..., 1023) = 176
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/560/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tavahi-daemon\nState:\tS (sle"..., 1023) = 776
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/564", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/564/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "564 (avahi-daemon) S 560 559 559"..., 1023) = 169
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/564/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tavahi-daemon\nState:\tS (sle"..., 1023) = 776
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/566", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/566/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "566 (kpsmoused) S 2 0 0 0 -1 221"..., 1023) = 163
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/566/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tkpsmoused\nState:\tS (sleepi"..., 1023) = 519
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/570", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/570/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "570 (cupsd) S 1 570 570 0 -1 420"..., 1023) = 173
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/570/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tcupsd\nState:\tS (sleeping)\n"..., 1023) = 749
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/577", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/577/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "577 (krfcommd) S 2 0 0 0 -1 2149"..., 1023) = 163
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/577/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tkrfcommd\nState:\tS (sleepin"..., 1023) = 518
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/592", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/592/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "592 (udevd) S 370 370 370 0 -1 4"..., 1023) = 172
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/592/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tudevd\nState:\tS (sleeping)\n"..., 1023) = 749
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/593", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/593/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "593 (udevd) S 370 370 370 0 -1 4"..., 1023) = 172
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/593/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tudevd\nState:\tS (sleeping)\n"..., 1023) = 749
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/681", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/681/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "681 (upstart-socket-) S 1 680 68"..., 1023) = 174
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/681/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tupstart-socket-\nState:\tS ("..., 1023) = 759
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/736", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/736/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "736 (modem-manager) S 1 736 736 "..., 1023) = 174
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/736/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tmodem-manager\nState:\tS (sl"..., 1023) = 758
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/741", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/741/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "741 (NetworkManager) S 1 741 741"..., 1023) = 184
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/741/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tNetworkManager\nState:\tS (s"..., 1023) = 760
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/746", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/746/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "746 (polkitd) S 1 508 508 0 -1 4"..., 1023) = 172
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/746/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tpolkitd\nState:\tS (sleeping"..., 1023) = 756
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/783", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/783/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "783 (dhclient) S 741 783 741 0 -"..., 1023) = 170
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/783/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tdhclient\nState:\tS (sleepin"..., 1023) = 753
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/855", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/855/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "855 (getty) S 1 855 855 1028 855"..., 1023) = 165
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/855/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgetty\nState:\tS (sleeping)\n"..., 1023) = 747
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/860", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/860/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "860 (getty) S 1 860 860 1029 860"..., 1023) = 165
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/860/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgetty\nState:\tS (sleeping)\n"..., 1023) = 747
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/867", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/867/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "867 (getty) S 1 867 867 1026 867"..., 1023) = 165
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/867/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgetty\nState:\tS (sleeping)\n"..., 1023) = 747
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/868", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/868/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "868 (getty) S 1 868 868 1027 868"..., 1023) = 165
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/868/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgetty\nState:\tS (sleeping)\n"..., 1023) = 747
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/871", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/871/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "871 (getty) S 1 871 871 1030 871"..., 1023) = 165
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/871/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgetty\nState:\tS (sleeping)\n"..., 1023) = 747
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/887", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/887/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "887 (anacron) S 1 887 887 0 -1 4"..., 1023) = 167
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/887/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tanacron\nState:\tS (sleeping"..., 1023) = 749
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/889", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/889/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "889 (acpid) S 1 889 889 0 -1 420"..., 1023) = 167
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/889/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tacpid\nState:\tS (sleeping)\n"..., 1023) = 747
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/890", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/890/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "890 (cron) S 1 890 890 0 -1 4202"..., 1023) = 169
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/890/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tcron\nState:\tS (sleeping)\nT"..., 1023) = 747
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/891", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/891/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "891 (atd) S 1 891 891 0 -1 42025"..., 1023) = 161
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/891/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tatd\nState:\tS (sleeping)\nTg"..., 1023) = 745
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/898", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/898/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "898 (whoopsie) S 1 898 898 0 -1 "..., 1023) = 174
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/898/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\twhoopsie\nState:\tS (sleepin"..., 1023) = 771
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/914", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/914/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "914 (mysqld) S 1 914 914 0 -1 42"..., 1023) = 183
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/914/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tmysqld\nState:\tS (sleeping)"..., 1023) = 773
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/949", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/949/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "949 (php5-fpm) S 1 949 949 0 -1 "..., 1023) = 173
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/949/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tphp5-fpm\nState:\tS (sleepin"..., 1023) = 752
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/950", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/950/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "950 (php5-fpm) S 949 949 949 0 -"..., 1023) = 171
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/950/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tphp5-fpm\nState:\tS (sleepin"..., 1023) = 763
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/951", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/951/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "951 (php5-fpm) S 949 949 949 0 -"..., 1023) = 171
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/951/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tphp5-fpm\nState:\tS (sleepin"..., 1023) = 763
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/952", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/952/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "952 (php5-fpm) S 949 949 949 0 -"..., 1023) = 171
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/952/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tphp5-fpm\nState:\tS (sleepin"..., 1023) = 763
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/953", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/953/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "953 (php5-fpm) S 949 949 949 0 -"..., 1023) = 171
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/953/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tphp5-fpm\nState:\tS (sleepin"..., 1023) = 763
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/957", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/957/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "957 (dnsmasq) S 741 957 741 0 -1"..., 1023) = 172
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/957/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tdnsmasq\nState:\tS (sleeping"..., 1023) = 772
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1001", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1001/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1001 (VBoxService) S 1 999 999 0"..., 1023) = 177
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1001/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tVBoxService\nState:\tS (slee"..., 1023) = 756
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1051", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1051/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1051 (lightdm) S 1 1051 1051 0 -"..., 1023) = 179
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1051/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tlightdm\nState:\tS (sleeping"..., 1023) = 754
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1112", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1112/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1112 (Xorg) S 1051 1112 1112 103"..., 1023) = 194
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1112/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tXorg\nState:\tS (sleeping)\nT"..., 1023) = 758
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1120", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1120/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1120 (lightdm) S 1051 1051 1051 "..., 1023) = 178
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1120/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tlightdm\nState:\tS (sleeping"..., 1023) = 783
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1123", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1123/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1123 (accounts-daemon) S 1 508 5"..., 1023) = 182
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1123/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\taccounts-daemon\nState:\tS ("..., 1023) = 764
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1146", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1146/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1146 (proftpd) S 1 1146 1146 0 -"..., 1023) = 181
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1146/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tproftpd\nState:\tS (sleeping"..., 1023) = 778
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1180", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1180/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1180 (console-kit-dae) S 1 508 5"..., 1023) = 186
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1180/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tconsole-kit-dae\nState:\tS ("..., 1023) = 765
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1260", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1260/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1260 (postgres.bin) S 1 853 853 "..., 1023) = 190
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1260/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tpostgres.bin\nState:\tS (sle"..., 1023) = 790
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1271", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1271/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1271 (gnome-session) S 1120 1271"..., 1023) = 246
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1271/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgnome-session\nState:\tS (sl"..., 1023) = 817
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1349", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1349/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1349 (VBoxClient) S 1 1347 1347 "..., 1023) = 231
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1349/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tVBoxClient\nState:\tS (sleep"..., 1023) = 806
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1357", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1357/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1357 (VBoxClient) S 1 1355 1355 "..., 1023) = 234
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1357/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tVBoxClient\nState:\tS (sleep"..., 1023) = 806
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1361", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1361/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1361 (VBoxClient) S 1 1359 1359 "..., 1023) = 230
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1361/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tVBoxClient\nState:\tS (sleep"..., 1023) = 805
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1363", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1363/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1363 (ssh-agent) S 1271 1363 136"..., 1023) = 176
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1363/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tssh-agent\nState:\tS (sleepi"..., 1023) = 807
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1366", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1366/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1366 (dbus-launch) S 1 1271 1271"..., 1023) = 247
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1366/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tdbus-launch\nState:\tS (slee"..., 1023) = 806
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1371", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1371/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1371 (dbus-daemon) S 1 1371 1371"..., 1023) = 253
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1371/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tdbus-daemon\nState:\tS (slee"..., 1023) = 813
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1376", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1376/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1376 (postgres.bin) S 1260 1376 "..., 1023) = 185
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1376/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tpostgres.bin\nState:\tS (sle"..., 1023) = 791
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1377", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1377/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1377 (postgres.bin) S 1260 1377 "..., 1023) = 186
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1377/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tpostgres.bin\nState:\tS (sle"..., 1023) = 791
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1378", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1378/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1378 (postgres.bin) S 1260 1378 "..., 1023) = 185
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1378/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tpostgres.bin\nState:\tS (sle"..., 1023) = 790
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1379", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1379/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1379 (postgres.bin) S 1260 1379 "..., 1023) = 181
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1379/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tpostgres.bin\nState:\tS (sle"..., 1023) = 790
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1398", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1398/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1398 (flush-8:0) S 2 0 0 0 -1 21"..., 1023) = 166
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1398/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tflush-8:0\nState:\tS (sleepi"..., 1023) = 524
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1414", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1414/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1414 (gnome-settings-) S 1271 12"..., 1023) = 248
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1414/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgnome-settings-\nState:\tS ("..., 1023) = 819
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1421", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1421/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1421 (gnome-keyring-d) S 1 1271 "..., 1023) = 183
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1421/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgnome-keyring-d\nState:\tS ("..., 1023) = 813
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1449", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1449/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1449 (upowerd) S 1 508 508 0 -1 "..., 1023) = 173
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1449/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tupowerd\nState:\tS (sleeping"..., 1023) = 756
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1596", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1596/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1596 (gvfsd) S 1 1371 1371 0 -1 "..., 1023) = 225
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1596/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgvfsd\nState:\tS (sleeping)\n"..., 1023) = 803
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1598", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1598/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1598 (gvfs-fuse-daemo) S 1 1371 "..., 1023) = 238
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1598/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgvfs-fuse-daemo\nState:\tS ("..., 1023) = 810
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1605", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1605/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1605 (gsd-printer) S 1 1271 1271"..., 1023) = 230
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1605/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgsd-printer\nState:\tS (slee"..., 1023) = 807
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1606", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1606/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1606 (metacity) S 1271 1271 1271"..., 1023) = 242
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1606/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tmetacity\nState:\tS (sleepin"..., 1023) = 812
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1609", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1609/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1609 (colord) S 1 508 508 0 -1 4"..., 1023) = 169
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1609/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tcolord\nState:\tS (sleeping)"..., 1023) = 773
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1617", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1617/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1617 (gconfd-2) S 1 1371 1371 0 "..., 1023) = 227
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1617/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgconfd-2\nState:\tS (sleepin"..., 1023) = 806
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1624", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1624/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1624 (gnome-panel) S 1271 1271 1"..., 1023) = 237
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1624/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgnome-panel\nState:\tS (slee"..., 1023) = 815
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1628", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1628/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1628 (pulseaudio) S 1 1626 1626 "..., 1023) = 238
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1628/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tpulseaudio\nState:\tS (sleep"..., 1023) = 808
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1630", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1630/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1630 (rtkit-daemon) S 1 508 508 "..., 1023) = 170
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1630/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\trtkit-daemon\nState:\tS (sle"..., 1023) = 773
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1635", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1635/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1635 (dconf-service) S 1 1371 13"..., 1023) = 237
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1635/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tdconf-service\nState:\tS (sl"..., 1023) = 812
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1641", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1641/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1641 (gconf-helper) S 1628 1626 "..., 1023) = 228
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1641/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgconf-helper\nState:\tS (sle"..., 1023) = 811
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1642", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1642/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1642 (nm-applet) S 1271 1271 127"..., 1023) = 236
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1642/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tnm-applet\nState:\tS (sleepi"..., 1023) = 811
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1643", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1643/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1643 (nautilus) S 1271 1271 1271"..., 1023) = 243
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1643/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tnautilus\nState:\tS (sleepin"..., 1023) = 814
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1644", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1644/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1644 (gnome-fallback-) S 1271 12"..., 1023) = 237
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1644/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgnome-fallback-\nState:\tS ("..., 1023) = 817
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1645", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1645/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1645 (bluetooth-apple) S 1271 12"..., 1023) = 237
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1645/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tbluetooth-apple\nState:\tS ("..., 1023) = 817
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1647", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1647/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1647 (polkit-gnome-au) S 1271 12"..., 1023) = 237
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1647/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tpolkit-gnome-au\nState:\tS ("..., 1023) = 817
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1667", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1667/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1667 (gvfs-gdu-volume) S 1 1371 "..., 1023) = 232
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1667/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgvfs-gdu-volume\nState:\tS ("..., 1023) = 812
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1669", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1669/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1669 (udisks-daemon) S 1 508 508"..., 1023) = 175
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1669/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tudisks-daemon\nState:\tS (sl"..., 1023) = 761
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1670", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1670/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1670 (udisks-daemon) S 1669 508 "..., 1023) = 173
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1670/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tudisks-daemon\nState:\tS (sl"..., 1023) = 762
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1676", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1676/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1676 (gvfs-gphoto2-vo) S 1 1371 "..., 1023) = 228
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1676/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgvfs-gphoto2-vo\nState:\tS ("..., 1023) = 812
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1678", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1678/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1678 (gvfs-afc-volume) S 1 1371 "..., 1023) = 229
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1678/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgvfs-afc-volume\nState:\tS ("..., 1023) = 812
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1682", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1682/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1682 (dropbox) S 1 1682 1682 0 -"..., 1023) = 249
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1682/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tdropbox\nState:\tS (sleeping"..., 1023) = 809
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1688", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1688/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1688 (gvfsd-trash) S 1 1371 1371"..., 1023) = 229
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1688/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgvfsd-trash\nState:\tS (slee"..., 1023) = 809
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1696", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1696/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1696 (indicator-apple) S 1 1371 "..., 1023) = 239
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1696/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tindicator-apple\nState:\tS ("..., 1023) = 815
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1703", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1703/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1703 (gvfsd-burn) S 1 1371 1371 "..., 1023) = 226
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1703/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgvfsd-burn\nState:\tS (sleep"..., 1023) = 806
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1708", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1708/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1708 (indicator-datet) S 1 1371 "..., 1023) = 234
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1708/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tindicator-datet\nState:\tS ("..., 1023) = 812
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1710", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1710/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1710 (indicator-print) S 1 1371 "..., 1023) = 234
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1710/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tindicator-print\nState:\tS ("..., 1023) = 814
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1712", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1712/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1712 (indicator-messa) S 1 1371 "..., 1023) = 234
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1712/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tindicator-messa\nState:\tS ("..., 1023) = 814
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1714", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1714/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1714 (indicator-sessi) S 1 1371 "..., 1023) = 236
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1714/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tindicator-sessi\nState:\tS ("..., 1023) = 815
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1717", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1717/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1717 (indicator-appli) S 1 1371 "..., 1023) = 235
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1717/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tindicator-appli\nState:\tS ("..., 1023) = 814
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1718", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1718/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1718 (indicator-sound) S 1 1371 "..., 1023) = 234
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1718/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tindicator-sound\nState:\tS ("..., 1023) = 814
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1755", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1755/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1755 (geoclue-master) S 1 1371 1"..., 1023) = 227
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1755/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgeoclue-master\nState:\tS (s"..., 1023) = 812
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1762", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1762/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1762 (ubuntu-geoip-pr) S 1 1371 "..., 1023) = 234
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1762/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tubuntu-geoip-pr\nState:\tS ("..., 1023) = 814
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1795", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1795/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1795 (.ruby.bin) S 1 853 853 0 -"..., 1023) = 197
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1795/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\t.ruby.bin\nState:\tS (sleepi"..., 1023) = 762
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1800", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1800/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1800 (gvfsd-metadata) S 1 1371 1"..., 1023) = 227
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1800/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgvfsd-metadata\nState:\tS (s"..., 1023) = 812
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1848", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1848/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1848 (notify-osd) S 1 1371 1371 "..., 1023) = 230
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1848/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tnotify-osd\nState:\tS (sleep"..., 1023) = 811
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1860", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1860/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1860 (.ruby.bin) S 1 1857 1857 0"..., 1023) = 189
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1860/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\t.ruby.bin\nState:\tS (sleepi"..., 1023) = 761
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1890", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1890/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1890 (apache2) S 1 1890 1890 0 -"..., 1023) = 180
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1890/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tapache2\nState:\tS (sleeping"..., 1023) = 754
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1900", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1900/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1900 (apache2) S 1890 1890 1890 "..., 1023) = 182
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1900/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tapache2\nState:\tS (sleeping"..., 1023) = 765
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1901", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1901/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1901 (apache2) S 1890 1890 1890 "..., 1023) = 182
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1901/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tapache2\nState:\tS (sleeping"..., 1023) = 765
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1902", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1902/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1902 (apache2) S 1890 1890 1890 "..., 1023) = 182
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1902/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tapache2\nState:\tS (sleeping"..., 1023) = 765
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1903", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1903/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1903 (apache2) S 1890 1890 1890 "..., 1023) = 182
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1903/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tapache2\nState:\tS (sleeping"..., 1023) = 765
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1904", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1904/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1904 (apache2) S 1890 1890 1890 "..., 1023) = 182
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1904/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tapache2\nState:\tS (sleeping"..., 1023) = 765
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1968", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1968/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1968 (getty) S 1 1968 1968 1025 "..., 1023) = 169
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1968/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgetty\nState:\tS (sleeping)\n"..., 1023) = 749
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1984", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1984/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1984 (gdu-notificatio) S 1271 12"..., 1023) = 237
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1984/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgdu-notificatio\nState:\tS ("..., 1023) = 817
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1990", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1990/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1990 (telepathy-indic) S 1271 12"..., 1023) = 237
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1990/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\ttelepathy-indic\nState:\tS ("..., 1023) = 817
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/1996", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/1996/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "1996 (mission-control) S 1 1371 "..., 1023) = 234
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/1996/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tmission-control\nState:\tS ("..., 1023) = 814
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2000", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2000/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2000 (zeitgeist-datah) S 1271 12"..., 1023) = 237
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2000/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tzeitgeist-datah\nState:\tS ("..., 1023) = 816
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2001", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2001/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2001 (gnome-screensav) S 1271 12"..., 1023) = 237
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2001/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgnome-screensav\nState:\tS ("..., 1023) = 817
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2007", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2007/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2007 (zeitgeist-daemo) S 1 1371 "..., 1023) = 242
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2007/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tzeitgeist-daemo\nState:\tS ("..., 1023) = 815
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2015", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2015/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2015 (zeitgeist-fts) S 1 1371 13"..., 1023) = 241
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2015/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tzeitgeist-fts\nState:\tS (sl"..., 1023) = 812
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2019", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2019/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2019 (cat) S 2015 1371 1371 0 -1"..., 1023) = 221
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2019/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tcat\nState:\tS (sleeping)\nTg"..., 1023) = 801
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2037", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2037/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2037 (update-notifier) S 1271 12"..., 1023) = 247
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2037/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tupdate-notifier\nState:\tS ("..., 1023) = 817
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2069", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2069/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2069 (system-service-) S 1 508 5"..., 1023) = 182
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2069/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tsystem-service-\nState:\tS ("..., 1023) = 763
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2081", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2081/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2081 (deja-dup-monito) S 1271 12"..., 1023) = 240
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2081/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tdeja-dup-monito\nState:\tS ("..., 1023) = 815
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2128", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2128/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2128 (nginx) S 1 2128 2128 0 -1 "..., 1023) = 182
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2128/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tnginx\nState:\tS (sleeping)\n"..., 1023) = 749
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2129", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2129/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2129 (nginx) S 2128 2128 2128 0 "..., 1023) = 185
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2129/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tnginx\nState:\tS (sleeping)\n"..., 1023) = 756
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2130", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2130/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2130 (nginx) S 2128 2128 2128 0 "..., 1023) = 185
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2130/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tnginx\nState:\tS (sleeping)\n"..., 1023) = 754
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2131", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2131/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2131 (nginx) S 2128 2128 2128 0 "..., 1023) = 185
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2131/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tnginx\nState:\tS (sleeping)\n"..., 1023) = 756
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2132", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2132/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2132 (nginx) S 2128 2128 2128 0 "..., 1023) = 185
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2132/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tnginx\nState:\tS (sleeping)\n"..., 1023) = 756
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2142", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2142/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2142 (postgres.bin) S 1260 2142 "..., 1023) = 189
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2142/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tpostgres.bin\nState:\tS (sle"..., 1023) = 791
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2144", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2144/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2144 (postgres.bin) S 1260 2144 "..., 1023) = 190
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2144/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tpostgres.bin\nState:\tS (sle"..., 1023) = 792
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2145", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2145/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2145 (postgres.bin) S 1260 2145 "..., 1023) = 188
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2145/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tpostgres.bin\nState:\tS (sle"..., 1023) = 790
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2193", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2193/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2193 (kworker/0:2) S 2 0 0 0 -1 "..., 1023) = 166
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2193/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tkworker/0:2\nState:\tS (slee"..., 1023) = 526
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2195", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2195/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2195 (run-parts) S 887 887 887 0"..., 1023) = 176
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2195/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\trun-parts\nState:\tS (sleepi"..., 1023) = 755
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2202", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2202/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2202 (apt) S 2195 887 887 0 -1 4"..., 1023) = 177
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2202/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tapt\nState:\tS (sleeping)\nTg"..., 1023) = 752
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2235", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2235/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2235 (sleep) S 2202 887 887 0 -1"..., 1023) = 165
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2235/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tsleep\nState:\tS (sleeping)\n"..., 1023) = 753
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2258", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2258/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2258 (postgres.bin) S 1260 2258 "..., 1023) = 188
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2258/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tpostgres.bin\nState:\tS (sle"..., 1023) = 790
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2275", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2275/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2275 (gnome-terminal) S 1 1271 1"..., 1023) = 241
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2275/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgnome-terminal\nState:\tS (s"..., 1023) = 815
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2280", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2280/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2280 (gnome-pty-helpe) S 2275 12"..., 1023) = 190
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2280/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tgnome-pty-helpe\nState:\tS ("..., 1023) = 807
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2281", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2281/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2281 (bash) S 2275 2281 2281 348"..., 1023) = 256
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2281/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tbash\nState:\tS (sleeping)\nT"..., 1023) = 806
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15264] fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+[    7f93a1f1f07a] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f93a25f3000
+[    7f93a1f15910] write(1, "  PID TTY          TIME CMD\n", 28) = 28
+[    7f93a1f171d7] readlink("/proc/2281/tty", 0x7f93a24003c0, 127) = -1 ENOENT (No such file or directory)
+[    7f93a1f156c0] open("/proc/tty/drivers", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "/dev/tty             /dev/tty   "..., 9999) = 574
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/dev/pts1", 0x7fffdd0f5090) = -1 ENOENT (No such file or directory)
+[    7f93a1f15215] stat("/dev/pts", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+[    7f93a1f171d7] readlink("/proc/2281/fd/2", "/dev/pts/1", 127) = 10
+[    7f93a1f15215] stat("/dev/pts/1", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+[    7f93a1f15910] write(1, " 2281 pts/1    00:00:00 bash\n", 29) = 29
+[    7f93a1f15215] stat("/proc/2410", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2410/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2410 (kworker/0:0) S 2 0 0 0 -1 "..., 1023) = 166
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2410/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tkworker/0:0\nState:\tS (slee"..., 1023) = 524
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f15215] stat("/proc/2445", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2445/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2445 (strace) R 2281 2445 2281 3"..., 1023) = 215
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2445/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tstrace\nState:\tR (running)\n"..., 1023) = 809
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f171d7] readlink("/proc/2445/tty", 0x7f93a24003c0, 127) = -1 ENOENT (No such file or directory)
+[    7f93a1f15215] stat("/dev/pts1", 0x7fffdd0f5090) = -1 ENOENT (No such file or directory)
+[    7f93a1f15215] stat("/dev/pts", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+[    7f93a1f171d7] readlink("/proc/2445/fd/2", "/dev/pts/1", 127) = 10
+[    7f93a1f15215] stat("/dev/pts/1", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+[    7f93a1f15910] write(1, " 2445 pts/1    00:00:00 strace\n", 31) = 31
+[    7f93a1f15215] stat("/proc/2446", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+[    7f93a1f156c0] open("/proc/2446/stat", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "2446 (ps) R 2445 2445 2281 34817"..., 1023) = 214
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f156c0] open("/proc/2446/status", O_RDONLY) = 7
+[    7f93a1f158b0] read(7, "Name:\tps\nState:\tR (running)\nTgid"..., 1023) = 806
+[    7f93a1f15850] close(7)             = 0
+[    7f93a1f171d7] readlink("/proc/2446/tty", 0x7f93a24003c0, 127) = -1 ENOENT (No such file or directory)
+[    7f93a1f15215] stat("/dev/pts1", 0x7fffdd0f5090) = -1 ENOENT (No such file or directory)
+[    7f93a1f15215] stat("/dev/pts", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+[    7f93a1f171d7] readlink("/proc/2446/fd/2", "/dev/pts/1", 127) = 10
+[    7f93a1f15215] stat("/dev/pts/1", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+[    7f93a1f15910] write(1, " 2446 pts/1    00:00:00 ps\n", 27) = 27
+[    7f93a1eeaac5] getdents(6, /* 0 entries */, 32768) = 0
+[    7f93a1f15850] close(6)             = 0
+[    7f93a1eeec18] exit_group(0)        = ?

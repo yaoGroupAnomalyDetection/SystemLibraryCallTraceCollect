@@ -1,0 +1,44 @@
+[    7fe9bedd4477] execve("../source/grep.exe.static", ["../source/grep.exe.static", "-n", "I", "../inputs/grep1.dat"], [/* 43 vars */]) = 0
+[          47a957] uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+[          47ae5a] brk(0)               = 0xca8000
+[          47ae5a] brk(0xca91c0)        = 0xca91c0
+[          418975] arch_prctl(ARCH_SET_FS, 0xca8880) = 0
+[          47ae5a] brk(0xcca1c0)        = 0xcca1c0
+[          47ae5a] brk(0xccb000)        = 0xccb000
+[          450af0] open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+[          450aa4] fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+[          45255a] mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7faf701f1000
+[          41a7a5] close(3)             = 0
+[          450af0] open("../inputs/grep1.dat", O_RDONLY) = 3
+[          450aa4] fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+[          450ce0] read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+[          450aa4] fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+[          45255a] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7faf701f0000
+[          450d40] write(1, "2:   Copyright (C) 1992 Free Sof"..., 4096) = 4096
+[          450ce0] read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+[          450d40] write(1, "s different methods of\n1148:   S"..., 4096) = 4096
+[          450ce0] read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+[          450d40] write(1, "ble `debug' is nonzero).  If lin"..., 4096) = 4096
+[          450d40] write(1, "           /* If there is a sequ"..., 4096) = 4096
+[          450ce0] read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+[          450d40] write(1, "   GET_UNSIGNED_NUMBER (upper_bo"..., 4096) = 4096
+[          450d40] write(1, " DEBUG_PRINT2 (\" active=%d\", IS_"..., 4096) = 4096
+[          450ce0] read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+[          450d40] write(1, "EWIDTH)))\n4258:\t  for (j = *p * "..., 4096) = 4096
+[          450d40] write(1, "ACTIVE (reg_info[mcnt]) = 0;\n496"..., 4096) = 4096
+[          450ce0] read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+[          450d40] write(1, "eg_info[*p]) = 0;\n5320:         "..., 4096) = 4096
+[          450ce0] read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+[          450d40] write(1, "ing two bytes from 0x%x to no_op"..., 4096) = 4096
+[          450d40] write(1, "nes are treated differently.  */"..., 4096) = 4096
+[          450ce0] read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+[          450d40] write(1, ":\t\t  if (!ISDIGIT(c))\n7115:\t\tif "..., 4096) = 4096
+[          450ce0] read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+[          450ce0] read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+[          450d40] write(1, "      else if (ISALNUM(c))\n8304:"..., 4096) = 4096
+[          450ce0] read(3, "", 32768)   = 0
+[          450c80] close(3)             = 0
+[          450d40] write(1, "es as one extra COPYING_UNIT,\n10"..., 3081) = 3081
+[          450c80] close(1)             = 0
+[          452577] munmap(0x7faf701f0000, 4096) = 0
+[          44ed28] exit_group(0)        = ?

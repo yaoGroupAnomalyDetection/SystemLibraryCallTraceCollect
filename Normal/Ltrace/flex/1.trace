@@ -1,0 +1,10 @@
+[0x400d49] __libc_start_main(0x400e04, 3, 0x7ffff8075c08, 0x413630, 0x4136c0 <unfinished ...>
+[0x400e39] fopen("error", "w")                   = 0x22a3010
+[0x4135e2] malloc(2048)                          = 0x022a3250
+[0x41354b] strcmp("../inputs/wronginput", "-")   = 1
+[0x4135e2] malloc(21)                            = 0x022a3a60
+[0x413579] fopen("../inputs/wronginput", "r")    = 0
+[0x408cca] sprintf(NULL, "")                     = 31
+[0x408b99] fprintf(0x22a3010, "%s: %s\n", "Executable", "can't open ../inputs/wronginput") = 44
+[0x401fe0] exit(1 <unfinished ...>
+[0xffffffffffffffff] +++ exited (status 1) +++

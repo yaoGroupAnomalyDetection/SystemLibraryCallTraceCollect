@@ -1,0 +1,32 @@
+[0x401359] __libc_start_main(0x408c8c, 2, 0x7fff14440198, 0x40c040, 0x40c0d0 <unfinished ...>
+[0x407b7e] strrchr("../source/gzip.exe", '/')    = "/gzip.exe"
+[0x407c48] getenv("GZIP")                        = NULL
+[0x408d7c] signal(2, 0x00000001)                 = NULL
+[0x408da8] signal(2, 0x0040c000)                 = 0x00000001
+[0x408db7] signal(15, 0x00000001)                = NULL
+[0x408dcf] signal(15, 0x0040c000)                = 0x00000001
+[0x408dde] signal(1, 0x00000001)                 = NULL
+[0x408df6] signal(1, 0x0040c000)                 = 0x00000001
+[0x40915b] getopt_long(2, 0x7fff14440198, "ab:cdfhH?lLmMnNqrS:tvVZ123456789", 0x0060fe80, NULL) = 104
+[0x408b2e] printf("%s %s\n(%s)\n", "gzip", "1.3", "1999-12-21") = 22
+[0x408af9] printf("usage: %s [-%scdfhlLnN%stvV19] ["..., "gzip", "", "r") = 53
+[0x408b49] puts(" -c --stdout      write on stand"...) = 74
+[0x408b49] puts(" -d --decompress  decompress")  = 29
+[0x408b49] puts(" -f --force       force overwrit"...) = 68
+[0x408b49] puts(" -h --help        give this help") = 33
+[0x408b49] puts(" -l --list        list compresse"...) = 48
+[0x408b49] puts(" -L --license     display softwa"...) = 43
+[0x408b49] puts(" -n --no-name     do not save or"...) = 74
+[0x408b49] puts(" -N --name        save or restor"...) = 67
+[0x408b49] puts(" -q --quiet       suppress all w"...) = 40
+[0x408b49] puts(" -r --recursive   operate recurs"...) = 53
+[0x408b49] puts(" -S .suf  --suffix .suf     use "...) = 64
+[0x408b49] puts(" -t --test        test compresse"...) = 49
+[0x408b49] puts(" -v --verbose     verbose mode") = 31
+[0x408b49] puts(" -V --version     display versio"...) = 41
+[0x408b49] puts(" -1 --fast        compress faste"...) = 34
+[0x408b49] puts(" -9 --best        compress bette"...) = 34
+[0x408b49] puts(" file...          files to (de)c"...) = 76
+[0x408b49] puts("Report bugs to <bug-gzip@gnu.org"...) = 35
+[0x40c000] exit(0 <unfinished ...>
+[0xffffffffffffffff] +++ exited (status 0) +++

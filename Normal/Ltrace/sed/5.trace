@@ -1,0 +1,16 @@
+[0x401699] __libc_start_main(0x401926, 2, 0x7fffcecb70b8, 0x4197c0, 0x419850 <unfinished ...>
+[0x40193f] getenv("COLS")                        = NULL
+[0x401952] getenv("POSIXLY_CORRECT")             = NULL
+[0x401bf3] getopt_long(2, 0x7fffcecb70b8, "snrue:f:l:i::V:", 0x006202e0, NULL) = -1
+[0x4089aa] calloc(1, 24)                         = 0x00df8010
+[0x40343e] _obstack_begin(0x620540, 0, 0, 0x40897f, 0x408ae7 <unfinished ...>
+[0x4089aa] calloc(1, 4064)                       = 0x00df8030
+[0x40343e] <... _obstack_begin resumed> )        = 1
+[0x40346e] __ctype_b_loc()                       = 0x7fab7f68b6b8
+[0x4089aa] calloc(1, 1600)                       = 0x00df9020
+[0x4032c0] __ctype_b_loc()                       = 0x7fab7f68b6b8
+[0x4089aa] calloc(1, 21)                         = 0x00df9670
+[0x401d41] sprintf(NULL, "'")                    = 20
+[0x401def] fprintf(0x7fab7f47e260, "%s: -e expression #%lu, char %lu"..., "Executable", 1, 1) = 59
+[0x401df9] exit(1 <unfinished ...>
+[0xffffffffffffffff] +++ exited (status 1) +++

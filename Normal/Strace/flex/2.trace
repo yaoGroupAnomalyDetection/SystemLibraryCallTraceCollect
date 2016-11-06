@@ -1,0 +1,39 @@
+[    7f57efa32477] execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-b", "../inputs/in.0"], [/* 43 vars */]) = 0
+[          475337] uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+[          4767ca] brk(0)               = 0xceb000
+[          4767ca] brk(0xcec1c0)        = 0xcec1c0
+[          414075] arch_prctl(ARCH_SET_FS, 0xceb880) = 0
+[          4767ca] brk(0xd0d1c0)        = 0xd0d1c0
+[          4767ca] brk(0xd0e000)        = 0xd0e000
+[          435cd0] open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+[          435cd0] open("../inputs/in.0", O_RDONLY) = 4
+[          4767ca] brk(0xd2f000)        = 0xd2f000
+[          436137] ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff342966b8) = -1 ENOTTY (Inappropriate ioctl for device)
+[          435c34] fstat(4, {st_mode=S_IFREG|0640, st_size=792, ...}) = 0
+[          436fea] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f57584b5000
+[          435d90] read(4, "/* scanner for a toy Pascal-like"..., 8192) = 792
+[          435d90] read(4, "", 4096)    = 0
+[          435cd0] open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+[          4360c7] dup3(5, 1, 0)        = 1
+[          435d30] close(5)             = 0
+[          435c34] fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+[          436fea] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f57584b4000
+[          435df0] write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+[          435cd0] open("lex.backup", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+[          435c34] fstat(5, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+[          436fea] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f57584b3000
+[          435df0] write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+[          435df0] write(1, "       4,    4,    4,    0\n    }"..., 4096) = 4096
+[          435df0] write(1, "state;\nstatic char *yy_last_acce"..., 4096) = 4096
+[          435df0] write(1, "ef YY_USER_INIT\n\t\tYY_USER_INIT;\n"..., 4096) = 4096
+[          435df0] write(1, "rrent_state = yy_get_previous_st"..., 4096) = 4096
+[          435df0] write(1, " for 2 EOB chars. */\n\t\t\t\t\tyy_fle"..., 4096) = 4096
+[          435df0] write(1, "if\n\t{\n\tint c;\n\n\t*yy_c_buf_p = yy"..., 4096) = 4096
+[          435df0] write(1, "file;\n\tb->yy_fill_buffer = 1;\n\n#"..., 4096) = 4096
+[          435d90] read(4, "", 8192)    = 0
+[          436137] ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff34296be8) = -1 ENOTTY (Inappropriate ioctl for device)
+[          435df0] write(5, "State #27 is non-accepting -\n as"..., 167) = 167
+[          435d30] close(5)             = 0
+[          437007] munmap(0x7f57584b3000, 4096) = 0
+[          435df0] write(1, " */\n\n#undef yyless\n#define yyles"..., 1911) = 1911
+[          435bc8] exit_group(0)        = ?

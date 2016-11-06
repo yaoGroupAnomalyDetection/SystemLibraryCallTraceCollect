@@ -1,0 +1,36 @@
+Below are the synthsized(abnormal) sequences that our model can detect but regular model cannot.
+
+our threshold & index are 0.226153857473 0
+our abnormal 2 abnormal
+199120
+rand threshold & index are 0.0963623918991 0
+rand abnormal 2 normal
+2134
+
+
+('brk', 'brk', 'brk', 'brk', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'write', 'close', 'chmod', 'fstat') 
+
+('uname', 'brk', 'brk', 'brk', 'brk', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'fstat', 'mmap', 'write', 'unlink', 'chown') 
+
+('brk', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'read', 'read', 'write', 'utime', 'chmod', 'close', 'unlink', 'getdents') 
+
+('uname', 'brk', 'brk', 'brk', 'brk', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'getdents', 'openat', 'fstat', 'read', 'read') 
+
+('rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'stat', 'open', 'stat', 'open', 'fstat', 'stat', 'write', 'write', 'utime', 'unlink', 'chmod') 
+
+('brk', 'brk', 'brk', 'brk', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'chown', 'rt_sigaction', 'chown', 'chown', 'getdents') 
+
+('uname', 'brk', 'brk', 'brk', 'brk', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'read', 'read', 'getdents', 'open', 'write') 
+
+
+('brk', 'brk', 'brk', 'brk', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'read', 'exit_group', 'write', 'read', 'getdents') 
+
+('read', 'read', 'read', 'read', 'read', 'read', 'read', 'read', 'read', 'write', 'write', 'exit_group', 'unlink', 'chown', 'chmod') 
+
+('uname', 'brk', 'brk', 'brk', 'brk', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'getdents', 'rt_sigaction', 'chown', 'chmod', 'exit_group') 
+
+('read', 'read', 'read', 'read', 'read', 'read', 'read', 'read', 'read', 'read', 'exit_group', 'utime', 'utime', 'chown', 'chmod') 
+
+('brk', 'brk', 'brk', 'brk', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'getdents', 'unlink', 'getdents', 'exit_group', 'uname') 
+
+('NULL', 'uname', 'brk', 'brk', 'brk', 'brk', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'read', 'getdents', 'chmod') 

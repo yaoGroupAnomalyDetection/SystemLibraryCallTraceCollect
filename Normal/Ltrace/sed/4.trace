@@ -1,0 +1,21 @@
+[0x401699] __libc_start_main(0x401926, 3, 0x7fff23b30238, 0x4197c0, 0x419850 <unfinished ...>
+[0x40193f] getenv("COLS")                        = NULL
+[0x401952] getenv("POSIXLY_CORRECT")             = NULL
+[0x401bf3] getopt_long(3, 0x7fff23b30238, "snrue:f:l:i::V:", 0x006202e0, NULL) = 118
+[0x401b8c] fprintf(0x7f5e02bc7260, "GNU sed version %s\n", "sir-default") = 28
+[0x401bad] fprintf(0x7f5e02bc7260, "%s\nThis is free software; see t"..., "Copyright (C) 2003 Free Software"...) = 233
+[0x408737] clearerr(0x7f5e02bc7260, 0x419fca, 0x7f5e02bc8ab0, 184, 0xa2e77616c207962) = 0
+[0x408743] fflush(0x7f5e02bc7260)                = 0
+[0x408871] clearerr(0x7f5e02bc7260, 0x7f5e02bc8ab0, 0, -1, 0xffffffff) = 0
+[0x40887d] fclose(0x7f5e02bc7260)                = 0
+[0x408737] clearerr(0x7f5e02bc7260, 0, 0x7f5e02bc8ab0, 0, 0x7f5e02dd4700) = 0
+[0x408743] fflush(0x7f5e02bc7260)                = 0
+[0x408871] clearerr(0x7f5e02bc7260, 0x7f5e02bc8ab0, 0, 0xfbad000c, 0x7f5e02dd4700) = 0
+[0x40887d] fclose(0x7f5e02bc7260)                = -1
+[0x408887] __errno_location()                    = 0x7f5e02dd46a0
+[0x408890] strerror(0)                           = "Success"
+[0x407f34] fprintf(0x7f5e02bc7260, "%s: ", "Executable") = -1
+[0x407f81] vfprintf(0x7f5e02bc7260, "couldn't close %s: %s", 0x7fff23b2ffb0) = -1
+[0x407f95] _IO_putc('\n', 0x7f5e02bc7260)        = -1
+[0x408064] exit(4 <unfinished ...>
+[0xffffffffffffffff] +++ exited (status 4) +++

@@ -1,0 +1,31 @@
+[    7f1c72391477] execve("../source/grep.exe.static", ["../source/grep.exe.static", "-F", "/*#include", "../inputs/grep1.dat"], [/* 43 vars */]) = 0
+[          47a957] uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+[          47ae5a] brk(0)               = 0x768000
+[          47ae5a] brk(0x7691c0)        = 0x7691c0
+[          418975] arch_prctl(ARCH_SET_FS, 0x768880) = 0
+[          47ae5a] brk(0x78a1c0)        = 0x78a1c0
+[          47ae5a] brk(0x78b000)        = 0x78b000
+[          450af0] open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+[          450aa4] fstat(3, {st_mode=S_IFREG|0644, st_size=2932080, ...}) = 0
+[          45255a] mmap(NULL, 2932080, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fcc787dc000
+[          41a7a5] close(3)             = 0
+[          450af0] open("../inputs/grep1.dat", O_RDONLY) = 3
+[          450aa4] fstat(3, {st_mode=S_IFREG|0644, st_size=314192, ...}) = 0
+[          450ce0] read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+[          450aa4] fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+[          45255a] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcc787db000
+[          450ce0] read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+[          450ce0] read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+[          450ce0] read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+[          450ce0] read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+[          450ce0] read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+[          450ce0] read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+[          450ce0] read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+[          450ce0] read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+[          450ce0] read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+[          450ce0] read(3, "", 32768)   = 0
+[          450c80] close(3)             = 0
+[          450d40] write(1, "/*#include <stdio.h> */\n/*#inclu"..., 303) = 303
+[          450c80] close(1)             = 0
+[          452577] munmap(0x7fcc787db000, 4096) = 0
+[          44ed28] exit_group(0)        = ?

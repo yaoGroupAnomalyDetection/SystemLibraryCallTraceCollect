@@ -1,0 +1,20 @@
+[    7fb605c51477] execve("../source/sed.exe.static", ["../source/sed.exe.static", "-e", "s/dog/cat/", "-e", "/cat$/d", "../inputs/default.in"], [/* 43 vars */]) = 0
+[          482af7] uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+[          48307a] brk(0)               = 0x72b000
+[          48307a] brk(0x72c1c0)        = 0x72c1c0
+[          419935] arch_prctl(ARCH_SET_FS, 0x72b880) = 0
+[          48307a] brk(0x74d1c0)        = 0x74d1c0
+[          48307a] brk(0x74e000)        = 0x74e000
+[          461470] open("../inputs/default.in", O_RDONLY) = 3
+[          461424] fstat(3, {st_mode=S_IFREG|0644, st_size=1741, ...}) = 0
+[          462eaa] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4dfeb87000
+[          461530] read(3, "..@ A BLACK AND WHITE POEM\n\ni se"..., 4096) = 1741
+[          461424] fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+[          462eaa] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4dfeb86000
+[          461530] read(3, "", 4096)    = 0
+[          4614d0] close(3)             = 0
+[          462ec7] munmap(0x7f4dfeb87000, 4096) = 0
+[          461590] write(1, "..@ A BLACK AND WHITE POEM\n\ni se"..., 1685) = 1685
+[          4614d0] close(1)             = 0
+[          462ec7] munmap(0x7f4dfeb86000, 4096) = 0
+[          45f6b8] exit_group(4)        = ?

@@ -1,0 +1,817 @@
+[0x401799] __libc_start_main(0x4037f0, 4, 0x7fff7777bbf8, 0x4189a0, 0x418a30 <unfinished ...>
+[0x403839] strrchr("target5", '/')               = NULL
+[0x4038b8] setlocale(6, "")                      = "en_US.UTF-8"
+[0x4038c7] bindtextdomain("grep", "/nfs/spectre/u4/jin/research/exp"...) = "/nfs/spectre/u4/jin/research/exp"...
+[0x4038d1] textdomain("grep")                    = "grep"
+[0x4038db] getenv("GREP_OPTIONS")                = NULL
+[0x403ed4] getopt_long(4, 0x7fff7777bbf8, "0123456789A:B:C::EFGHIUVX:abcd:e"..., 0x0061d1e0, NULL) = 69
+[0x403ed4] getopt_long(4, 0x7fff7777bbf8, "0123456789A:B:C::EFGHIUVX:abcd:e"..., 0x0061d1e0, NULL) = -1
+[0x403537] strcmp("egrep", "default")            = 1
+[0x403537] strcmp("egrep", "grep")               = -2
+[0x403537] strcmp("egrep", "egrep")              = 0
+[0x40cb12] strcmp("egrep", "awk")                = 4
+[0x401911] malloc(1280)                          = 0x023c3090
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x40d513] __ctype_b_loc()                       = 0x7fe46c31e6b8
+[0x401911] malloc(32)                            = 0x023c35a0
+[0x412e46] free(0x023c3090)                      = <void>
+[0x4041de] malloc(32)                            = 0x023c3090
+[0x4041de] malloc(4)                             = 0x023c30c0
+[0x404224] realloc(0x023c30c0, 8)                = 0x023c30c0
+[0x404224] realloc(0x023c30c0, 16)               = 0x023c30c0
+[0x409e60] malloc(128)                           = 0x023c30e0
+[0x409ef1] malloc(8)                             = 0x023c3170
+[0x409f0e] malloc(2)                             = 0x023c3190
+[0x409f2c] malloc(2)                             = 0x023c31b0
+[0x409f4a] malloc(2)                             = 0x023c31d0
+[0x409ef1] malloc(8)                             = 0x023c31f0
+[0x409f0e] malloc(2)                             = 0x023c3210
+[0x409f2c] malloc(2)                             = 0x023c3230
+[0x409f4a] malloc(2)                             = 0x023c3250
+[0x409ef1] malloc(8)                             = 0x023c3270
+[0x409f0e] malloc(2)                             = 0x023c3290
+[0x409f2c] malloc(2)                             = 0x023c32b0
+[0x409f4a] malloc(2)                             = 0x023c32d0
+[0x409ef1] malloc(8)                             = 0x023c32f0
+[0x409f0e] malloc(2)                             = 0x023c3310
+[0x409f2c] malloc(2)                             = 0x023c3330
+[0x409f4a] malloc(2)                             = 0x023c3350
+[0x409777] malloc(2)                             = 0x023c3370
+[0x4097c7] strcpy(0x023c3370, "?")               = 0x023c3370
+[0x409a75] realloc(0x023c3170, 16)               = 0x023c3170
+[0x40a42a] strcmp("?", "?")                      = 0
+[0x40a78f] malloc(24)                            = 0x023c3390
+[0x40a7d5] malloc(2)                             = 0x023c33b0
+[0x40a7f7] strcpy(0x023c33b0, "?")               = 0x023c33b0
+[0x4098be] free(0x023c3370)                      = <void>
+[0x409888] free(0x023c3170)                      = <void>
+[0x409888] free(0x023c3190)                      = <void>
+[0x409888] free(0x023c31b0)                      = <void>
+[0x409888] free(0x023c31d0)                      = <void>
+[0x409888] free(0x023c31f0)                      = <void>
+[0x409888] free(0x023c3210)                      = <void>
+[0x409888] free(0x023c3230)                      = <void>
+[0x409888] free(0x023c3250)                      = <void>
+[0x409888] free(0x023c3270)                      = <void>
+[0x409888] free(0x023c3290)                      = <void>
+[0x409888] free(0x023c32b0)                      = <void>
+[0x409888] free(0x023c32d0)                      = <void>
+[0x409888] free(0x023c32f0)                      = <void>
+[0x409888] free(0x023c3310)                      = <void>
+[0x409888] free(0x023c3330)                      = <void>
+[0x409888] free(0x023c3350)                      = <void>
+[0x40a8ce] free(0x023c30e0)                      = <void>
+[0x4041de] malloc(8)                             = 0x023c3350
+[0x4041de] malloc(8)                             = 0x023c3330
+[0x4041de] malloc(16)                            = 0x023c3310
+[0x4041de] malloc(8)                             = 0x023c32f0
+[0x4041de] malloc(16)                            = 0x023c32d0
+[0x4041de] malloc(12)                            = 0x023c32b0
+[0x4041de] malloc(16)                            = 0x023c3290
+[0x4041a3] calloc(3, 16)                         = 0x023c30e0
+[0x4041de] malloc(8)                             = 0x023c3270
+[0x4041de] malloc(8)                             = 0x023c3250
+[0x4041de] malloc(12)                            = 0x023c3230
+[0x406f30] free(0x023c3230)                      = <void>
+[0x4041de] malloc(12)                            = 0x023c3230
+[0x406f30] free(0x023c3230)                      = <void>
+[0x4041de] malloc(12)                            = 0x023c3230
+[0x406f30] free(0x023c3230)                      = <void>
+[0x4041de] malloc(32)                            = 0x023c3120
+[0x4041de] malloc(8)                             = 0x023c3230
+[0x407a45] free(0x023c3350)                      = <void>
+[0x407a51] free(0x023c3330)                      = <void>
+[0x407a5d] free(0x023c3310)                      = <void>
+[0x407a69] free(0x023c32f0)                      = <void>
+[0x407a75] free(0x023c32d0)                      = <void>
+[0x407a81] free(0x023c32b0)                      = <void>
+[0x407a90] free(0x023c3290)                      = <void>
+[0x401911] malloc(2440)                          = 0x023c35d0
+[0x40a92b] _obstack_begin(0x23c35d0, 0, 0, 0x4018f9, 0x401410 <unfinished ...>
+[0x401911] malloc(4064)                          = 0x023c3f60
+[0x40a92b] <... _obstack_begin resumed> )        = 1
+[0x4040e7] strcmp("../inputs/grep1.dat", "-")    = 1
+[0x402e37] open("../inputs/grep1.dat", 0, 00)    = 3
+[0x401bd7] getpagesize()                         = 4096
+[0x401a6f] malloc(45056)                         = 0x023c4f50
+[0x401d33] __fxstat(1, 3, 0x0061d808)            = 0
+[0x4020b3] memmove(0x23c7000, 0x23c5000, 0, 0x23c5000, 3) = 0x23c7000
+[0x402213] read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+[0x402a9f] memchr("/* grep.c - main driver file for"..., '\000', 32768) = NULL
+[0x40bc2b] memchr("/* grep.c - main driver file for"..., '?', 32740) = 0x023c77f6
+[0x40cdf3] memchr("? (A) : (B))\n\n/* Provide missing"..., '\n', 30702) = 0x023c7802
+[0x4024d9] fwrite("#define MAX(A,B) ((A) > (B) ? (A"..., 1, 41, 0x7fe46c111260) = 41
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\n/* Provide missing ANSI feature"..., '?', 30689) = 0x023c78a2
+[0x40cdf3] memchr("? sys_errlist[(E)] : "bogus erro"..., '\n', 30530) = 0x023c78cc
+[0x4024d9] fwrite("#define strerror(E) ((E) < sys_n"..., 1, 79, 0x7fe46c111260) = 79
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("#endif\n\n#ifndef HAVE_MEMCHR\n#ifd"..., '?', 30487) = 0x023c97bd
+[0x40cdf3] memchr("? lastout : bufbeg;\n      for (i"..., '\n', 22567) = 0x023c97d0
+[0x4024d9] fwrite("      bp = lastout ? lastout : b"..., 1, 39, 0x7fe46c111260) = 39
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("      for (i = 0; i < out_before"..., '?', 22547) = 0x023cac98
+[0x40cdf3] memchr("? fopen(optarg, "r") : stdin;\n\ti"..., '\n', 17228) = 0x023cacb5
+[0x4024d9] fwrite("\tfp = strcmp(optarg, "-") != 0 ?"..., 1, 61, 0x7fe46c111260) = 61
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\tif (!fp)\n\t  fatal(optarg, errno"..., '?', 17198) = 0x023cb30f
+[0x40cdf3] memchr("? open(argv[optind], O_RDONLY) :"..., '\n', 15573) = 0x023cb332
+[0x4024d9] fwrite("\tdesc = strcmp(argv[optind], "-""..., 1, 70, 0x7fe46c111260) = 70
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\tif (desc < 0)\n\t  {\n\t    if (!su"..., '?', 15537) = 0x023cb3af
+[0x40cdf3] memchr("? "(standard input)" : argv[opti"..., '\n', 15413) = 0x023cb3d3
+[0x4024d9] fwrite("\t    filename = desc == 0 ? "(st"..., 1, 63, 0x7fe46c111260) = 63
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t    count = grep(desc);\n\t    if"..., '?', 15376) = 0x023cb66c
+[0x40cdf3] memchr("? 2 : status);\n}\n/* Getopt for G"..., '\n', 14712) = 0x023cb67a
+[0x4024d9] fwrite("  exit(errseen ? 2 : status);\n}\n"..., 1, 30, 0x7fe46c111260) = 30
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("}\n/* Getopt for GNU.\n   NOTE: ge"..., '?', 14697) = 0x023cca13
+[0x40cdf3] memchr("?';\n\n/* Describe how to deal wit"..., '\n', 9681) = 0x023cca16
+[0x4024d9] fwrite("int optopt = '?';\n\n/* Describe h"..., 1, 18, 0x7fe46c111260) = 18
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\n/* Describe how to deal with op"..., '?', 9677) = 0x023cdca2
+[0x40cdf3] memchr("?' after printing an error messa"..., '\n', 4930) = 0x023cdcdd
+[0x4024d9] fwrite("   return '?' after printing an "..., 1, 71, 0x7fe46c111260) = 71
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("   zero, the error message is su"..., '?', 4870) = 0x023cdd1c
+[0x40cdf3] memchr("?'.\n\n   If a char in OPTSTRING i"..., '\n', 4808) = 0x023cdd1f
+[0x4024d9] fwrite("   zero, the error message is su"..., 1, 66, 0x7fe46c111260) = 66
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\n   If a char in OPTSTRING is fo"..., '?', 4804) = NULL
+[0x4020b3] memmove(0x23c6fe4, 0x23cefe4, 28, 0x23cefe4, 0x7fe46c111260) = 0x23c6fe4
+[0x402213] read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+[0x40bc2b] memchr("      && ((argv[optind][0] == '-"..., '?', 32789) = 0x023c7447
+[0x40cdf3] memchr("?';\n\t}\n\n      if (pfound != NULL"..., '\n', 31666) = 0x023c744a
+[0x4024d9] fwrite("\t  return '?';\n\t}\n\n      if (pfo"..., 1, 15, 0x7fe46c111260) = 15
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t}\n\n      if (pfound != NULL)\n\t{"..., '?', 31662) = 0x023c76e9
+[0x40cdf3] memchr("?';\n\t\t}\n\t    }\n\t  else if (pfoun"..., '\n', 30992) = 0x023c76ec
+[0x4024d9] fwrite("\t\t  return '?';\n\t\t}\n\t    }\n\t  el"..., 1, 16, 0x7fe46c111260) = 16
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t\t}\n\t    }\n\t  else if (pfound->h"..., '?', 30988) = 0x023c781d
+[0x40cdf3] memchr("? ':' : '?';\n\t\t}\n\t    }\n\t  nextc"..., '\n', 30684) = 0x023c7829
+[0x4024d9] fwrite("\t\t  return optstring[0] == ':' ?"..., 1, 44, 0x7fe46c111260) = 44
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t\t}\n\t    }\n\t  nextchar += strlen"..., '?', 30671) = 0x023c7bde
+[0x40cdf3] memchr("?';\n\t}\n    }\n\n  /* Look at and h"..., '\n', 29723) = 0x023c7be1
+[0x4024d9] fwrite("\t  return '?';\n\t}\n    }\n\n  /* Lo"..., 1, 15, 0x7fe46c111260) = 15
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t}\n    }\n\n  /* Look at and handl"..., '?', 29719) = 0x023c7e98
+[0x40cdf3] memchr("?';\n      }\n    if (temp[1] == '"..., '\n', 29025) = 0x023c7e9b
+[0x4024d9] fwrite("\treturn '?';\n      }\n    if (tem"..., 1, 13, 0x7fe46c111260) = 13
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("      }\n    if (temp[1] == ':')\n"..., '?', 29021) = 0x023c822e
+[0x40cdf3] memchr("?';\n\t      }\n\t    else\n\t      /*"..., '\n', 28107) = 0x023c8231
+[0x4024d9] fwrite("\t\t  c = '?';\n\t      }\n\t    else\n"..., 1, 13, 0x7fe46c111260) = 13
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t      }\n\t    else\n\t      /* We "..., '?', 28103) = 0x023c851f
+[0x40cdf3] memchr("? optind : 1;\n\n      c = getopt "..., '\n', 27354) = 0x023c852c
+[0x4024d9] fwrite("      int this_option_optind = o"..., 1, 52, 0x7fe46c111260) = 52
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\n      c = getopt (argc, argv, ""..., '?', 27340) = 0x023c877e
+[0x40cdf3] memchr("?':\n\t  break;\n\n\tdefault:\n\t  prin"..., '\n', 26747) = 0x023c8781
+[0x4024d9] fwrite("\tcase '?':\n\t  break;\n\n\tdefault:\n"..., 1, 11, 0x7fe46c111260) = 11
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t  break;\n\n\tdefault:\n\t  printf ("..., '?', 26743) = 0x023c87a3
+[0x40cdf3] memchr("?? getopt returned character cod"..., '\n', 26710) = 0x023c87d3
+[0x4024d9] fwrite("\t  printf ("?? getopt returned c"..., 1, 61, 0x7fe46c111260) = 61
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t}\n    }\n\n  if (optind < argc)\n "..., '?', 26661) = 0x023c9cca
+[0x40cdf3] memchr("?  If REGEX_MALLOC is not define"..., '\n', 21295) = 0x023c9cef
+[0x4024d9] fwrite("/* Should we use malloc or alloc"..., 1, 71, 0x7fe46c111260) = 71
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("   use `alloca' instead of `mall"..., '?', 21257) = 0x023ca4fd
+[0x40cdf3] memchr("? (a) : (b))\n#define MIN(a, b) ("..., '\n', 19196) = 0x023ca509
+[0x4024d9] fwrite("#define MAX(a, b) ((a) > (b) ? ("..., 1, 42, 0x7fe46c111260) = 42
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("#define MIN(a, b) ((a) < (b) ? ("..., '?', 19183) = 0x023ca527
+[0x40cdf3] memchr("? (a) : (b))\n\ntypedef char boole"..., '\n', 19154) = 0x023ca533
+[0x4024d9] fwrite("#define MIN(a, b) ((a) < (b) ? ("..., 1, 42, 0x7fe46c111260) = 42
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\ntypedef char boolean;\n#define f"..., '?', 19141) = 0x023ccd6f
+[0x40cdf3] memchr("? "^" : "");\n            \n      "..., '\n', 8842) = 0x023ccd7b
+[0x4024d9] fwrite("\t            (re_opcode_t) *(p -"..., 1, 64, 0x7fe46c111260) = 64
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("            \n            assert "..., '?', 8829) = 0x023cce34
+[0x40cdf3] memchr("?  */\n\t\t  if (last + 1 == c && !"..., '\n', 8645) = 0x023cce39
+[0x4024d9] fwrite("\t\t  /* Are we starting a range? "..., 1, 36, 0x7fe46c111260) = 36
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t\t  if (last + 1 == c && ! in_ra"..., '?', 8639) = 0x023cceb9
+[0x40cdf3] memchr("?  */\n\t\t  else if (last + 1 != c"..., '\n', 8512) = 0x023ccebe
+[0x4024d9] fwrite("\t\t  /* Have we broken a range?  "..., 1, 35, 0x7fe46c111260) = 35
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t\t  else if (last + 1 != c && in"..., '?', 8506) = 0x023cdb10
+[0x40cdf3] memchr("?%d", *(p-1));\n\t}\n\n      putchar"..., '\n', 5353) = 0x023cdb1e
+[0x4024d9] fwrite("          printf ("?%d", *(p-1))"..., 1, 34, 0x7fe46c111260) = 34
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t}\n\n      putchar ('\\n');\n    }\n"..., '?', 5338) = 0x023cde97
+[0x40cdf3] memchr("?  */\n}\n\n\nvoid\nprint_double_stri"..., '\n', 4450) = 0x023cde9c
+[0x4024d9] fwrite("  /* Perhaps we should print the"..., 1, 54, 0x7fe46c111260) = 54
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("}\n\n\nvoid\nprint_double_string (wh"..., '?', 4444) = 0x023cee00
+[0x40cdf3] memchr("? translate[(unsigned char) (d)]"..., '\n', 505) = 0x023cee27
+[0x4024d9] fwrite("#define TRANSLATE(d) (translate "..., 1, 72, 0x7fe46c111260) = 72
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\n\n/* Macros for outputting the c"..., '?', 465) = NULL
+[0x4020b3] memmove(0x23c6ff9, 0x23ceff9, 7, 0x23ceff9, 0x7fe46c111260) = 0x23c6ff9
+[0x402213] read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+[0x40bc2b] memchr("    GET_BUFFER_SPACE (1);\t\t\t\t\t\t\\"..., '?', 32737) = 0x023c99e2
+[0x40cdf3] memchr("?':\n          if ((syntax & RE_B"..., '\n', 22008) = 0x023c99e5
+[0x4024d9] fwrite("        case '?':\n          if ("..., 1, 18, 0x7fe46c111260) = 18
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("          if ((syntax & RE_BK_PL"..., '?', 22004) = 0x023c9bcf
+[0x40cdf3] memchr("?  */\n            boolean keep_s"..., '\n', 21515) = 0x023c9bd4
+[0x4024d9] fwrite("            /* Are we optimizing"..., 1, 48, 0x7fe46c111260) = 48
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("            boolean keep_string_"..., '?', 21509) = 0x023c9e0d
+[0x40cdf3] memchr("?';\n\n                if (p == pe"..., '\n', 20941) = 0x023c9e10
+[0x4024d9] fwrite("                many_times_ok |="..., 1, 43, 0x7fe46c111260) = 43
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\n                if (p == pend)\n"..., '?', 20937) = 0x023c9ecf
+[0x40cdf3] memchr("?')))\n                  ;\n\n     "..., '\n', 20747) = 0x023c9ed4
+[0x4024d9] fwrite("                    || (!(syntax"..., 1, 78, 0x7fe46c111260) = 78
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("                  ;\n\n           "..., '?', 20741) = 0x023c9fc7
+[0x40cdf3] memchr("?'))\n                      {\n   "..., '\n', 20499) = 0x023c9fcb
+[0x4024d9] fwrite("                    if (!(c1 == "..., 1, 51, 0x7fe46c111260) = 51
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("                      {\n        "..., '?', 20494) = 0x023ca6f5
+[0x40cdf3] memchr("?  */\n                if (TRANSL"..., '\n', 18661) = 0x023ca6fa
+[0x4024d9] fwrite("                   for null byte"..., 1, 67, 0x7fe46c111260) = 67
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("                if (TRANSLATE (*"..., '?', 18655) = 0x023caa1e
+[0x40cdf3] memchr("? on_failure_keep_string_jump\n  "..., '\n', 17852) = 0x023caa3b
+[0x4024d9] fwrite("            INSERT_JUMP (keep_st"..., 1, 69, 0x7fe46c111260) = 69
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("                                "..., '?', 17822) = 0x023caf25
+[0x40cdf3] memchr("? charset_not : charset); \n     "..., '\n', 16565) = 0x023caf3f
+[0x4024d9] fwrite("            BUF_PUSH (*p == '^' "..., 1, 59, 0x7fe46c111260) = 59
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("            if (*p == '^')\n     "..., '?', 16538) = 0x023cd0a8
+[0x40cdf3] memchr("? fixup_alt_jump - bufp->buffer "..., '\n', 7986) = 0x023cd0d0
+[0x4024d9] fwrite("                = fixup_alt_jump"..., 1, 74, 0x7fe46c111260) = 74
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("              COMPILE_STACK_TOP."..., '?', 7945) = 0x023cdb8e
+[0x40cdf3] memchr("? bufp->buffer + COMPILE_STACK_T"..., '\n', 5196) = 0x023cdbc4
+[0x4024d9] fwrite("                    ? bufp->buff"..., 1, 75, 0x7fe46c111260) = 75
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("                    : 0;\n       "..., '?', 5141) = NULL
+[0x4020b3] memmove(0x23c6fda, 0x23cefda, 38, 0x23cefda, 0x7fe46c111260) = 0x23c6fda
+[0x402213] read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+[0x40bc2b] memchr("                    else if (syn"..., '?', 32802) = 0x023c89a9
+[0x40cdf3] memchr("?':\n              if (syntax & R"..., '\n', 26195) = 0x023c89ac
+[0x4024d9] fwrite("            case '?':\n          "..., 1, 22, 0x7fe46c111260) = 22
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("              if (syntax & RE_BK"..., '?', 26191) = 0x023c8da5
+[0x40cdf3] memchr("? *p == '\\\\' && (p[1] == '+' || "..., '\n', 25175) = 0x023c8dd1
+[0x4024d9] fwrite("\t\t  ? *p == '\\\\' && (p[1] == '+'"..., 1, 49, 0x7fe46c111260) = 49
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t\t  : (*p == '+' || *p == '?'))\n"..., '?', 25130) = 0x023c8ded
+[0x40cdf3] memchr("?'))\n\t      || ((syntax & RE_INT"..., '\n', 25103) = 0x023c8df1
+[0x4024d9] fwrite("\t\t  : (*p == '+' || *p == '?'))\n"..., 1, 32, 0x7fe46c111260) = 32
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t      || ((syntax & RE_INTERVAL"..., '?', 25098) = 0x023c8e4e
+[0x40cdf3] memchr("? *p == '{'\n                    "..., '\n', 25006) = 0x023c8e59
+[0x4024d9] fwrite("\t\t      ? *p == '{'\n            "..., 1, 20, 0x7fe46c111260) = 20
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("                      : (p[0] =="..., '?', 24994) = 0x023c98a1
+[0x40cdf3] memchr("?  */\n       (*prev == '(' && (s"..., '\n', 22363) = 0x023c98a6
+[0x4024d9] fwrite("       /* After a subexpression?"..., 1, 37, 0x7fe46c111260) = 37
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("       (*prev == '(' && (syntax "..., '?', 22357) = 0x023c9910
+[0x40cdf3] memchr("?  */\n    || (*prev == '|' && (s"..., '\n', 22252) = 0x023c9915
+[0x4024d9] fwrite("       /* After an alternative? "..., 1, 36, 0x7fe46c111260) = 36
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("    || (*prev == '|' && (syntax "..., '?', 22246) = 0x023c9ab2
+[0x40cdf3] memchr("? p + 1 : NULL;\n  \n  return\n    "..., '\n', 21834) = 0x023c9ac1
+[0x4024d9] fwrite("  const char *next_next = p + 1 "..., 1, 55, 0x7fe46c111260) = 55
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("  \n  return\n       /* Before a s"..., '?', 21818) = 0x023c9aee
+[0x40cdf3] memchr("?  */\n       (syntax & RE_NO_BK_"..., '\n', 21774) = 0x023c9af3
+[0x4024d9] fwrite("       /* Before a subexpression"..., 1, 38, 0x7fe46c111260) = 38
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("       (syntax & RE_NO_BK_PARENS"..., '?', 21768) = 0x023c9b15
+[0x40cdf3] memchr("? *next == ')'\n        : next_ba"..., '\n', 21735) = 0x023c9b23
+[0x4024d9] fwrite("       (syntax & RE_NO_BK_PARENS"..., 1, 48, 0x7fe46c111260) = 48
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("        : next_backslash && next"..., '?', 21720) = 0x023c9b7f
+[0x40cdf3] memchr("?  */\n    || (syntax & RE_NO_BK_"..., '\n', 21629) = 0x023c9b84
+[0x4024d9] fwrite("       /* Before an alternative?"..., 1, 37, 0x7fe46c111260) = 37
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("    || (syntax & RE_NO_BK_VBAR ?"..., '?', 21623) = 0x023c9ba4
+[0x40cdf3] memchr("? *next == '|'\n        : next_ba"..., '\n', 21592) = 0x023c9bb2
+[0x4024d9] fwrite("    || (syntax & RE_NO_BK_VBAR ?"..., 1, 46, 0x7fe46c111260) = 46
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("        : next_backslash && next"..., '?', 21577) = 0x023ca380
+[0x40cdf3] memchr("? REG_ERANGE : REG_NOERROR;\n\n  /"..., '\n', 19580) = 0x023ca39b
+[0x4024d9] fwrite("    return syntax & RE_NO_EMPTY_"..., 1, 67, 0x7fe46c111260) = 67
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\n  /* Here we see why `this_char"..., '?', 19552) = 0x023caca8
+[0x40cdf3] memchr("? 0\t\t\t\t\t\t\t\t\t\\\n   : ((fail_stack)"..., '\n', 17236) = 0x023cacb5
+[0x4024d9] fwrite("   ? 0\t\t\t\t\t\t\t\t\t\\\n   : ((fail_sta"..., 1, 17, 0x7fe46c111260) = 17
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("   : ((fail_stack).stack = (fail"..., '?', 17222) = 0x023cadd6
+[0x40cdf3] memchr("? 0\t\t\t\t\t\t\t\t\\\n      : ((fail_stac"..., '\n', 16934) = 0x023cade2
+[0x4024d9] fwrite("      ? 0\t\t\t\t\t\t\t\t\\\n      : ((fai"..., 1, 19, 0x7fe46c111260) = 19
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("      : ((fail_stack).size <<= 1"..., '?', 16921) = 0x023caf24
+[0x40cdf3] memchr("? 0\t\t\t\t\t\t\t\t\t\\\n    : ((fail_stack"..., '\n', 16600) = 0x023caf31
+[0x4024d9] fwrite("    ? 0\t\t\t\t\t\t\t\t\t\\\n    : ((fail_s"..., 1, 18, 0x7fe46c111260) = 18
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("    : ((fail_stack).stack[(fail_"..., '?', 16586) = 0x023ce487
+[0x40cdf3] memchr("?)?', `p+j' here points to the\n "..., '\n', 2933) = 0x023ce4a5
+[0x4024d9] fwrite("          /* For some patterns, "..., 1, 72, 0x7fe46c111260) = 72
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("             end of the pattern."..., '?', 2902) = NULL
+[0x4020b3] memmove(0x23c6ffc, 0x23ceffc, 4, 0x23ceffc, 0x7fe46c111260) = 0x23c6ffc
+[0x402213] read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+[0x40bc2b] memchr("    }\n  else\n    {\n      bufp->r"..., '?', 32752) = 0x023c7cee
+[0x40cdf3] memchr("? string2 - size1 : string1) + s"..., '\n', 29438) = 0x023c7d16
+[0x4024d9] fwrite("\t      d = (startpos >= size1 ? "..., 1, 71, 0x7fe46c111260) = 71
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("   \n              /* Written out"..., '?', 29397) = 0x023c7f5a
+[0x40cdf3] memchr("? string2[startpos - size1] \n   "..., '\n', 28818) = 0x023c7f76
+[0x4024d9] fwrite("                                "..., 1, 62, 0x7fe46c111260) = 62
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("                                "..., '?', 28789) = 0x023c8b04
+[0x40cdf3] memchr("? (ptr) - string1 : (ptr) - stri"..., '\n', 25832) = 0x023c8b30
+[0x4024d9] fwrite("  (FIRST_STRING_P (ptr) ? (ptr) "..., 1, 69, 0x7fe46c111260) = 69
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\n/* Registers are set to a senti"..., '?', 25787) = 0x023c8e9e
+[0x40cdf3] memchr("? string1 : string2) || !size2)\n"..., '\n', 24910) = 0x023c8ebd
+[0x4024d9] fwrite("#define AT_STRINGS_BEG(d) ((d) ="..., 1, 73, 0x7fe46c111260) = 73
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("#define AT_STRINGS_END(d) ((d) ="..., '?', 24878) = 0x023c9025
+[0x40cdf3] memchr("? *string2\t\t\t\t\t\\\n           : (d"..., '\n', 24519) = 0x023c9035
+[0x4024d9] fwrite("  (SYNTAX ((d) == end1 ? *string"..., 1, 40, 0x7fe46c111260) = 40
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("           : (d) == string2 - 1 "..., '?', 24502) = 0x023c9056
+[0x40cdf3] memchr("? *(end1 - 1) : *(d))\t\t\t\\\n   == "..., '\n', 24470) = 0x023c906f
+[0x4024d9] fwrite("           : (d) == string2 - 1 "..., 1, 58, 0x7fe46c111260) = 58
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("   == Sword)\n\n/* Test if the cha"..., '?', 24444) = 0x023cc27d
+[0x40cdf3] memchr("? end_match_1 : end_match_2);\n\n\t"..., '\n', 11631) = 0x023cc29a
+[0x4024d9] fwrite("\t\t           ? end_match_1 : end"..., 1, 43, 0x7fe46c111260) = 43
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\n\t\t  for (mcnt = 1; mcnt < num_r"..., '?', 11601) = 0x023cc446
+[0x40cdf3] memchr("?  */\n              if (bufp->re"..., '\n', 11174) = 0x023cc44b
+[0x4024d9] fwrite("              /* Have the regist"..., 1, 67, 0x7fe46c111260) = 67
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("              if (bufp->regs_all"..., '?', 11168) = 0x023ccb7a
+[0x40cdf3] memchr("? d - string1\n\t\t\t          : d -"..., '\n', 9330) = 0x023ccb87
+[0x4024d9] fwrite("                  regs->end[0] ="..., 1, 73, 0x7fe46c111260) = 73
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t\t\t          : d - string2 + siz"..., '?', 9316) = 0x023cd16b
+[0x40cdf3] memchr("? string1 \n\t\t\t    : string2 - si"..., '\n', 7809) = 0x023cd175
+[0x4024d9] fwrite("\t\t\t    ? string1 \n\t\t\t    : strin"..., 1, 18, 0x7fe46c111260) = 18
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t\t\t    : string2 - size1);\n\n    "..., '?', 7798) = 0x023cd8b5
+[0x40cdf3] memchr("? "_not" : "");\n\n\t    PREFETCH ("..., '\n', 5943) = 0x023cd8c4
+[0x4024d9] fwrite("            DEBUG_PRINT2 ("EXECU"..., 1, 72, 0x7fe46c111260) = 72
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\n\t    PREFETCH ();\n\t    c = TRAN"..., '?', 5927) = 0x023cdf3c
+[0x40cdf3] memchr("? REG_UNSET (regstart[*p]) ? d :"..., '\n', 4272) = 0x023cdf69
+[0x4024d9] fwrite("                             ? R"..., 1, 75, 0x7fe46c111260) = 75
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("                             : r"..., '?', 4226) = 0x023ce525
+[0x40cdf3] memchr("? REG_UNSET (regend[*p]) ? d : r"..., '\n', 2759) = 0x023ce54e
+[0x4024d9] fwrite("                           ? REG"..., 1, 69, 0x7fe46c111260) = 69
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t\t\t   : regend[*p];\n\t  DEBUG_PRI"..., '?', 2717) = NULL
+[0x4020b3] memmove(0x23c6fec, 0x23cefec, 20, 0x23cefec, 0x7fe46c111260) = 0x23c6fec
+[0x402213] read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+[0x40bc2b] memchr("                    /* do nothin"..., '?', 32767) = 0x023c7615
+[0x40cdf3] memchr("?  */\n                          "..., '\n', 31190) = 0x023c761a
+[0x4024d9] fwrite("                          /* xx "..., 1, 51, 0x7fe46c111260) = 51
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("                          if ((i"..., '?', 31184) = 0x023c7be3
+[0x40cdf3] memchr("? regend[regno] : end_match_1);\n"..., '\n', 29704) = 0x023c7c02
+[0x4024d9] fwrite("\t\t     ? regend[regno] : end_mat"..., 1, 39, 0x7fe46c111260) = 39
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t    for (;;)\n\t      {\n\t\t/* If n"..., '?', 29672) = 0x023c7fb2
+[0x40cdf3] memchr("? bcmp_translate (d, d2, mcnt, t"..., '\n', 28729) = 0x023c7fdc
+[0x4024d9] fwrite("                    ? bcmp_trans"..., 1, 63, 0x7fe46c111260) = 63
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("                    : bcmp (d, d"..., '?', 28686) = 0x023c83a3
+[0x40cdf3] memchr("? *string2 : *d) == '\\n'\n       "..., '\n', 27720) = 0x023c83bb
+[0x4024d9] fwrite("          else if ((d == end1 ? "..., 1, 55, 0x7fe46c111260) = 55
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("                   && bufp->newl"..., '?', 27695) = 0x023c9b2a
+[0x40cdf3] memchr("? '\\n' : p2[2];\n\t\tp1 = p + mcnt;"..., '\n', 21697) = 0x023c9b39
+[0x4024d9] fwrite("                  = *p2 == (unsi"..., 1, 67, 0x7fe46c111260) = 67
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t\tp1 = p + mcnt;\n\n              "..., '?', 21681) = NULL
+[0x4020b3] memmove(0x23c6feb, 0x23cefeb, 21, 0x23cefeb, 0x7fe46c111260) = 0x23c6feb
+[0x402213] read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+[0x40bc2b] memchr("regcomp (preg, pattern, cflags)\n"..., '?', 32728) = 0x023c708f
+[0x40cdf3] memchr("?\n      RE_SYNTAX_POSIX_EXTENDED"..., '\n', 32564) = 0x023c7090
+[0x4024d9] fwrite("    = (cflags & REG_EXTENDED) ?\n"..., 1, 32, 0x7fe46c111260) = 32
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("      RE_SYNTAX_POSIX_EXTENDED :"..., '?', 32562) = 0x023c73ac
+[0x40cdf3] memchr("? tolower (i) : i;\n    }\n  else\n"..., '\n', 31767) = 0x023c73be
+[0x4024d9] fwrite("        preg->translate[i] = ISU"..., 1, 60, 0x7fe46c111260) = 60
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("    }\n  else\n    preg->translate"..., '?', 31748) = 0x023c7d80
+[0x40cdf3] memchr("? &regs : (struct re_registers *"..., '\n', 29251) = 0x023c7da5
+[0x4024d9] fwrite("                   want_reg_info"..., 1, 71, 0x7fe46c111260) = 71
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("  \n  /* Copy the register inform"..., '?', 29213) = 0x023c7fb8
+[0x40cdf3] memchr("? (int) REG_NOERROR : (int) REG_"..., '\n', 28683) = 0x023c7fe0
+[0x4024d9] fwrite("  return ret >= 0 ? (int) REG_NO"..., 1, 59, 0x7fe46c111260) = 59
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("}\n\n\n/* Returns a message corresp"..., '?', 28642) = 0x023caaca
+[0x40cdf3] memchr("? lexleft > 0 && *lexptr == ')'\n"..., '\n', 17657) = 0x023caae9
+[0x4024d9] fwrite("\t\t  ? lexleft > 0 && *lexptr == "..., 1, 36, 0x7fe46c111260) = 36
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t\t  : lexleft > 1 && lexptr[0] ="..., '?', 17625) = 0x023cab51
+[0x40cdf3] memchr("? lexleft > 0 && *lexptr == '|'\n"..., '\n', 17522) = 0x023cab70
+[0x4024d9] fwrite("\t\t  ? lexleft > 0 && *lexptr == "..., 1, 36, 0x7fe46c111260) = 36
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t\t  : lexleft > 1 && lexptr[0] ="..., '?', 17490) = 0x023cae7f
+[0x40cdf3] memchr("?':\n\t  if (syntax_bits & RE_LIMI"..., '\n', 16708) = 0x023cae82
+[0x4024d9] fwrite("\tcase '?':\n\t  if (syntax_bits & "..., 1, 11, 0x7fe46c111260) = 11
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t  if (syntax_bits & RE_LIMITED_"..., '?', 16704) = 0x023cdcea
+[0x40cdf3] memchr("? 1 : 0;\n  letter = letter ? 1 :"..., '\n', 4825) = 0x023cdcf2
+[0x4024d9] fwrite("  newline = newline ? 1 : 0;\n  l"..., 1, 29, 0x7fe46c111260) = 29
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("  letter = letter ? 1 : 0;\n\n  fo"..., '?', 4816) = 0x023cdd05
+[0x40cdf3] memchr("? 1 : 0;\n\n  for (i = 0; i < s->n"..., '\n', 4798) = 0x023cdd0d
+[0x4024d9] fwrite("  letter = letter ? 1 : 0;\n\n  fo"..., 1, 27, 0x7fe46c111260) = 27
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\n  for (i = 0; i < s->nelem; ++i"..., '?', 4789) = NULL
+[0x4020b3] memmove(0x23c6fc3, 0x23cefc3, 61, 0x23cefc3, 0x7fe46c111260) = 0x23c6fc3
+[0x402213] read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+[0x40bc2b] memchr("   * The lastpos of a CAT node i"..., '?', 32814) = 0x023c8842
+[0x40cdf3] memchr("? " nullable: yes\\n" : " nullabl"..., '\n', 26543) = 0x023c886c
+[0x4024d9] fwrite("      fprintf(stderr, nullable[-"..., 1, 78, 0x7fe46c111260) = 78
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("      fprintf(stderr, " firstpos"..., '?', 26500) = 0x023ca2da
+[0x40cdf3] memchr("? intersectf = 1 : 0;\n\t  if (! i"..., '\n', 19735) = 0x023ca2ef
+[0x4024d9] fwrite("\t    (intersect[k] = matches[k] "..., 1, 70, 0x7fe46c111260) = 70
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t  if (! intersectf)\n\t    contin"..., '?', 19713) = 0x023ca43c
+[0x40cdf3] memchr("? leftoversf = 1 : 0;\n\t      (ma"..., '\n', 19381) = 0x023ca451
+[0x4024d9] fwrite("\t      (leftovers[k] = ~match & "..., 1, 61, 0x7fe46c111260) = 61
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t      (matches[k] = match & ~la"..., '?', 19359) = 0x023ca477
+[0x40cdf3] memchr("? matchesf = 1 : 0;\n\t    }\n\n\t  /"..., '\n', 19322) = 0x023ca48a
+[0x4024d9] fwrite("\t      (matches[k] = match & ~la"..., 1, 57, 0x7fe46c111260) = 57
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t    }\n\n\t  /* If there were left"..., '?', 19302) = 0x023cd757
+[0x40cdf3] memchr("?\t(q->is==ZERO)?\t(p->is!=ZERO &&"..., '\n', 6298) = 0x023cd782
+[0x4024d9] fwrite("\tCAT\t(p->is==ZERO)?\t(q->is==ZERO"..., 1, 62, 0x7fe46c111260) = 62
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t\tp->left :\tq->right :\tq->is!=ZE"..., '?', 6254) = 0x023cd7a7
+[0x40cdf3] memchr("?\tq->in plus\n\t\tp->is##q->left\tp-"..., '\n', 6218) = 0x023cd7b3
+[0x4024d9] fwrite("\t\tp->left :\tq->right :\tq->is!=ZE"..., 1, 49, 0x7fe46c111260) = 49
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t\tp->is##q->left\tp->right##q->is"..., '?', 6205) = 0x023cd8cc
+[0x40cdf3] memchr("?\t\n\t\tand q->left\tand q->right\tp-"..., '\n', 5925) = 0x023cd8ce
+[0x4024d9] fwrite("\t\tof p->left\tof p->right\tcontent"..., 1, 37, 0x7fe46c111260) = 37
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t\tand q->left\tand q->right\tp->is"..., '?', 5922) = 0x023cda1f
+[0x40cdf3] memchr("?\n\n   And. . .is it here or some"..., '\n', 5586) = 0x023cda20
+[0x4024d9] fwrite("   'aaa')?\n\n   And. . .is it her"..., 1, 11, 0x7fe46c111260) = 11
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\n   And. . .is it here or somepl"..., '?', 5584) = 0x023cdbe7
+[0x40cdf3] memchr("?\n\n   Does optimization actually"..., '\n', 5130) = 0x023cdbe8
+[0x4024d9] fwrite("   Is optimization easy (enough)"..., 1, 34, 0x7fe46c111260) = 34
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\n   Does optimization actually a"..., '?', 5128) = 0x023cdc94
+[0x40cdf3] memchr("?\n  \n   Are optimizable r.e.'s l"..., '\n', 4957) = 0x023cdc95
+[0x4024d9] fwrite("   the same as the one you get f"..., 1, 57, 0x7fe46c111260) = 57
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("  \n   Are optimizable r.e.'s lik"..., '?', 4955) = 0x023cdd3b
+[0x40cdf3] memchr("? */\n\nstatic char *\nicatalloc(ol"..., '\n', 4790) = 0x023cdd3f
+[0x4024d9] fwrite("   'psi|epsilon' is likelier)? *"..., 1, 34, 0x7fe46c111260) = 34
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\nstatic char *\nicatalloc(old, ne"..., '?', 4785) = 0x023cddc8
+[0x40cdf3] memchr("? 0 : strlen(new);\n  if (old == "..., '\n', 4649) = 0x023cddda
+[0x4024d9] fwrite("  newsize = (new == NULL) ? 0 : "..., 1, 45, 0x7fe46c111260) = 45
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("  if (old == NULL)\n    oldsize ="..., '?', 4630) = 0x023ce2b9
+[0x40cdf3] memchr("? */\n  for (i = 0; cpp[i] != NUL"..., '\n', 3384) = 0x023ce2bd
+[0x4024d9] fwrite("  /* Is there already something "..., 1, 71, 0x7fe46c111260) = 71
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("  for (i = 0; cpp[i] != NULL; ++"..., '?', 3379) = NULL
+[0x4020b3] memmove(0x23c6ff1, 0x23ceff1, 15, 0x23ceff1, 0x7fe46c111260) = 0x23c6ff1
+[0x402213] read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+[0x40bc2b] memchr("  putc('\\n', stderr);\n#endif\n  f"..., '?', 32720) = 0x023c964a
+[0x40cdf3] memchr("? kwset->trans[(unsigned char) *"..., '\n', 22903) = 0x023c967c
+[0x4024d9] fwrite("      label = kwset->trans ? kws"..., 1, 78, 0x7fe46c111260) = 78
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\n      /* Descend the tree of ou"..., '?', 22852) = 0x023c9f3b
+[0x40cdf3] memchr("? 0 : -1;\n\t\t      r->balance = t"..., '\n', 20614) = 0x023c9f44
+[0x4024d9] fwrite("\t\t      l->balance = t->balance "..., 1, 47, 0x7fe46c111260) = 47
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t\t      r->balance = t->balance "..., '?', 20604) = 0x023c9f72
+[0x40cdf3] memchr("? 0 : 1;\n\t\t      t->balance = 0;"..., '\n', 20559) = 0x023c9f7a
+[0x4024d9] fwrite("\t\t      r->balance = t->balance "..., 1, 54, 0x7fe46c111260) = 54
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t\t      t->balance = 0;\n\t\t      "..., '?', 20550) = 0x023ca153
+[0x40cdf3] memchr("? 0 : -1;\n\t\t      r->balance = t"..., '\n', 20078) = 0x023ca15c
+[0x4024d9] fwrite("\t\t      l->balance = t->balance "..., 1, 47, 0x7fe46c111260) = 47
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t\t      r->balance = t->balance "..., '?', 20068) = 0x023ca18a
+[0x40cdf3] memchr("? 0 : 1;\n\t\t      t->balance = 0;"..., '\n', 20023) = 0x023ca192
+[0x4024d9] fwrite("\t\t      r->balance = t->balance "..., 1, 54, 0x7fe46c111260) = 54
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t\t      t->balance = 0;\n\t\t      "..., '?', 20014) = 0x023cc957
+[0x40cdf3] memchr("? trans[(unsigned char) *--beg] "..., '\n', 9834) = 0x023cc980
+[0x4024d9] fwrite("\t  c = trans ? trans[(unsigned c"..., 1, 55, 0x7fe46c111260) = 55
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t  tree = trie->links;\n\t  while "..., '?', 9792) = 0x023ccd32
+[0x40cdf3] memchr("? trans[(unsigned char) *--beg] "..., '\n', 8847) = 0x023ccd5b
+[0x4024d9] fwrite("\t  c = trans ? trans[(unsigned c"..., 1, 55, 0x7fe46c111260) = 55
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\t  tree = trie->links;\n\t  while "..., '?', 8805) = 0x023cde57
+[0x40cdf3] memchr("?:, since some compilers, like t"..., '\n', 4458) = 0x023cde89
+[0x4024d9] fwrite("   For free, do not use ?:, sinc"..., 1, 75, 0x7fe46c111260) = 75
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("   do not allow (expr) ? void : "..., '?', 4407) = 0x023cdea1
+[0x40cdf3] memchr("? void : void.  */\n\n#define CALL"..., '\n', 4384) = 0x023cdeb3
+[0x4024d9] fwrite("   do not allow (expr) ? void : "..., 1, 42, 0x7fe46c111260) = 42
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\n#define CALL_CHUNKFUN(h, size) "..., '?', 4365) = 0x023cdef5
+[0x40cdf3] memchr("? (*(h)->chunkfun) ((h)->extra_a"..., '\n', 4300) = 0x023cdf22
+[0x4024d9] fwrite("   ? (*(h)->chunkfun) ((h)->extr"..., 1, 49, 0x7fe46c111260) = 49
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("   : (*(h)->chunkfun) ((size)))\n"..., '?', 4254) = NULL
+[0x4020b3] memmove(0x23c6fc1, 0x23cefc1, 63, 0x23cefc1, 0x7fe46c111260) = 0x23c6fc1
+[0x402213] read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+[0x40bc2b] memchr("  new_chunk->limit = h->chunk_li"..., '?', 19338) = 0x023c9173
+[0x40cdf3] memchr("? tolower(C) : (C))\n\n/*#include "..., '\n', 10712) = 0x023c9186
+[0x4024d9] fwrite("#define TOLOWER(C) (ISUPPER(C) ?"..., 1, 51, 0x7fe46c111260) = 51
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("\n/*#include "grep.h"*/\n/*#includ"..., '?', 10692) = 0x023c9844
+[0x40cdf3] memchr("? trans : (char *) 0)))\n    fata"..., '\n', 8967) = 0x023c985b
+[0x4024d9] fwrite("  if (!(kwset = kwsalloc(match_i"..., 1, 61, 0x7fe46c111260) = 61
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("    fatal("memory exhausted", 0)"..., '?', 8943) = 0x023cb309
+[0x40cdf3] memchr("? end + 1 : end;\n  return beg;\n}"..., '\n', 2114) = 0x023cb319
+[0x4024d9] fwrite("  *endp = end < buflim ? end + 1"..., 1, 40, 0x7fe46c111260) = 40
+[0x4024e8] ferror(0x7fe46c111260)                = 0
+[0x40bc2b] memchr("  return beg;\n}\n\nstatic void\nFco"..., '?', 2097) = NULL
+[0x4020b3] memmove(0x23c6ffb, 0x23cbb4b, 5, 0x23cbb4b, 0x7fe46c111260) = 0x23c6ffb
+[0x402213] read(3, "", 32768)                    = 0
+[0x40bc2b] memchr(" if a\nize;\n\n  /* Move the existi"..., '?', 6) = NULL
+[0x40304f] close(3)                              = 0
+[0x404145] fclose(0x7fe46c111260)                = 0
+[0x404180] exit(0 <unfinished ...>
+[0xffffffffffffffff] +++ exited (status 0) +++

@@ -1,0 +1,11 @@
+[    7f2245aaf477] execve("../source/sed.exe.static", ["../source/sed.exe.static", "--quiet", "../inputs/default.in"], [/* 43 vars */]) = 0
+[          482af7] uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+[          48307a] brk(0)               = 0x9f9000
+[          48307a] brk(0x9fa1c0)        = 0x9fa1c0
+[          419935] arch_prctl(ARCH_SET_FS, 0x9f9880) = 0
+[          48307a] brk(0xa1b1c0)        = 0xa1b1c0
+[          48307a] brk(0xa1c000)        = 0xa1c000
+[          461424] fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+[          462eaa] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc984c3000
+[          461590] write(1, "Executable: -e expression #1, ch"..., 59) = 59
+[          45f6b8] exit_group(1)        = ?

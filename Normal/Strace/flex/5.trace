@@ -1,0 +1,35 @@
+[    7f98f5c01477] execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-s", "../inputs/in.code"], [/* 43 vars */]) = 0
+[          475337] uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+[          4767ca] brk(0)               = 0x787000
+[          4767ca] brk(0x7881c0)        = 0x7881c0
+[          414075] arch_prctl(ARCH_SET_FS, 0x787880) = 0
+[          4767ca] brk(0x7a91c0)        = 0x7a91c0
+[          4767ca] brk(0x7aa000)        = 0x7aa000
+[          435cd0] open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+[          435cd0] open("../inputs/in.code", O_RDONLY) = 4
+[          4767ca] brk(0x7cb000)        = 0x7cb000
+[          436137] ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff1a4680d8) = -1 ENOTTY (Inappropriate ioctl for device)
+[          435c34] fstat(4, {st_mode=S_IFREG|0640, st_size=185, ...}) = 0
+[          436fea] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1090914000
+[          435d90] read(4, "%%\n\n[\\a]\t\tprintf(\"Zero or more r"..., 8192) = 185
+[          435d90] read(4, "", 4096)    = 0
+[          435cd0] open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+[          4360c7] dup3(5, 1, 0)        = 1
+[          435d30] close(5)             = 0
+[          435c34] fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+[          436fea] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1090913000
+[          435df0] write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+[          435d90] read(4, "", 8192)    = 0
+[          436137] ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff1a468098) = -1 ENOTTY (Inappropriate ioctl for device)
+[          435c34] fstat(3, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+[          436fea] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1090912000
+[          435df0] write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+[          435df0] write(1, "    3,    3,    3,    3,    3,  "..., 4096) = 4096
+[          435df0] write(1, "output. */\n\n#ifndef ECHO\n/* This"..., 4096) = 4096
+[          435df0] write(1, "n.code\"\nprintf(\"over 256: %d\\n\","..., 4096) = 4096
+[          435df0] write(1, "rent_buffer->yy_ch_buf[yy_n_char"..., 4096) = 4096
+[          435df0] write(1, "f ( yy_accept[yy_current_state] "..., 4096) = 4096
+[          435df0] write(1, "= 1;\n\t}\n\n\n#ifdef YY_USE_PROTOS\nv"..., 4096) = 4096
+[          435df0] write(1, "uf[i] = bytes[i];\n\n\tbuf[len] = b"..., 3381) = 3381
+[          435df0] write(3, "\"../inputs/in.code\", line 7: war"..., 86) = 86
+[          435bc8] exit_group(0)        = ?

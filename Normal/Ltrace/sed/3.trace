@@ -1,0 +1,33 @@
+[0x401699] __libc_start_main(0x401926, 3, 0x7fff893ed008, 0x4197c0, 0x419850 <unfinished ...>
+[0x40193f] getenv("COLS")                        = NULL
+[0x401952] getenv("POSIXLY_CORRECT")             = NULL
+[0x401bf3] getopt_long(3, 0x7fff893ed008, "snrue:f:l:i::V:", 0x006202e0, NULL) = 86
+[0x40178a] fprintf(0x7f9e91714260, "Usage: %s [OPTION]... {script-on"..., "Executable") = 80
+[0x4017a8] fwrite("  -n, --quiet, --silent\n        "..., 1, 86, 0x7f9e91714260) = 86
+[0x4017c6] fwrite("  -e script, --expression=script"..., 1, 96, 0x7f9e91714260) = 96
+[0x4017e4] fwrite("  -f script-file, --file=script-"..., 1, 117, 0x7f9e91714260) = 117
+[0x401802] fwrite("  -i[SUFFIX], --in-place[=SUFFIX"..., 1, 108, 0x7f9e91714260) = 108
+[0x401820] fwrite("  -l N, --line-length=N\n        "..., 1, 98, 0x7f9e91714260) = 98
+[0x40183e] fwrite("  --posix\n                 disab"..., 1, 55, 0x7f9e91714260) = 55
+[0x40185c] fwrite("  -r, --regexp-extended\n        "..., 1, 89, 0x7f9e91714260) = 89
+[0x40187a] fwrite("  -s, --separate\n               "..., 1, 126, 0x7f9e91714260) = 126
+[0x401898] fwrite("  -u, --unbuffered\n             "..., 1, 143, 0x7f9e91714260) = 143
+[0x4018b6] fwrite("      --help     display this he"..., 1, 44, 0x7f9e91714260) = 44
+[0x4018d4] fwrite("      --version  output version "..., 1, 53, 0x7f9e91714260) = 53
+[0x4018f2] fwrite("\nIf no -e, --expression, -f, or "..., 1, 250, 0x7f9e91714260) = 250
+[0x401912] fprintf(0x7f9e91714260, "E-mail bug reports to: %s .\nBe "..., "bonzini@gnu.org") = 114
+[0x408737] clearerr(0x7f9e91714260, 0x419eb4, 0x7f9e91715ab0, 40, 0x20656874206e6920) = 0
+[0x408743] fflush(0x7f9e91714260)                = 0
+[0x408871] clearerr(0x7f9e91714260, 0x7f9e91715ab0, 0, -1, 0xffffffff) = 0
+[0x40887d] fclose(0x7f9e91714260)                = 0
+[0x408737] clearerr(0x7f9e91714260, 0, 0x7f9e91715ab0, 0, 0x7f9e91921700) = 0
+[0x408743] fflush(0x7f9e91714260)                = 0
+[0x408871] clearerr(0x7f9e91714260, 0x7f9e91715ab0, 0, 0xfbad000c, 0x7f9e91921700) = 0
+[0x40887d] fclose(0x7f9e91714260)                = -1
+[0x408887] __errno_location()                    = 0x7f9e919216a0
+[0x408890] strerror(0)                           = "Success"
+[0x407f34] fprintf(0x7f9e91714260, "%s: ", "Executable") = -1
+[0x407f81] vfprintf(0x7f9e91714260, "couldn't close %s: %s", 0x7fff893ecd50) = -1
+[0x407f95] _IO_putc('\n', 0x7f9e91714260)        = -1
+[0x408064] exit(4 <unfinished ...>
+[0xffffffffffffffff] +++ exited (status 4) +++

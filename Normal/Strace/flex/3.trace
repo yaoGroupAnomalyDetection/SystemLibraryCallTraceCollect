@@ -1,0 +1,12 @@
+[    7fb1ef635477] execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-h", "../inputs/in.1"], [/* 43 vars */]) = 0
+[          475337] uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+[          4767ca] brk(0)               = 0x13ad000
+[          4767ca] brk(0x13ae1c0)       = 0x13ae1c0
+[          414075] arch_prctl(ARCH_SET_FS, 0x13ad880) = 0
+[          4767ca] brk(0x13cf1c0)       = 0x13cf1c0
+[          4767ca] brk(0x13d0000)       = 0x13d0000
+[          435cd0] open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+[          435c34] fstat(3, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+[          436fea] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd7c12b4000
+[          435df0] write(3, "Executable [-bcdfhilnpstvwBFILTV"..., 1564) = 1564
+[          435bc8] exit_group(0)        = ?

@@ -1,0 +1,43 @@
+[0x400d49] __libc_start_main(0x400e04, 4, 0x7fff27f5d158, 0x413630, 0x4136c0 <unfinished ...>
+[0x400e39] fopen("error", "w")                   = 0x6dd010
+[0x4135e2] malloc(2048)                          = 0x006dd250
+[0x403155] fprintf(0x6dd010, "%s [-bcdfhilnpstvwBFILTV78+? -C["..., "Executable") = 78
+[0x403176] fwrite("\t[--help --version] [file ...]\n", 1, 31, 0x6dd010) = 31
+[0x403199] fprintf(0x6dd010, "\t-b  generate backing-up inform"...) = 51
+[0x4031ba] fwrite("\t-c  do-nothing POSIX option\n", 1, 29, 0x6dd010) = 29
+[0x4031db] fwrite("\t-d  turn on debug mode in gener"..., 1, 45, 0x6dd010) = 45
+[0x4031fc] fwrite("\t-f  generate fast, large scanne"..., 1, 34, 0x6dd010) = 34
+[0x40321d] fwrite("\t-h  produce this help message\n", 1, 31, 0x6dd010) = 31
+[0x40323e] fwrite("\t-i  generate case-insensitive s"..., 1, 39, 0x6dd010) = 39
+[0x40325f] fwrite("\t-l  maximal compatibility with "..., 1, 45, 0x6dd010) = 45
+[0x403280] fwrite("\t-n  do-nothing POSIX option\n", 1, 29, 0x6dd010) = 29
+[0x4032a1] fwrite("\t-p  generate performance report"..., 1, 40, 0x6dd010) = 40
+[0x4032c2] fwrite("\t-s  suppress default rule to EC"..., 1, 50, 0x6dd010) = 50
+[0x403305] sprintf(NULL, "")                     = 8
+[0x403333] fprintf(0x6dd010, "\t-t  write generated scanner on"...) = 59
+[0x403354] fwrite("\t-v  write summary of scanner st"..., 1, 46, 0x6dd010) = 46
+[0x403375] fwrite("\t-w  do not generate warnings\n", 1, 30, 0x6dd010) = 30
+[0x403396] fwrite("\t-B  generate batch scanner (opp"..., 1, 45, 0x6dd010) = 45
+[0x4033b7] fwrite("\t-F  use alternative fast scanne"..., 1, 49, 0x6dd010) = 49
+[0x4033d8] fwrite("\t-I  generate interactive scanne"..., 1, 51, 0x6dd010) = 51
+[0x4033f9] fwrite("\t-L  suppress #line directives i"..., 1, 42, 0x6dd010) = 42
+[0x40341c] fprintf(0x6dd010, "\t-T  %s should run in trace mod"..., "Executable") = 41
+[0x40343f] fprintf(0x6dd010, "\t-V  report %s version\n", "Executable") = 31
+[0x403460] fwrite("\t-7  generate 7-bit scanner\n", 1, 28, 0x6dd010) = 28
+[0x403481] fwrite("\t-8  generate 8-bit scanner\n", 1, 28, 0x6dd010) = 28
+[0x4034a2] fwrite("\t-+  generate C++ scanner class\n", 1, 32, 0x6dd010) = 32
+[0x4034c3] fwrite("\t-?  produce this help message\n", 1, 31, 0x6dd010) = 31
+[0x4034e4] fwrite("\t-C  specify degree of table com"..., 1, 60, 0x6dd010) = 60
+[0x403505] fwrite("\t\t-Ca  trade off larger tables f"..., 1, 59, 0x6dd010) = 59
+[0x403526] fwrite("\t\t-Ce  construct equivalence cla"..., 1, 37, 0x6dd010) = 37
+[0x403547] fwrite("\t\t-Cf  do not compress scanner t"..., 1, 61, 0x6dd010) = 61
+[0x403568] fwrite("\t\t-CF  do not compress scanner t"..., 1, 61, 0x6dd010) = 61
+[0x403589] fwrite("\t\t-Cm  construct meta-equivalenc"..., 1, 42, 0x6dd010) = 42
+[0x4035aa] fwrite("\t\t-Cr  use read() instead of std"..., 1, 53, 0x6dd010) = 53
+[0x4035cb] fwrite("\t-o  specify output filename\n", 1, 29, 0x6dd010) = 29
+[0x4035ec] fwrite("\t-P  specify scanner prefix othe"..., 1, 44, 0x6dd010) = 44
+[0x40360d] fwrite("\t-S  specify skeleton file\n", 1, 27, 0x6dd010) = 27
+[0x40362e] fwrite("\t--help     produce this help me"..., 1, 38, 0x6dd010) = 38
+[0x403651] fprintf(0x6dd010, "\t--version  report %s version\n", "Executable") = 38
+[0x4024fa] exit(0 <unfinished ...>
+[0xffffffffffffffff] +++ exited (status 0) +++

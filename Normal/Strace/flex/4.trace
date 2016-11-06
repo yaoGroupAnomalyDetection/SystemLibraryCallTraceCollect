@@ -1,0 +1,33 @@
+[    7f0fe9c08477] execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-i", "../inputs/in.2"], [/* 43 vars */]) = 0
+[          475337] uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+[          4767ca] brk(0)               = 0x2629000
+[          4767ca] brk(0x262a1c0)       = 0x262a1c0
+[          414075] arch_prctl(ARCH_SET_FS, 0x2629880) = 0
+[          4767ca] brk(0x264b1c0)       = 0x264b1c0
+[          4767ca] brk(0x264c000)       = 0x264c000
+[          435cd0] open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+[          435cd0] open("../inputs/in.2", O_RDONLY) = 4
+[          4767ca] brk(0x266d000)       = 0x266d000
+[          436137] ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff89f6f448) = -1 ENOTTY (Inappropriate ioctl for device)
+[          435c34] fstat(4, {st_mode=S_IFREG|0640, st_size=218, ...}) = 0
+[          436fea] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ffedb6b1000
+[          435d90] read(4, "digit [0-9]\ndigits {digit}+\nwhit"..., 8192) = 218
+[          435d90] read(4, "", 4096)    = 0
+[          435cd0] open("lex.yy.c", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+[          4360c7] dup3(5, 1, 0)        = 1
+[          435d30] close(5)             = 0
+[          435c34] fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+[          436fea] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ffedb6b0000
+[          435df0] write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+[          435d90] read(4, "", 8192)    = 0
+[          436137] ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff89f6f408) = -1 ENOTTY (Inappropriate ioctl for device)
+[          435df0] write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+[          435df0] write(1, "   1,    1,    1,    1,    1,   "..., 4096) = 4096
+[          435df0] write(1, "_STATE\nstatic void yy_push_state"..., 4096) = 4096
+[          435df0] write(1, "yy_current_state = yy_last_accep"..., 4096) = 4096
+[          435df0] write(1, "LAST_MATCH:\n\t\t\t\tyy_c_buf_p =\n\t\t\t"..., 4096) = 4096
+[          435df0] write(1, "y_last_accepting_state = yy_curr"..., 4096) = 4096
+[          435df0] write(1, "y_create_buffer( yyin, YY_BUF_SI"..., 4096) = 4096
+[          435df0] write(1, "s = YY_BUFFER_NEW;\n\n\tyy_switch_t"..., 4096) = 4096
+[          435df0] write(1, "void *ptr;\n#endif\n\t{\n\tfree( ptr "..., 122) = 122
+[          435bc8] exit_group(0)        = ?

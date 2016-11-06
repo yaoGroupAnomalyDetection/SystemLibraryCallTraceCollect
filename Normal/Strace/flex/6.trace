@@ -1,0 +1,29 @@
+[    7f5846a90477] execve("../source/flex.exe.static", ["../source/flex.exe.static", "error", "-t", "../inputs/in.compress"], [/* 43 vars */]) = 0
+[          475337] uname({sys="Linux", node="xmenxk-OptiPlex-7010", ...}) = 0
+[          4767ca] brk(0)               = 0x2054000
+[          4767ca] brk(0x20551c0)       = 0x20551c0
+[          414075] arch_prctl(ARCH_SET_FS, 0x2054880) = 0
+[          4767ca] brk(0x20761c0)       = 0x20761c0
+[          4767ca] brk(0x2077000)       = 0x2077000
+[          435cd0] open("error", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+[          435cd0] open("../inputs/in.compress", O_RDONLY) = 4
+[          4767ca] brk(0x2098000)       = 0x2098000
+[          436137] ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff0d231cc8) = -1 ENOTTY (Inappropriate ioctl for device)
+[          435c34] fstat(4, {st_mode=S_IFREG|0640, st_size=55, ...}) = 0
+[          436fea] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f08039ee000
+[          435d90] read(4, "%%\n[ \\t]+\tputchar(' ');\n[ \\t]+$\t"..., 8192) = 55
+[          435d90] read(4, "", 4096)    = 0
+[          435c34] fstat(1, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+[          436fea] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f08039ed000
+[          435df0] write(1, "/* A lexical scanner generated b"..., 4096) = 4096
+[          435d90] read(4, "", 8192)    = 0
+[          436137] ioctl(4, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff0d231c88) = -1 ENOTTY (Inappropriate ioctl for device)
+[          435df0] write(1, "\t * instead of fread(), to make "..., 4096) = 4096
+[          435df0] write(1, "   1,    1,    1,    1,    1,   "..., 4096) = 4096
+[          435df0] write(1, "string might contain NUL's,\n * w"..., 4096) = 4096
+[          435df0] write(1, "ND_OF_BUFFER:\n\t\t{\n\t\t/* Amount of"..., 4096) = 4096
+[          435df0] write(1, "\t\tif ( yy_c_buf_p - yytext_ptr -"..., 4096) = 4096
+[          435df0] write(1, "f[yy_current_state];\n\t\tif ( yy_c"..., 4096) = 4096
+[          435df0] write(1, "buffer->yy_input_file;\n\tyy_hold_"..., 4096) = 4096
+[          435df0] write(1, " away when we're done.\n\t */\n\tb->"..., 3154) = 3154
+[          435bc8] exit_group(0)        = ?

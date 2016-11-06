@@ -1,0 +1,488 @@
+[0x401799] __libc_start_main(0x4037f0, 4, 0x7fffbf3444a8, 0x4189a0, 0x418a30 <unfinished ...>
+[0x403839] strrchr("target5", '/')               = NULL
+[0x4038b8] setlocale(6, "")                      = "en_US.UTF-8"
+[0x4038c7] bindtextdomain("grep", "/nfs/spectre/u4/jin/research/exp"...) = "/nfs/spectre/u4/jin/research/exp"...
+[0x4038d1] textdomain("grep")                    = "grep"
+[0x4038db] getenv("GREP_OPTIONS")                = NULL
+[0x403ed4] getopt_long(4, 0x7fffbf3444a8, "0123456789A:B:C::EFGHIUVX:abcd:e"..., 0x0061d1e0, NULL) = 70
+[0x403ed4] getopt_long(4, 0x7fffbf3444a8, "0123456789A:B:C::EFGHIUVX:abcd:e"..., 0x0061d1e0, NULL) = -1
+[0x403537] strcmp("fgrep", "default")            = 2
+[0x403537] strcmp("fgrep", "grep")               = -1
+[0x403537] strcmp("fgrep", "egrep")              = 1
+[0x403537] strcmp("fgrep", "awk")                = 5
+[0x403537] strcmp("fgrep", "fgrep")              = 0
+[0x401911] malloc(2440)                          = 0x0178d090
+[0x40a92b] _obstack_begin(0x178d090, 0, 0, 0x4018f9, 0x401410 <unfinished ...>
+[0x401911] malloc(4064)                          = 0x0178da20
+[0x40a92b] <... _obstack_begin resumed> )        = 1
+[0x4040e7] strcmp("../inputs/grep1.dat", "-")    = 1
+[0x402e37] open("../inputs/grep1.dat", 0, 00)    = 3
+[0x401bd7] getpagesize()                         = 4096
+[0x401a6f] malloc(45056)                         = 0x0178ea10
+[0x401d33] __fxstat(1, 3, 0x0061d808)            = 0
+[0x4020b3] memmove(0x1791000, 0x178f000, 0, 0x178f000, 3) = 0x1791000
+[0x402213] read(3, "/* grep.c - main driver file for"..., 32768) = 32768
+[0x402a9f] memchr("/* grep.c - main driver file for"..., '\000', 32768) = NULL
+[0x40bc2b] memchr("/* grep.c - main driver file for"..., '?', 32740) = 0x017917f6
+[0x40d45a] memchr(" (A) : (B))\n\n/* Provide missing "..., '\n', 30701) = 0x01791802
+[0x4024d9] fwrite("#define MAX(A,B) ((A) > (B) ? (A"..., 1, 41, 0x7f9dba1bf260) = 41
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\n/* Provide missing ANSI feature"..., '?', 30689) = 0x017918a2
+[0x40d45a] memchr(" sys_errlist[(E)] : "bogus error"..., '\n', 30529) = 0x017918cc
+[0x4024d9] fwrite("#define strerror(E) ((E) < sys_n"..., 1, 79, 0x7f9dba1bf260) = 79
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("#endif\n\n#ifndef HAVE_MEMCHR\n#ifd"..., '?', 30487) = 0x017937bd
+[0x40d45a] memchr(" lastout : bufbeg;\n      for (i "..., '\n', 22566) = 0x017937d0
+[0x4024d9] fwrite("      bp = lastout ? lastout : b"..., 1, 39, 0x7f9dba1bf260) = 39
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("      for (i = 0; i < out_before"..., '?', 22547) = 0x01794c98
+[0x40d45a] memchr(" fopen(optarg, "r") : stdin;\n\tif"..., '\n', 17227) = 0x01794cb5
+[0x4024d9] fwrite("\tfp = strcmp(optarg, "-") != 0 ?"..., 1, 61, 0x7f9dba1bf260) = 61
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\tif (!fp)\n\t  fatal(optarg, errno"..., '?', 17198) = 0x0179530f
+[0x40d45a] memchr(" open(argv[optind], O_RDONLY) : "..., '\n', 15572) = 0x01795332
+[0x4024d9] fwrite("\tdesc = strcmp(argv[optind], "-""..., 1, 70, 0x7f9dba1bf260) = 70
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\tif (desc < 0)\n\t  {\n\t    if (!su"..., '?', 15537) = 0x017953af
+[0x40d45a] memchr(" "(standard input)" : argv[optin"..., '\n', 15412) = 0x017953d3
+[0x4024d9] fwrite("\t    filename = desc == 0 ? "(st"..., 1, 63, 0x7f9dba1bf260) = 63
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t    count = grep(desc);\n\t    if"..., '?', 15376) = 0x0179566c
+[0x40d45a] memchr(" 2 : status);\n}\n/* Getopt for GN"..., '\n', 14711) = 0x0179567a
+[0x4024d9] fwrite("  exit(errseen ? 2 : status);\n}\n"..., 1, 30, 0x7f9dba1bf260) = 30
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("}\n/* Getopt for GNU.\n   NOTE: ge"..., '?', 14697) = 0x01796a13
+[0x40d45a] memchr("';\n\n/* Describe how to deal with"..., '\n', 9680) = 0x01796a16
+[0x4024d9] fwrite("int optopt = '?';\n\n/* Describe h"..., 1, 18, 0x7f9dba1bf260) = 18
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\n/* Describe how to deal with op"..., '?', 9677) = 0x01797ca2
+[0x40d45a] memchr("' after printing an error messag"..., '\n', 4929) = 0x01797cdd
+[0x4024d9] fwrite("   return '?' after printing an "..., 1, 71, 0x7f9dba1bf260) = 71
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("   zero, the error message is su"..., '?', 4870) = 0x01797d1c
+[0x40d45a] memchr("'.\n\n   If a char in OPTSTRING is"..., '\n', 4807) = 0x01797d1f
+[0x4024d9] fwrite("   zero, the error message is su"..., 1, 66, 0x7f9dba1bf260) = 66
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\n   If a char in OPTSTRING is fo"..., '?', 4804) = NULL
+[0x4020b3] memmove(0x1790fe4, 0x1798fe4, 28, 0x1798fe4, 0x7f9dba1bf260) = 0x1790fe4
+[0x402213] read(3, "= '-'\n\t   && (argv[optind][1] =="..., 32768) = 32768
+[0x40bc2b] memchr("      && ((argv[optind][0] == '-"..., '?', 32789) = 0x01791447
+[0x40d45a] memchr("';\n\t}\n\n      if (pfound != NULL)"..., '\n', 31665) = 0x0179144a
+[0x4024d9] fwrite("\t  return '?';\n\t}\n\n      if (pfo"..., 1, 15, 0x7f9dba1bf260) = 15
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t}\n\n      if (pfound != NULL)\n\t{"..., '?', 31662) = 0x017916e9
+[0x40d45a] memchr("';\n\t\t}\n\t    }\n\t  else if (pfound"..., '\n', 30991) = 0x017916ec
+[0x4024d9] fwrite("\t\t  return '?';\n\t\t}\n\t    }\n\t  el"..., 1, 16, 0x7f9dba1bf260) = 16
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t\t}\n\t    }\n\t  else if (pfound->h"..., '?', 30988) = 0x0179181d
+[0x40d45a] memchr(" ':' : '?';\n\t\t}\n\t    }\n\t  nextch"..., '\n', 30683) = 0x01791829
+[0x4024d9] fwrite("\t\t  return optstring[0] == ':' ?"..., 1, 44, 0x7f9dba1bf260) = 44
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t\t}\n\t    }\n\t  nextchar += strlen"..., '?', 30671) = 0x01791bde
+[0x40d45a] memchr("';\n\t}\n    }\n\n  /* Look at and ha"..., '\n', 29722) = 0x01791be1
+[0x4024d9] fwrite("\t  return '?';\n\t}\n    }\n\n  /* Lo"..., 1, 15, 0x7f9dba1bf260) = 15
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t}\n    }\n\n  /* Look at and handl"..., '?', 29719) = 0x01791e98
+[0x40d45a] memchr("';\n      }\n    if (temp[1] == ':"..., '\n', 29024) = 0x01791e9b
+[0x4024d9] fwrite("\treturn '?';\n      }\n    if (tem"..., 1, 13, 0x7f9dba1bf260) = 13
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("      }\n    if (temp[1] == ':')\n"..., '?', 29021) = 0x0179222e
+[0x40d45a] memchr("';\n\t      }\n\t    else\n\t      /* "..., '\n', 28106) = 0x01792231
+[0x4024d9] fwrite("\t\t  c = '?';\n\t      }\n\t    else\n"..., 1, 13, 0x7f9dba1bf260) = 13
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t      }\n\t    else\n\t      /* We "..., '?', 28103) = 0x0179251f
+[0x40d45a] memchr(" optind : 1;\n\n      c = getopt ("..., '\n', 27353) = 0x0179252c
+[0x4024d9] fwrite("      int this_option_optind = o"..., 1, 52, 0x7f9dba1bf260) = 52
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\n      c = getopt (argc, argv, ""..., '?', 27340) = 0x0179277e
+[0x40d45a] memchr("':\n\t  break;\n\n\tdefault:\n\t  print"..., '\n', 26746) = 0x01792781
+[0x4024d9] fwrite("\tcase '?':\n\t  break;\n\n\tdefault:\n"..., 1, 11, 0x7f9dba1bf260) = 11
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t  break;\n\n\tdefault:\n\t  printf ("..., '?', 26743) = 0x017927a3
+[0x40d45a] memchr("? getopt returned character code"..., '\n', 26709) = 0x017927d3
+[0x4024d9] fwrite("\t  printf ("?? getopt returned c"..., 1, 61, 0x7f9dba1bf260) = 61
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t}\n    }\n\n  if (optind < argc)\n "..., '?', 26661) = 0x01793cca
+[0x40d45a] memchr("  If REGEX_MALLOC is not defined"..., '\n', 21294) = 0x01793cef
+[0x4024d9] fwrite("/* Should we use malloc or alloc"..., 1, 71, 0x7f9dba1bf260) = 71
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("   use `alloca' instead of `mall"..., '?', 21257) = 0x017944fd
+[0x40d45a] memchr(" (a) : (b))\n#define MIN(a, b) (("..., '\n', 19195) = 0x01794509
+[0x4024d9] fwrite("#define MAX(a, b) ((a) > (b) ? ("..., 1, 42, 0x7f9dba1bf260) = 42
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("#define MIN(a, b) ((a) < (b) ? ("..., '?', 19183) = 0x01794527
+[0x40d45a] memchr(" (a) : (b))\n\ntypedef char boolea"..., '\n', 19153) = 0x01794533
+[0x4024d9] fwrite("#define MIN(a, b) ((a) < (b) ? ("..., 1, 42, 0x7f9dba1bf260) = 42
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\ntypedef char boolean;\n#define f"..., '?', 19141) = 0x01796d6f
+[0x40d45a] memchr(" "^" : "");\n            \n       "..., '\n', 8841) = 0x01796d7b
+[0x4024d9] fwrite("\t            (re_opcode_t) *(p -"..., 1, 64, 0x7f9dba1bf260) = 64
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("            \n            assert "..., '?', 8829) = 0x01796e34
+[0x40d45a] memchr("  */\n\t\t  if (last + 1 == c && ! "..., '\n', 8644) = 0x01796e39
+[0x4024d9] fwrite("\t\t  /* Are we starting a range? "..., 1, 36, 0x7f9dba1bf260) = 36
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t\t  if (last + 1 == c && ! in_ra"..., '?', 8639) = 0x01796eb9
+[0x40d45a] memchr("  */\n\t\t  else if (last + 1 != c "..., '\n', 8511) = 0x01796ebe
+[0x4024d9] fwrite("\t\t  /* Have we broken a range?  "..., 1, 35, 0x7f9dba1bf260) = 35
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t\t  else if (last + 1 != c && in"..., '?', 8506) = 0x01797b10
+[0x40d45a] memchr("%d", *(p-1));\n\t}\n\n      putchar "..., '\n', 5352) = 0x01797b1e
+[0x4024d9] fwrite("          printf ("?%d", *(p-1))"..., 1, 34, 0x7f9dba1bf260) = 34
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t}\n\n      putchar ('\\n');\n    }\n"..., '?', 5338) = 0x01797e97
+[0x40d45a] memchr("  */\n}\n\n\nvoid\nprint_double_strin"..., '\n', 4449) = 0x01797e9c
+[0x4024d9] fwrite("  /* Perhaps we should print the"..., 1, 54, 0x7f9dba1bf260) = 54
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("}\n\n\nvoid\nprint_double_string (wh"..., '?', 4444) = 0x01798e00
+[0x40d45a] memchr(" translate[(unsigned char) (d)] "..., '\n', 504) = 0x01798e27
+[0x4024d9] fwrite("#define TRANSLATE(d) (translate "..., 1, 72, 0x7f9dba1bf260) = 72
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\n\n/* Macros for outputting the c"..., '?', 465) = NULL
+[0x4020b3] memmove(0x1790ff9, 0x1798ff9, 7, 0x1798ff9, 0x7f9dba1bf260) = 0x1790ff9
+[0x402213] read(3, "_BUFFER_SPACE (1);\t\t\t\t\t\t\\\n    *b"..., 32768) = 32768
+[0x40bc2b] memchr("    GET_BUFFER_SPACE (1);\t\t\t\t\t\t\\"..., '?', 32737) = 0x017939e2
+[0x40d45a] memchr("':\n          if ((syntax & RE_BK"..., '\n', 22007) = 0x017939e5
+[0x4024d9] fwrite("        case '?':\n          if ("..., 1, 18, 0x7f9dba1bf260) = 18
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("          if ((syntax & RE_BK_PL"..., '?', 22004) = 0x01793bcf
+[0x40d45a] memchr("  */\n            boolean keep_st"..., '\n', 21514) = 0x01793bd4
+[0x4024d9] fwrite("            /* Are we optimizing"..., 1, 48, 0x7f9dba1bf260) = 48
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("            boolean keep_string_"..., '?', 21509) = 0x01793e0d
+[0x40d45a] memchr("';\n\n                if (p == pen"..., '\n', 20940) = 0x01793e10
+[0x4024d9] fwrite("                many_times_ok |="..., 1, 43, 0x7f9dba1bf260) = 43
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\n                if (p == pend)\n"..., '?', 20937) = 0x01793ecf
+[0x40d45a] memchr("')))\n                  ;\n\n      "..., '\n', 20746) = 0x01793ed4
+[0x4024d9] fwrite("                    || (!(syntax"..., 1, 78, 0x7f9dba1bf260) = 78
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("                  ;\n\n           "..., '?', 20741) = 0x01793fc7
+[0x40d45a] memchr("'))\n                      {\n    "..., '\n', 20498) = 0x01793fcb
+[0x4024d9] fwrite("                    if (!(c1 == "..., 1, 51, 0x7f9dba1bf260) = 51
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("                      {\n        "..., '?', 20494) = 0x017946f5
+[0x40d45a] memchr("  */\n                if (TRANSLA"..., '\n', 18660) = 0x017946fa
+[0x4024d9] fwrite("                   for null byte"..., 1, 67, 0x7f9dba1bf260) = 67
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("                if (TRANSLATE (*"..., '?', 18655) = 0x01794a1e
+[0x40d45a] memchr(" on_failure_keep_string_jump\n   "..., '\n', 17851) = 0x01794a3b
+[0x4024d9] fwrite("            INSERT_JUMP (keep_st"..., 1, 69, 0x7f9dba1bf260) = 69
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("                                "..., '?', 17822) = 0x01794f25
+[0x40d45a] memchr(" charset_not : charset); \n      "..., '\n', 16564) = 0x01794f3f
+[0x4024d9] fwrite("            BUF_PUSH (*p == '^' "..., 1, 59, 0x7f9dba1bf260) = 59
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("            if (*p == '^')\n     "..., '?', 16538) = 0x017970a8
+[0x40d45a] memchr(" fixup_alt_jump - bufp->buffer +"..., '\n', 7985) = 0x017970d0
+[0x4024d9] fwrite("                = fixup_alt_jump"..., 1, 74, 0x7f9dba1bf260) = 74
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("              COMPILE_STACK_TOP."..., '?', 7945) = 0x01797b8e
+[0x40d45a] memchr(" bufp->buffer + COMPILE_STACK_TO"..., '\n', 5195) = 0x01797bc4
+[0x4024d9] fwrite("                    ? bufp->buff"..., 1, 75, 0x7f9dba1bf260) = 75
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("                    : 0;\n       "..., '?', 5141) = NULL
+[0x4020b3] memmove(0x1790fda, 0x1798fda, 38, 0x1798fda, 0x7f9dba1bf260) = 0x1790fda
+[0x402213] read(3, "RE_CONTEXT_INDEP_OPS)\n          "..., 32768) = 32768
+[0x40bc2b] memchr("                    else if (syn"..., '?', 32802) = 0x017929a9
+[0x40d45a] memchr("':\n              if (syntax & RE"..., '\n', 26194) = 0x017929ac
+[0x4024d9] fwrite("            case '?':\n          "..., 1, 22, 0x7f9dba1bf260) = 22
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("              if (syntax & RE_BK"..., '?', 26191) = 0x01792da5
+[0x40d45a] memchr(" *p == '\\\\' && (p[1] == '+' || p"..., '\n', 25174) = 0x01792dd1
+[0x4024d9] fwrite("\t\t  ? *p == '\\\\' && (p[1] == '+'"..., 1, 49, 0x7f9dba1bf260) = 49
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t\t  : (*p == '+' || *p == '?'))\n"..., '?', 25130) = 0x01792ded
+[0x40d45a] memchr("'))\n\t      || ((syntax & RE_INTE"..., '\n', 25102) = 0x01792df1
+[0x4024d9] fwrite("\t\t  : (*p == '+' || *p == '?'))\n"..., 1, 32, 0x7f9dba1bf260) = 32
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t      || ((syntax & RE_INTERVAL"..., '?', 25098) = 0x01792e4e
+[0x40d45a] memchr(" *p == '{'\n                     "..., '\n', 25005) = 0x01792e59
+[0x4024d9] fwrite("\t\t      ? *p == '{'\n            "..., 1, 20, 0x7f9dba1bf260) = 20
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("                      : (p[0] =="..., '?', 24994) = 0x017938a1
+[0x40d45a] memchr("  */\n       (*prev == '(' && (sy"..., '\n', 22362) = 0x017938a6
+[0x4024d9] fwrite("       /* After a subexpression?"..., 1, 37, 0x7f9dba1bf260) = 37
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("       (*prev == '(' && (syntax "..., '?', 22357) = 0x01793910
+[0x40d45a] memchr("  */\n    || (*prev == '|' && (sy"..., '\n', 22251) = 0x01793915
+[0x4024d9] fwrite("       /* After an alternative? "..., 1, 36, 0x7f9dba1bf260) = 36
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("    || (*prev == '|' && (syntax "..., '?', 22246) = 0x01793ab2
+[0x40d45a] memchr(" p + 1 : NULL;\n  \n  return\n     "..., '\n', 21833) = 0x01793ac1
+[0x4024d9] fwrite("  const char *next_next = p + 1 "..., 1, 55, 0x7f9dba1bf260) = 55
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("  \n  return\n       /* Before a s"..., '?', 21818) = 0x01793aee
+[0x40d45a] memchr("  */\n       (syntax & RE_NO_BK_P"..., '\n', 21773) = 0x01793af3
+[0x4024d9] fwrite("       /* Before a subexpression"..., 1, 38, 0x7f9dba1bf260) = 38
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("       (syntax & RE_NO_BK_PARENS"..., '?', 21768) = 0x01793b15
+[0x40d45a] memchr(" *next == ')'\n        : next_bac"..., '\n', 21734) = 0x01793b23
+[0x4024d9] fwrite("       (syntax & RE_NO_BK_PARENS"..., 1, 48, 0x7f9dba1bf260) = 48
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("        : next_backslash && next"..., '?', 21720) = 0x01793b7f
+[0x40d45a] memchr("  */\n    || (syntax & RE_NO_BK_V"..., '\n', 21628) = 0x01793b84
+[0x4024d9] fwrite("       /* Before an alternative?"..., 1, 37, 0x7f9dba1bf260) = 37
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("    || (syntax & RE_NO_BK_VBAR ?"..., '?', 21623) = 0x01793ba4
+[0x40d45a] memchr(" *next == '|'\n        : next_bac"..., '\n', 21591) = 0x01793bb2
+[0x4024d9] fwrite("    || (syntax & RE_NO_BK_VBAR ?"..., 1, 46, 0x7f9dba1bf260) = 46
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("        : next_backslash && next"..., '?', 21577) = 0x01794380
+[0x40d45a] memchr(" REG_ERANGE : REG_NOERROR;\n\n  /*"..., '\n', 19579) = 0x0179439b
+[0x4024d9] fwrite("    return syntax & RE_NO_EMPTY_"..., 1, 67, 0x7f9dba1bf260) = 67
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\n  /* Here we see why `this_char"..., '?', 19552) = 0x01794ca8
+[0x40d45a] memchr(" 0\t\t\t\t\t\t\t\t\t\\\n   : ((fail_stack)."..., '\n', 17235) = 0x01794cb5
+[0x4024d9] fwrite("   ? 0\t\t\t\t\t\t\t\t\t\\\n   : ((fail_sta"..., 1, 17, 0x7f9dba1bf260) = 17
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("   : ((fail_stack).stack = (fail"..., '?', 17222) = 0x01794dd6
+[0x40d45a] memchr(" 0\t\t\t\t\t\t\t\t\\\n      : ((fail_stack"..., '\n', 16933) = 0x01794de2
+[0x4024d9] fwrite("      ? 0\t\t\t\t\t\t\t\t\\\n      : ((fai"..., 1, 19, 0x7f9dba1bf260) = 19
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("      : ((fail_stack).size <<= 1"..., '?', 16921) = 0x01794f24
+[0x40d45a] memchr(" 0\t\t\t\t\t\t\t\t\t\\\n    : ((fail_stack)"..., '\n', 16599) = 0x01794f31
+[0x4024d9] fwrite("    ? 0\t\t\t\t\t\t\t\t\t\\\n    : ((fail_s"..., 1, 18, 0x7f9dba1bf260) = 18
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("    : ((fail_stack).stack[(fail_"..., '?', 16586) = 0x01798487
+[0x40d45a] memchr(")?', `p+j' here points to the\n  "..., '\n', 2932) = 0x017984a5
+[0x4024d9] fwrite("          /* For some patterns, "..., 1, 72, 0x7f9dba1bf260) = 72
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("             end of the pattern."..., '?', 2902) = NULL
+[0x4020b3] memmove(0x1790ffc, 0x1798ffc, 4, 0x1798ffc, 0x7f9dba1bf260) = 0x1790ffc
+[0x402213] read(3, "}\n  else\n    {\n      bufp->regs_"..., 32768) = 32768
+[0x40bc2b] memchr("    }\n  else\n    {\n      bufp->r"..., '?', 32752) = 0x01791cee
+[0x40d45a] memchr(" string2 - size1 : string1) + st"..., '\n', 29437) = 0x01791d16
+[0x4024d9] fwrite("\t      d = (startpos >= size1 ? "..., 1, 71, 0x7f9dba1bf260) = 71
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("   \n              /* Written out"..., '?', 29397) = 0x01791f5a
+[0x40d45a] memchr(" string2[startpos - size1] \n    "..., '\n', 28817) = 0x01791f76
+[0x4024d9] fwrite("                                "..., 1, 62, 0x7f9dba1bf260) = 62
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("                                "..., '?', 28789) = 0x01792b04
+[0x40d45a] memchr(" (ptr) - string1 : (ptr) - strin"..., '\n', 25831) = 0x01792b30
+[0x4024d9] fwrite("  (FIRST_STRING_P (ptr) ? (ptr) "..., 1, 69, 0x7f9dba1bf260) = 69
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\n/* Registers are set to a senti"..., '?', 25787) = 0x01792e9e
+[0x40d45a] memchr(" string1 : string2) || !size2)\n#"..., '\n', 24909) = 0x01792ebd
+[0x4024d9] fwrite("#define AT_STRINGS_BEG(d) ((d) ="..., 1, 73, 0x7f9dba1bf260) = 73
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("#define AT_STRINGS_END(d) ((d) ="..., '?', 24878) = 0x01793025
+[0x40d45a] memchr(" *string2\t\t\t\t\t\\\n           : (d)"..., '\n', 24518) = 0x01793035
+[0x4024d9] fwrite("  (SYNTAX ((d) == end1 ? *string"..., 1, 40, 0x7f9dba1bf260) = 40
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("           : (d) == string2 - 1 "..., '?', 24502) = 0x01793056
+[0x40d45a] memchr(" *(end1 - 1) : *(d))\t\t\t\\\n   == S"..., '\n', 24469) = 0x0179306f
+[0x4024d9] fwrite("           : (d) == string2 - 1 "..., 1, 58, 0x7f9dba1bf260) = 58
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("   == Sword)\n\n/* Test if the cha"..., '?', 24444) = 0x0179627d
+[0x40d45a] memchr(" end_match_1 : end_match_2);\n\n\t\t"..., '\n', 11630) = 0x0179629a
+[0x4024d9] fwrite("\t\t           ? end_match_1 : end"..., 1, 43, 0x7f9dba1bf260) = 43
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\n\t\t  for (mcnt = 1; mcnt < num_r"..., '?', 11601) = 0x01796446
+[0x40d45a] memchr("  */\n              if (bufp->reg"..., '\n', 11173) = 0x0179644b
+[0x4024d9] fwrite("              /* Have the regist"..., 1, 67, 0x7f9dba1bf260) = 67
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("              if (bufp->regs_all"..., '?', 11168) = 0x01796b7a
+[0x40d45a] memchr(" d - string1\n\t\t\t          : d - "..., '\n', 9329) = 0x01796b87
+[0x4024d9] fwrite("                  regs->end[0] ="..., 1, 73, 0x7f9dba1bf260) = 73
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t\t\t          : d - string2 + siz"..., '?', 9316) = 0x0179716b
+[0x40d45a] memchr(" string1 \n\t\t\t    : string2 - siz"..., '\n', 7808) = 0x01797175
+[0x4024d9] fwrite("\t\t\t    ? string1 \n\t\t\t    : strin"..., 1, 18, 0x7f9dba1bf260) = 18
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t\t\t    : string2 - size1);\n\n    "..., '?', 7798) = 0x017978b5
+[0x40d45a] memchr(" "_not" : "");\n\n\t    PREFETCH ()"..., '\n', 5942) = 0x017978c4
+[0x4024d9] fwrite("            DEBUG_PRINT2 ("EXECU"..., 1, 72, 0x7f9dba1bf260) = 72
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\n\t    PREFETCH ();\n\t    c = TRAN"..., '?', 5927) = 0x01797f3c
+[0x40d45a] memchr(" REG_UNSET (regstart[*p]) ? d : "..., '\n', 4271) = 0x01797f69
+[0x4024d9] fwrite("                             ? R"..., 1, 75, 0x7f9dba1bf260) = 75
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("                             : r"..., '?', 4226) = 0x01798525
+[0x40d45a] memchr(" REG_UNSET (regend[*p]) ? d : re"..., '\n', 2758) = 0x0179854e
+[0x4024d9] fwrite("                           ? REG"..., 1, 69, 0x7f9dba1bf260) = 69
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t\t\t   : regend[*p];\n\t  DEBUG_PRI"..., '?', 2717) = NULL
+[0x4020b3] memmove(0x1790fec, 0x1798fec, 20, 0x1798fec, 0x7f9dba1bf260) = 0x1790fec
+[0x402213] read(3, "/* do nothing */ ;\n             "..., 32768) = 32768
+[0x40bc2b] memchr("                    /* do nothin"..., '?', 32767) = 0x01791615
+[0x40d45a] memchr("  */\n                          i"..., '\n', 31189) = 0x0179161a
+[0x4024d9] fwrite("                          /* xx "..., 1, 51, 0x7f9dba1bf260) = 51
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("                          if ((i"..., '?', 31184) = 0x01791be3
+[0x40d45a] memchr(" regend[regno] : end_match_1);\n\t"..., '\n', 29703) = 0x01791c02
+[0x4024d9] fwrite("\t\t     ? regend[regno] : end_mat"..., 1, 39, 0x7f9dba1bf260) = 39
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t    for (;;)\n\t      {\n\t\t/* If n"..., '?', 29672) = 0x01791fb2
+[0x40d45a] memchr(" bcmp_translate (d, d2, mcnt, tr"..., '\n', 28728) = 0x01791fdc
+[0x4024d9] fwrite("                    ? bcmp_trans"..., 1, 63, 0x7f9dba1bf260) = 63
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("                    : bcmp (d, d"..., '?', 28686) = 0x017923a3
+[0x40d45a] memchr(" *string2 : *d) == '\\n'\n        "..., '\n', 27719) = 0x017923bb
+[0x4024d9] fwrite("          else if ((d == end1 ? "..., 1, 55, 0x7f9dba1bf260) = 55
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("                   && bufp->newl"..., '?', 27695) = 0x01793b2a
+[0x40d45a] memchr(" '\\n' : p2[2];\n\t\tp1 = p + mcnt;\n"..., '\n', 21696) = 0x01793b39
+[0x4024d9] fwrite("                  = *p2 == (unsi"..., 1, 67, 0x7f9dba1bf260) = 67
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t\tp1 = p + mcnt;\n\n              "..., '?', 21681) = NULL
+[0x4020b3] memmove(0x1790feb, 0x1798feb, 21, 0x1798feb, 0x7f9dba1bf260) = 0x1790feb
+[0x402213] read(3, "n, cflags)\n    regex_t *preg;\n  "..., 32768) = 32768
+[0x40bc2b] memchr("regcomp (preg, pattern, cflags)\n"..., '?', 32728) = 0x0179108f
+[0x40d45a] memchr("\n      RE_SYNTAX_POSIX_EXTENDED "..., '\n', 32563) = 0x01791090
+[0x4024d9] fwrite("    = (cflags & REG_EXTENDED) ?\n"..., 1, 32, 0x7f9dba1bf260) = 32
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("      RE_SYNTAX_POSIX_EXTENDED :"..., '?', 32562) = 0x017913ac
+[0x40d45a] memchr(" tolower (i) : i;\n    }\n  else\n "..., '\n', 31766) = 0x017913be
+[0x4024d9] fwrite("        preg->translate[i] = ISU"..., 1, 60, 0x7f9dba1bf260) = 60
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("    }\n  else\n    preg->translate"..., '?', 31748) = 0x01791d80
+[0x40d45a] memchr(" &regs : (struct re_registers *)"..., '\n', 29250) = 0x01791da5
+[0x4024d9] fwrite("                   want_reg_info"..., 1, 71, 0x7f9dba1bf260) = 71
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("  \n  /* Copy the register inform"..., '?', 29213) = 0x01791fb8
+[0x40d45a] memchr(" (int) REG_NOERROR : (int) REG_N"..., '\n', 28682) = 0x01791fe0
+[0x4024d9] fwrite("  return ret >= 0 ? (int) REG_NO"..., 1, 59, 0x7f9dba1bf260) = 59
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("}\n\n\n/* Returns a message corresp"..., '?', 28642) = 0x01794aca
+[0x40d45a] memchr(" lexleft > 0 && *lexptr == ')'\n\t"..., '\n', 17656) = 0x01794ae9
+[0x4024d9] fwrite("\t\t  ? lexleft > 0 && *lexptr == "..., 1, 36, 0x7f9dba1bf260) = 36
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t\t  : lexleft > 1 && lexptr[0] ="..., '?', 17625) = 0x01794b51
+[0x40d45a] memchr(" lexleft > 0 && *lexptr == '|'\n\t"..., '\n', 17521) = 0x01794b70
+[0x4024d9] fwrite("\t\t  ? lexleft > 0 && *lexptr == "..., 1, 36, 0x7f9dba1bf260) = 36
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t\t  : lexleft > 1 && lexptr[0] ="..., '?', 17490) = 0x01794e7f
+[0x40d45a] memchr("':\n\t  if (syntax_bits & RE_LIMIT"..., '\n', 16707) = 0x01794e82
+[0x4024d9] fwrite("\tcase '?':\n\t  if (syntax_bits & "..., 1, 11, 0x7f9dba1bf260) = 11
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t  if (syntax_bits & RE_LIMITED_"..., '?', 16704) = 0x01797cea
+[0x40d45a] memchr(" 1 : 0;\n  letter = letter ? 1 : "..., '\n', 4824) = 0x01797cf2
+[0x4024d9] fwrite("  newline = newline ? 1 : 0;\n  l"..., 1, 29, 0x7f9dba1bf260) = 29
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("  letter = letter ? 1 : 0;\n\n  fo"..., '?', 4816) = 0x01797d05
+[0x40d45a] memchr(" 1 : 0;\n\n  for (i = 0; i < s->ne"..., '\n', 4797) = 0x01797d0d
+[0x4024d9] fwrite("  letter = letter ? 1 : 0;\n\n  fo"..., 1, 27, 0x7f9dba1bf260) = 27
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\n  for (i = 0; i < s->nelem; ++i"..., '?', 4789) = NULL
+[0x4020b3] memmove(0x1790fc3, 0x1798fc3, 61, 0x1798fc3, 0x7f9dba1bf260) = 0x1790fc3
+[0x402213] read(3, "gument, union\n     the lastpos o"..., 32768) = 32768
+[0x40bc2b] memchr("   * The lastpos of a CAT node i"..., '?', 32814) = 0x01792842
+[0x40d45a] memchr(" " nullable: yes\\n" : " nullable"..., '\n', 26542) = 0x0179286c
+[0x4024d9] fwrite("      fprintf(stderr, nullable[-"..., 1, 78, 0x7f9dba1bf260) = 78
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("      fprintf(stderr, " firstpos"..., '?', 26500) = 0x017942da
+[0x40d45a] memchr(" intersectf = 1 : 0;\n\t  if (! in"..., '\n', 19734) = 0x017942ef
+[0x4024d9] fwrite("\t    (intersect[k] = matches[k] "..., 1, 70, 0x7f9dba1bf260) = 70
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t  if (! intersectf)\n\t    contin"..., '?', 19713) = 0x0179443c
+[0x40d45a] memchr(" leftoversf = 1 : 0;\n\t      (mat"..., '\n', 19380) = 0x01794451
+[0x4024d9] fwrite("\t      (leftovers[k] = ~match & "..., 1, 61, 0x7f9dba1bf260) = 61
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t      (matches[k] = match & ~la"..., '?', 19359) = 0x01794477
+[0x40d45a] memchr(" matchesf = 1 : 0;\n\t    }\n\n\t  /*"..., '\n', 19321) = 0x0179448a
+[0x4024d9] fwrite("\t      (matches[k] = match & ~la"..., 1, 57, 0x7f9dba1bf260) = 57
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t    }\n\n\t  /* If there were left"..., '?', 19302) = 0x01797757
+[0x40d45a] memchr("\t(q->is==ZERO)?\t(p->is!=ZERO &&\t"..., '\n', 6297) = 0x01797782
+[0x4024d9] fwrite("\tCAT\t(p->is==ZERO)?\t(q->is==ZERO"..., 1, 62, 0x7f9dba1bf260) = 62
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t\tp->left :\tq->right :\tq->is!=ZE"..., '?', 6254) = 0x017977a7
+[0x40d45a] memchr("\tq->in plus\n\t\tp->is##q->left\tp->"..., '\n', 6217) = 0x017977b3
+[0x4024d9] fwrite("\t\tp->left :\tq->right :\tq->is!=ZE"..., 1, 49, 0x7f9dba1bf260) = 49
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t\tp->is##q->left\tp->right##q->is"..., '?', 6205) = 0x017978cc
+[0x40d45a] memchr("\t\n\t\tand q->left\tand q->right\tp->"..., '\n', 5924) = 0x017978ce
+[0x4024d9] fwrite("\t\tof p->left\tof p->right\tcontent"..., 1, 37, 0x7f9dba1bf260) = 37
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t\tand q->left\tand q->right\tp->is"..., '?', 5922) = 0x01797a1f
+[0x40d45a] memchr("\n\n   And. . .is it here or somep"..., '\n', 5585) = 0x01797a20
+[0x4024d9] fwrite("   'aaa')?\n\n   And. . .is it her"..., 1, 11, 0x7f9dba1bf260) = 11
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\n   And. . .is it here or somepl"..., '?', 5584) = 0x01797be7
+[0x40d45a] memchr("\n\n   Does optimization actually "..., '\n', 5129) = 0x01797be8
+[0x4024d9] fwrite("   Is optimization easy (enough)"..., 1, 34, 0x7f9dba1bf260) = 34
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\n   Does optimization actually a"..., '?', 5128) = 0x01797c94
+[0x40d45a] memchr("\n  \n   Are optimizable r.e.'s li"..., '\n', 4956) = 0x01797c95
+[0x4024d9] fwrite("   the same as the one you get f"..., 1, 57, 0x7f9dba1bf260) = 57
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("  \n   Are optimizable r.e.'s lik"..., '?', 4955) = 0x01797d3b
+[0x40d45a] memchr(" */\n\nstatic char *\nicatalloc(old"..., '\n', 4789) = 0x01797d3f
+[0x4024d9] fwrite("   'psi|epsilon' is likelier)? *"..., 1, 34, 0x7f9dba1bf260) = 34
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\nstatic char *\nicatalloc(old, ne"..., '?', 4785) = 0x01797dc8
+[0x40d45a] memchr(" 0 : strlen(new);\n  if (old == N"..., '\n', 4648) = 0x01797dda
+[0x4024d9] fwrite("  newsize = (new == NULL) ? 0 : "..., 1, 45, 0x7f9dba1bf260) = 45
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("  if (old == NULL)\n    oldsize ="..., '?', 4630) = 0x017982b9
+[0x40d45a] memchr(" */\n  for (i = 0; cpp[i] != NULL"..., '\n', 3383) = 0x017982bd
+[0x4024d9] fwrite("  /* Is there already something "..., 1, 71, 0x7f9dba1bf260) = 71
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("  for (i = 0; cpp[i] != NULL; ++"..., '?', 3379) = NULL
+[0x4020b3] memmove(0x1790ff1, 0x1798ff1, 15, 0x1798ff1, 0x7f9dba1bf260) = 0x1790ff1
+[0x402213] read(3, "derr);\n#endif\n  for (ri = 0; ri "..., 32768) = 32768
+[0x40bc2b] memchr("  putc('\\n', stderr);\n#endif\n  f"..., '?', 32720) = 0x0179364a
+[0x40d45a] memchr(" kwset->trans[(unsigned char) *-"..., '\n', 22902) = 0x0179367c
+[0x4024d9] fwrite("      label = kwset->trans ? kws"..., 1, 78, 0x7f9dba1bf260) = 78
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\n      /* Descend the tree of ou"..., '?', 22852) = 0x01793f3b
+[0x40d45a] memchr(" 0 : -1;\n\t\t      r->balance = t-"..., '\n', 20613) = 0x01793f44
+[0x4024d9] fwrite("\t\t      l->balance = t->balance "..., 1, 47, 0x7f9dba1bf260) = 47
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t\t      r->balance = t->balance "..., '?', 20604) = 0x01793f72
+[0x40d45a] memchr(" 0 : 1;\n\t\t      t->balance = 0;\n"..., '\n', 20558) = 0x01793f7a
+[0x4024d9] fwrite("\t\t      r->balance = t->balance "..., 1, 54, 0x7f9dba1bf260) = 54
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t\t      t->balance = 0;\n\t\t      "..., '?', 20550) = 0x01794153
+[0x40d45a] memchr(" 0 : -1;\n\t\t      r->balance = t-"..., '\n', 20077) = 0x0179415c
+[0x4024d9] fwrite("\t\t      l->balance = t->balance "..., 1, 47, 0x7f9dba1bf260) = 47
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t\t      r->balance = t->balance "..., '?', 20068) = 0x0179418a
+[0x40d45a] memchr(" 0 : 1;\n\t\t      t->balance = 0;\n"..., '\n', 20022) = 0x01794192
+[0x4024d9] fwrite("\t\t      r->balance = t->balance "..., 1, 54, 0x7f9dba1bf260) = 54
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t\t      t->balance = 0;\n\t\t      "..., '?', 20014) = 0x01796957
+[0x40d45a] memchr(" trans[(unsigned char) *--beg] :"..., '\n', 9833) = 0x01796980
+[0x4024d9] fwrite("\t  c = trans ? trans[(unsigned c"..., 1, 55, 0x7f9dba1bf260) = 55
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t  tree = trie->links;\n\t  while "..., '?', 9792) = 0x01796d32
+[0x40d45a] memchr(" trans[(unsigned char) *--beg] :"..., '\n', 8846) = 0x01796d5b
+[0x4024d9] fwrite("\t  c = trans ? trans[(unsigned c"..., 1, 55, 0x7f9dba1bf260) = 55
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\t  tree = trie->links;\n\t  while "..., '?', 8805) = 0x01797e57
+[0x40d45a] memchr(":, since some compilers, like th"..., '\n', 4457) = 0x01797e89
+[0x4024d9] fwrite("   For free, do not use ?:, sinc"..., 1, 75, 0x7f9dba1bf260) = 75
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("   do not allow (expr) ? void : "..., '?', 4407) = 0x01797ea1
+[0x40d45a] memchr(" void : void.  */\n\n#define CALL_"..., '\n', 4383) = 0x01797eb3
+[0x4024d9] fwrite("   do not allow (expr) ? void : "..., 1, 42, 0x7f9dba1bf260) = 42
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\n#define CALL_CHUNKFUN(h, size) "..., '?', 4365) = 0x01797ef5
+[0x40d45a] memchr(" (*(h)->chunkfun) ((h)->extra_ar"..., '\n', 4299) = 0x01797f22
+[0x4024d9] fwrite("   ? (*(h)->chunkfun) ((h)->extr"..., 1, 49, 0x7f9dba1bf260) = 49
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("   : (*(h)->chunkfun) ((size)))\n"..., '?', 4254) = NULL
+[0x4020b3] memmove(0x1790fc1, 0x1798fc1, 63, 0x1798fc1, 0x7f9dba1bf260) = 0x1790fc1
+[0x402213] read(3, "size;\n\n  /* Move the existing ob"..., 32768) = 19280
+[0x40bc2b] memchr("  new_chunk->limit = h->chunk_li"..., '?', 19338) = 0x01793173
+[0x40d45a] memchr(" tolower(C) : (C))\n\n/*#include ""..., '\n', 10711) = 0x01793186
+[0x4024d9] fwrite("#define TOLOWER(C) (ISUPPER(C) ?"..., 1, 51, 0x7f9dba1bf260) = 51
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("\n/*#include "grep.h"*/\n/*#includ"..., '?', 10692) = 0x01793844
+[0x40d45a] memchr(" trans : (char *) 0)))\n    fatal"..., '\n', 8966) = 0x0179385b
+[0x4024d9] fwrite("  if (!(kwset = kwsalloc(match_i"..., 1, 61, 0x7f9dba1bf260) = 61
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("    fatal("memory exhausted", 0)"..., '?', 8943) = 0x01795309
+[0x40d45a] memchr(" end + 1 : end;\n  return beg;\n}\n"..., '\n', 2113) = 0x01795319
+[0x4024d9] fwrite("  *endp = end < buflim ? end + 1"..., 1, 40, 0x7f9dba1bf260) = 40
+[0x4024e8] ferror(0x7f9dba1bf260)                = 0
+[0x40bc2b] memchr("  return beg;\n}\n\nstatic void\nFco"..., '?', 2097) = NULL
+[0x4020b3] memmove(0x1790ffb, 0x1795b4b, 5, 0x1795b4b, 0x7f9dba1bf260) = 0x1790ffb
+[0x402213] read(3, "", 32768)                    = 0
+[0x40bc2b] memchr(" if a\nize;\n\n  /* Move the existi"..., '?', 6) = NULL
+[0x40304f] close(3)                              = 0
+[0x404145] fclose(0x7f9dba1bf260)                = 0
+[0x404180] exit(0 <unfinished ...>
+[0xffffffffffffffff] +++ exited (status 0) +++

