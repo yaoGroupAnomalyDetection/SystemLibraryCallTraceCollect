@@ -1,6 +1,6 @@
 # traceCollect
 
-Open tutorial for strace/ltrace to collect system calls for program analysis
+Open instructions for strace/ltrace to collect system calls for program analysis
 
 
 ## Intro:
