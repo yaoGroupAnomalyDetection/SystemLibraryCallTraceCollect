@@ -20,7 +20,7 @@ All implementations are only research prototypes!
 Please use it only for tests.
 
 
-## Referance
+## Reference
 if you feel these instructions helpful, citing the papers:
 
 A Sharper Sense of Self: Probabilistic Reasoning of Program Behaviors for Anomaly Detection with Context Sensitivity. In Proc. DSN, 2016.
