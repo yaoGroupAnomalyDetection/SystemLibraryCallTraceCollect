@@ -23,6 +23,7 @@ Please use it only for tests.
 ## Reference
 if you feel these instructions helpful, citing the papers:
 
+```
 @inproceedings{xu2015probabilistic,
   title={Probabilistic program modeling for high-precision anomaly classification},
   author={Xu, Kui and Yao, Danfeng Daphne and Ryder, Barbara G and Tian, Ke},
@@ -31,7 +32,6 @@ if you feel these instructions helpful, citing the papers:
   year={2015},
   organization={IEEE}
 }
-
-
+```
 
 are highly aprreciated.
