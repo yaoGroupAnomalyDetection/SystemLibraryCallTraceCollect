@@ -23,8 +23,15 @@ Please use it only for tests.
 ## Reference
 if you feel these instructions helpful, citing the papers:
 
-A Sharper Sense of Self: Probabilistic Reasoning of Program Behaviors for Anomaly Detection with Context Sensitivity. In Proc. DSN, 2016.
+@inproceedings{xu2015probabilistic,
+  title={Probabilistic program modeling for high-precision anomaly classification},
+  author={Xu, Kui and Yao, Danfeng Daphne and Ryder, Barbara G and Tian, Ke},
+  booktitle={2015 IEEE 28th Computer Security Foundations Symposium},
+  pages={497--511},
+  year={2015},
+  organization={IEEE}
+}
 
-Probabilistic Program Modeling for High-Precision Anomaly Classification. In Proc. CSF, 2015.
+
 
 are highly aprreciated.
