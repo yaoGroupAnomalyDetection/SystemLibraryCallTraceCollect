@@ -1,6 +1,5 @@
 #System call traces collection
 
-
 ## 1) Using strace 
 
 To obtain the PC value from which a system call was invoked, we need to go back through the call stacks until finding a 
