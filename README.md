@@ -13,6 +13,10 @@ Strace(http://linux.die.net/man/1/strace) for system call traces.
 
 Ltrace(http://linux.die.net/man/1/ltrace) for library calls. 
 
+## Tool
+
+Following this instruction to collect call traces [Demo](https://github.com/yaoGroupAnomalyDetection/traceCollect/tree/master/Tool)
+
 ## Disclaimer
 All implementations are only research prototypes.
 
