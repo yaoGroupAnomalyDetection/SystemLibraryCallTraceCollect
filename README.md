@@ -1,24 +1,18 @@
 # traceCollect
 
-Open instructions for strace/ltrace to collect system/library calls for program analysis
+Instructions for strace/ltrace to collect system/library calls for program analysis
 
 
 ## Intro:
 The software repository is here:
 http://sir.unl.edu/portal/index.php
 
-This is where we get all the experiment programs and test cases.
-
-The data we are trying to get is the system call and library call traces when those programs are executed. 
-strace(http://linux.die.net/man/1/strace) and ltrace(http://linux.die.net/man/1/ltrace) for recording that data. 
-
-Of couse it's ok if you have other ways to do it.
-
+Collect system call and library call traces when programs are running. 
+Strace(http://linux.die.net/man/1/strace) for system call traces. 
+Ltrace(http://linux.die.net/man/1/ltrace) for library calls. 
 
 ## Disclaimer
-All implementations are only research prototypes!
-Please use it only for tests.
-
+All implementations are only research prototypes.
 
 ## Reference
 if you feel these instructions helpful, citing the papers:
