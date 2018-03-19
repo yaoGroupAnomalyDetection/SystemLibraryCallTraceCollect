@@ -7,8 +7,10 @@ Instructions for strace/ltrace to collect system/library calls for program analy
 The software repository is here:
 http://sir.unl.edu/portal/index.php
 
-Collect system call and library call traces when programs are running. 
+Collect system call and library call traces when programs are running.
+
 Strace(http://linux.die.net/man/1/strace) for system call traces. 
+
 Ltrace(http://linux.die.net/man/1/ltrace) for library calls. 
 
 ## Disclaimer
