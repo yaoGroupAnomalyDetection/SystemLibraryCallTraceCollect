@@ -1,4 +1,6 @@
-#System call traces collection
+# System call traces collection
+
+Strace and SystemTap can be used for collecting system calls. Expect command is used to generate user inputs.
 
 ## 1) Using strace 
 
